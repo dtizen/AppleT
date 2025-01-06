@@ -121,16 +121,24 @@ namespace DXApplication1
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
-            this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
+            this.ribbonMiniToolbar2 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
@@ -175,19 +183,15 @@ namespace DXApplication1
             this.xtraTabPage9 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage10 = new DevExpress.XtraTab.XtraTabPage();
             this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
-            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
-            this.ribbonMiniToolbar2 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
+            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.xtraTabPage11 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage12 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage13 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage14 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage15 = new DevExpress.XtraTab.XtraTabPage();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -235,19 +239,19 @@ namespace DXApplication1
             this.barButtonItem12,
             this.barButtonItem13,
             this.barButtonItem14,
-            this.barButtonItem15});
+            this.barButtonItem15,
+            this.barButtonItem16,
+            this.barButtonItem17});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 16;
+            this.ribbonControl1.MaxItemId = 18;
             this.ribbonControl1.MiniToolbars.Add(this.ribbonMiniToolbar1);
             this.ribbonControl1.MiniToolbars.Add(this.ribbonMiniToolbar2);
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsMenuMinWidth = 385;
-            this.ribbonControl1.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
-            this.ribbonPageCategory1});
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage5,
-            this.ribbonPage7});
+            this.ribbonPage2});
             this.ribbonControl1.QuickToolbarItemLinks.Add(this.barButtonItem3);
             this.ribbonControl1.QuickToolbarItemLinks.Add(this.barButtonItem8);
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2019;
@@ -443,7 +447,7 @@ namespace DXApplication1
             this.backstageViewClientControl14.Location = new System.Drawing.Point(191, 0);
             this.backstageViewClientControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl14.Name = "backstageViewClientControl14";
-            this.backstageViewClientControl14.Size = new System.Drawing.Size(32, 6);
+            this.backstageViewClientControl14.Size = new System.Drawing.Size(95, 6);
             this.backstageViewClientControl14.TabIndex = 1;
             // 
             // backstageViewClientControl15
@@ -451,7 +455,7 @@ namespace DXApplication1
             this.backstageViewClientControl15.Location = new System.Drawing.Point(191, 0);
             this.backstageViewClientControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl15.Name = "backstageViewClientControl15";
-            this.backstageViewClientControl15.Size = new System.Drawing.Size(32, 6);
+            this.backstageViewClientControl15.Size = new System.Drawing.Size(95, 6);
             this.backstageViewClientControl15.TabIndex = 2;
             // 
             // backstageViewClientControl16
@@ -459,7 +463,7 @@ namespace DXApplication1
             this.backstageViewClientControl16.Location = new System.Drawing.Point(191, 0);
             this.backstageViewClientControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl16.Name = "backstageViewClientControl16";
-            this.backstageViewClientControl16.Size = new System.Drawing.Size(32, 6);
+            this.backstageViewClientControl16.Size = new System.Drawing.Size(95, 6);
             this.backstageViewClientControl16.TabIndex = 3;
             // 
             // backstageViewClientControl17
@@ -467,7 +471,7 @@ namespace DXApplication1
             this.backstageViewClientControl17.Location = new System.Drawing.Point(191, 0);
             this.backstageViewClientControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl17.Name = "backstageViewClientControl17";
-            this.backstageViewClientControl17.Size = new System.Drawing.Size(32, 6);
+            this.backstageViewClientControl17.Size = new System.Drawing.Size(95, 6);
             this.backstageViewClientControl17.TabIndex = 4;
             // 
             // backstageViewTabItem14
@@ -524,7 +528,7 @@ namespace DXApplication1
             this.backstageViewClientControl10.Location = new System.Drawing.Point(198, 0);
             this.backstageViewClientControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl10.Name = "backstageViewClientControl10";
-            this.backstageViewClientControl10.Size = new System.Drawing.Size(25, 6);
+            this.backstageViewClientControl10.Size = new System.Drawing.Size(88, 6);
             this.backstageViewClientControl10.TabIndex = 1;
             // 
             // backstageViewClientControl11
@@ -532,7 +536,7 @@ namespace DXApplication1
             this.backstageViewClientControl11.Location = new System.Drawing.Point(198, 0);
             this.backstageViewClientControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl11.Name = "backstageViewClientControl11";
-            this.backstageViewClientControl11.Size = new System.Drawing.Size(25, 6);
+            this.backstageViewClientControl11.Size = new System.Drawing.Size(88, 6);
             this.backstageViewClientControl11.TabIndex = 2;
             // 
             // backstageViewClientControl12
@@ -540,7 +544,7 @@ namespace DXApplication1
             this.backstageViewClientControl12.Location = new System.Drawing.Point(198, 0);
             this.backstageViewClientControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl12.Name = "backstageViewClientControl12";
-            this.backstageViewClientControl12.Size = new System.Drawing.Size(25, 6);
+            this.backstageViewClientControl12.Size = new System.Drawing.Size(88, 6);
             this.backstageViewClientControl12.TabIndex = 3;
             // 
             // backstageViewTabItem10
@@ -660,6 +664,7 @@ namespace DXApplication1
             // 
             // barButtonItem2
             // 
+            this.barButtonItem2.Caption = "Dashboard";
             this.barButtonItem2.Id = 2;
             this.barButtonItem2.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
             this.barButtonItem2.Name = "barButtonItem2";
@@ -716,25 +721,60 @@ namespace DXApplication1
             this.barButtonItem8.Name = "barButtonItem8";
             this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
             // 
-            // ribbonPageCategory1
+            // barButtonItem9
             // 
-            this.ribbonPageCategory1.Name = "ribbonPageCategory1";
-            this.ribbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage8});
-            this.ribbonPageCategory1.Text = "Server setup";
+            this.barButtonItem9.Caption = "ImageLoad";
+            this.barButtonItem9.Id = 9;
+            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.barButtonItem9.Name = "barButtonItem9";
             // 
-            // ribbonPage8
+            // barButtonItem10
             // 
-            this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup10});
-            this.ribbonPage8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage8.ImageOptions.Image")));
-            this.ribbonPage8.Name = "ribbonPage8";
-            this.ribbonPage8.Text = "Setup";
+            this.barButtonItem10.Id = 10;
+            this.barButtonItem10.Name = "barButtonItem10";
             // 
-            // ribbonPageGroup10
+            // barButtonItem11
             // 
-            this.ribbonPageGroup10.Name = "ribbonPageGroup10";
-            this.ribbonPageGroup10.Text = "ribbonPageGroup10";
+            this.barButtonItem11.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Left;
+            this.barButtonItem11.Id = 11;
+            this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
+            // barButtonItem12
+            // 
+            this.barButtonItem12.Caption = "Category";
+            this.barButtonItem12.Id = 12;
+            this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
+            this.barButtonItem12.Name = "barButtonItem12";
+            // 
+            // barButtonItem13
+            // 
+            this.barButtonItem13.Caption = "ImageCut";
+            this.barButtonItem13.Id = 13;
+            this.barButtonItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.LargeImage")));
+            this.barButtonItem13.Name = "barButtonItem13";
+            // 
+            // barButtonItem14
+            // 
+            this.barButtonItem14.Caption = "Transfer";
+            this.barButtonItem14.Id = 14;
+            this.barButtonItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.LargeImage")));
+            this.barButtonItem14.Name = "barButtonItem14";
+            // 
+            // barButtonItem15
+            // 
+            this.barButtonItem15.Caption = "Statistics";
+            this.barButtonItem15.Id = 15;
+            this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
+            this.barButtonItem15.Name = "barButtonItem15";
+            // 
+            // ribbonMiniToolbar1
+            // 
+            this.ribbonMiniToolbar1.ParentControl = this;
+            // 
+            // ribbonMiniToolbar2
+            // 
+            this.ribbonMiniToolbar2.ParentControl = this;
             // 
             // ribbonPage1
             // 
@@ -752,16 +792,46 @@ namespace DXApplication1
             // ribbonPageGroup1
             // 
             this.ribbonPageGroup1.AllowTextClipping = false;
+            this.ribbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup1.ImageOptions.Image")));
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            this.ribbonPageGroup1.Text = "Dashboard";
             // 
             // ribbonPageGroup2
             // 
             this.ribbonPageGroup2.AllowTextClipping = false;
+            this.ribbonPageGroup2.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup2.ImageOptions.Image")));
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem9);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
-            this.ribbonPageGroup2.Text = "Image load";
+            // 
+            // ribbonPageGroup3
+            // 
+            this.ribbonPageGroup3.AllowTextClipping = false;
+            this.ribbonPageGroup3.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem12);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
+            // 
+            // ribbonPageGroup8
+            // 
+            this.ribbonPageGroup8.AllowTextClipping = false;
+            this.ribbonPageGroup8.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem13);
+            this.ribbonPageGroup8.Name = "ribbonPageGroup8";
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.AllowTextClipping = false;
+            this.ribbonPageGroup4.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem14);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            // 
+            // ribbonPageGroup5
+            // 
+            this.ribbonPageGroup5.AllowTextClipping = false;
+            this.ribbonPageGroup5.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem15);
+            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             // 
             // ribbonPage5
             // 
@@ -779,19 +849,6 @@ namespace DXApplication1
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "Projects";
             // 
-            // ribbonPage7
-            // 
-            this.ribbonPage7.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup9});
-            this.ribbonPage7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage7.ImageOptions.Image")));
-            this.ribbonPage7.Name = "ribbonPage7";
-            this.ribbonPage7.Text = "Statistics";
-            // 
-            // ribbonPageGroup9
-            // 
-            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
-            this.ribbonPageGroup9.Text = "ribbonPageGroup9";
-            // 
             // xtraTabControl1
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -805,7 +862,12 @@ namespace DXApplication1
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
             this.xtraTabPage2,
-            this.xtraTabPage3});
+            this.xtraTabPage11,
+            this.xtraTabPage12,
+            this.xtraTabPage13,
+            this.xtraTabPage14,
+            this.xtraTabPage3,
+            this.xtraTabPage15});
             // 
             // xtraTabPage1
             // 
@@ -813,7 +875,7 @@ namespace DXApplication1
             this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage1.Name = "xtraTabPage1";
             this.xtraTabPage1.Size = new System.Drawing.Size(1652, 586);
-            this.xtraTabPage1.Text = "xtraTabPage1";
+            this.xtraTabPage1.Text = "ADMS Dashboard";
             // 
             // tileControl1
             // 
@@ -828,11 +890,12 @@ namespace DXApplication1
             this.tileControl1.MaxId = 47;
             this.tileControl1.Name = "tileControl1";
             this.tileControl1.Padding = new System.Windows.Forms.Padding(16, 14, 16, 14);
+            this.tileControl1.Position = 750;
             this.tileControl1.ShowGroupText = true;
             this.tileControl1.ShowText = true;
             this.tileControl1.Size = new System.Drawing.Size(1652, 586);
             this.tileControl1.TabIndex = 0;
-            this.tileControl1.Text = "sq1";
+            this.tileControl1.Text = "ADMS Dashboard";
             // 
             // tileGroup1
             // 
@@ -1134,6 +1197,8 @@ namespace DXApplication1
             // 
             // tileItem12
             // 
+            tileItemElement26.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            tileItemElement26.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemElement26.Text = "tileItem12";
             this.tileItem12.Elements.Add(tileItemElement26);
             this.tileItem12.Id = 40;
@@ -1193,7 +1258,7 @@ namespace DXApplication1
             this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(1652, 586);
-            this.xtraTabPage2.Text = "xtraTabPage2";
+            this.xtraTabPage2.Text = "Image Load";
             // 
             // xtraTabPage3
             // 
@@ -1275,83 +1340,66 @@ namespace DXApplication1
             this.tileGroup3.Name = "tileGroup3";
             this.tileGroup3.Text = "Holding";
             // 
-            // barButtonItem9
+            // ribbonPage2
             // 
-            this.barButtonItem9.Id = 9;
-            this.barButtonItem9.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
-            this.barButtonItem9.Name = "barButtonItem9";
+            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup7});
+            this.ribbonPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage2.ImageOptions.Image")));
+            this.ribbonPage2.Name = "ribbonPage2";
+            this.ribbonPage2.Text = "Setup";
             // 
-            // barButtonItem10
+            // ribbonPageGroup7
             // 
-            this.barButtonItem10.Id = 10;
-            this.barButtonItem10.Name = "barButtonItem10";
+            this.ribbonPageGroup7.AllowTextClipping = false;
+            this.ribbonPageGroup7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup7.ImageOptions.Image")));
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem16);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem17);
+            this.ribbonPageGroup7.Name = "ribbonPageGroup7";
+            this.ribbonPageGroup7.Text = "Setup";
             // 
-            // barButtonItem11
+            // xtraTabPage11
             // 
-            this.barButtonItem11.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Left;
-            this.barButtonItem11.Id = 11;
-            this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
-            this.barButtonItem11.Name = "barButtonItem11";
+            this.xtraTabPage11.Name = "xtraTabPage11";
+            this.xtraTabPage11.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage11.Text = "Category";
             // 
-            // ribbonPageGroup3
+            // xtraTabPage12
             // 
-            this.ribbonPageGroup3.AllowTextClipping = false;
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem12);
-            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.Text = "Category";
+            this.xtraTabPage12.Name = "xtraTabPage12";
+            this.xtraTabPage12.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage12.Text = "Image Cut";
             // 
-            // barButtonItem12
+            // xtraTabPage13
             // 
-            this.barButtonItem12.Id = 12;
-            this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
-            this.barButtonItem12.Name = "barButtonItem12";
+            this.xtraTabPage13.Name = "xtraTabPage13";
+            this.xtraTabPage13.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage13.Text = "Model Transfer";
             // 
-            // ribbonPageGroup8
+            // xtraTabPage14
             // 
-            this.ribbonPageGroup8.AllowTextClipping = false;
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem13);
-            this.ribbonPageGroup8.Name = "ribbonPageGroup8";
-            this.ribbonPageGroup8.Text = "Image Cut";
+            this.xtraTabPage14.Name = "xtraTabPage14";
+            this.xtraTabPage14.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage14.Text = "Statistics";
             // 
-            // barButtonItem13
+            // xtraTabPage15
             // 
-            this.barButtonItem13.Id = 13;
-            this.barButtonItem13.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem13.ImageOptions.LargeImage")));
-            this.barButtonItem13.Name = "barButtonItem13";
+            this.xtraTabPage15.Name = "xtraTabPage15";
+            this.xtraTabPage15.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage15.Text = "Setup";
             // 
-            // ribbonPageGroup4
+            // barButtonItem16
             // 
-            this.ribbonPageGroup4.AllowTextClipping = false;
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem14);
-            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
-            this.ribbonPageGroup4.Text = "Transfer";
+            this.barButtonItem16.Caption = "Server";
+            this.barButtonItem16.Id = 16;
+            this.barButtonItem16.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.LargeImage")));
+            this.barButtonItem16.Name = "barButtonItem16";
             // 
-            // barButtonItem14
+            // barButtonItem17
             // 
-            this.barButtonItem14.Id = 14;
-            this.barButtonItem14.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem14.ImageOptions.LargeImage")));
-            this.barButtonItem14.Name = "barButtonItem14";
-            // 
-            // ribbonPageGroup5
-            // 
-            this.ribbonPageGroup5.AllowTextClipping = false;
-            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem15);
-            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
-            this.ribbonPageGroup5.Text = "Statistics";
-            // 
-            // barButtonItem15
-            // 
-            this.barButtonItem15.Id = 15;
-            this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
-            this.barButtonItem15.Name = "barButtonItem15";
-            // 
-            // ribbonMiniToolbar1
-            // 
-            this.ribbonMiniToolbar1.ParentControl = this;
-            // 
-            // ribbonMiniToolbar2
-            // 
-            this.ribbonMiniToolbar2.ParentControl = this;
+            this.barButtonItem17.Caption = "ADMS";
+            this.barButtonItem17.Id = 17;
+            this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
+            this.barButtonItem17.Name = "barButtonItem17";
             // 
             // Form1
             // 
@@ -1480,11 +1528,6 @@ namespace DXApplication1
         private DevExpress.XtraEditors.TileItem tileItem29;
         private DevExpress.XtraEditors.TileItem tileItem30;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
-        private DevExpress.XtraBars.Ribbon.RibbonPageCategory ribbonPageCategory1;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage8;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage7;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
@@ -1521,6 +1564,15 @@ namespace DXApplication1
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
         private DevExpress.XtraBars.Ribbon.RibbonMiniToolbar ribbonMiniToolbar1;
         private DevExpress.XtraBars.Ribbon.RibbonMiniToolbar ribbonMiniToolbar2;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage11;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage12;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage13;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage14;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage15;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
     }
 }
 

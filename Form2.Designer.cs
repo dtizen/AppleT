@@ -37,7 +37,7 @@ namespace DXApplication1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Operation";
             this.ResumeLayout(false);
 
         }
