@@ -29,37 +29,19 @@ namespace DXApplication1
         /// </summary>
         private void InitializeComponent()
         {
-            this.dashboardDesigner1 = new DevExpress.DashboardWin.DashboardDesigner();
-            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dashboardDesigner1
-            // 
-            this.dashboardDesigner1.AsyncMode = true;
-            this.dashboardDesigner1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dashboardDesigner1.Location = new System.Drawing.Point(0, 0);
-            this.dashboardDesigner1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.dashboardDesigner1.Name = "dashboardDesigner1";
-            this.dashboardDesigner1.Size = new System.Drawing.Size(914, 562);
-            this.dashboardDesigner1.TabIndex = 0;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 562);
-            this.Controls.Add(this.dashboardDesigner1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Form2";
             this.Text = "Form2";
-           
-            ((System.ComponentModel.ISupportInitialize)(this.dashboardDesigner1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private DevExpress.DashboardWin.DashboardDesigner dashboardDesigner1;
     }
 }
