@@ -128,6 +128,8 @@ namespace DXApplication1
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             this.ribbonMiniToolbar2 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -139,6 +141,8 @@ namespace DXApplication1
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
@@ -173,6 +177,10 @@ namespace DXApplication1
             this.tileItem17 = new DevExpress.XtraEditors.TileItem();
             this.tileItem18 = new DevExpress.XtraEditors.TileItem();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage11 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage12 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage13 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage14 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
@@ -182,16 +190,8 @@ namespace DXApplication1
             this.xtraTabPage8 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage9 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage10 = new DevExpress.XtraTab.XtraTabPage();
-            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
-            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.xtraTabPage11 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage12 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage13 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage14 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage15 = new DevExpress.XtraTab.XtraTabPage();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -768,6 +768,20 @@ namespace DXApplication1
             this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
             this.barButtonItem15.Name = "barButtonItem15";
             // 
+            // barButtonItem16
+            // 
+            this.barButtonItem16.Caption = "Server";
+            this.barButtonItem16.Id = 16;
+            this.barButtonItem16.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.LargeImage")));
+            this.barButtonItem16.Name = "barButtonItem16";
+            // 
+            // barButtonItem17
+            // 
+            this.barButtonItem17.Caption = "ADMS";
+            this.barButtonItem17.Id = 17;
+            this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
+            this.barButtonItem17.Name = "barButtonItem17";
+            // 
             // ribbonMiniToolbar1
             // 
             this.ribbonMiniToolbar1.ParentControl = this;
@@ -849,6 +863,23 @@ namespace DXApplication1
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "Projects";
             // 
+            // ribbonPage2
+            // 
+            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup7});
+            this.ribbonPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage2.ImageOptions.Image")));
+            this.ribbonPage2.Name = "ribbonPage2";
+            this.ribbonPage2.Text = "Setup";
+            // 
+            // ribbonPageGroup7
+            // 
+            this.ribbonPageGroup7.AllowTextClipping = false;
+            this.ribbonPageGroup7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup7.ImageOptions.Image")));
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem16);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem17);
+            this.ribbonPageGroup7.Name = "ribbonPageGroup7";
+            this.ribbonPageGroup7.Text = "Setup";
+            // 
             // xtraTabControl1
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -890,7 +921,6 @@ namespace DXApplication1
             this.tileControl1.MaxId = 47;
             this.tileControl1.Name = "tileControl1";
             this.tileControl1.Padding = new System.Windows.Forms.Padding(16, 14, 16, 14);
-            this.tileControl1.Position = 750;
             this.tileControl1.ShowGroupText = true;
             this.tileControl1.ShowText = true;
             this.tileControl1.Size = new System.Drawing.Size(1652, 586);
@@ -1260,6 +1290,30 @@ namespace DXApplication1
             this.xtraTabPage2.Size = new System.Drawing.Size(1652, 586);
             this.xtraTabPage2.Text = "Image Load";
             // 
+            // xtraTabPage11
+            // 
+            this.xtraTabPage11.Name = "xtraTabPage11";
+            this.xtraTabPage11.Size = new System.Drawing.Size(1652, 586);
+            this.xtraTabPage11.Text = "Category";
+            // 
+            // xtraTabPage12
+            // 
+            this.xtraTabPage12.Name = "xtraTabPage12";
+            this.xtraTabPage12.Size = new System.Drawing.Size(1652, 586);
+            this.xtraTabPage12.Text = "Image Cut";
+            // 
+            // xtraTabPage13
+            // 
+            this.xtraTabPage13.Name = "xtraTabPage13";
+            this.xtraTabPage13.Size = new System.Drawing.Size(1652, 586);
+            this.xtraTabPage13.Text = "Model Transfer";
+            // 
+            // xtraTabPage14
+            // 
+            this.xtraTabPage14.Name = "xtraTabPage14";
+            this.xtraTabPage14.Size = new System.Drawing.Size(1652, 586);
+            this.xtraTabPage14.Text = "Statistics";
+            // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.xtraTabControl2);
@@ -1335,71 +1389,16 @@ namespace DXApplication1
             this.xtraTabPage10.Size = new System.Drawing.Size(1644, 555);
             this.xtraTabPage10.Text = "Benchmark";
             // 
+            // xtraTabPage15
+            // 
+            this.xtraTabPage15.Name = "xtraTabPage15";
+            this.xtraTabPage15.Size = new System.Drawing.Size(1652, 586);
+            this.xtraTabPage15.Text = "Setup";
+            // 
             // tileGroup3
             // 
             this.tileGroup3.Name = "tileGroup3";
             this.tileGroup3.Text = "Holding";
-            // 
-            // ribbonPage2
-            // 
-            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup7});
-            this.ribbonPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage2.ImageOptions.Image")));
-            this.ribbonPage2.Name = "ribbonPage2";
-            this.ribbonPage2.Text = "Setup";
-            // 
-            // ribbonPageGroup7
-            // 
-            this.ribbonPageGroup7.AllowTextClipping = false;
-            this.ribbonPageGroup7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup7.ImageOptions.Image")));
-            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem16);
-            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem17);
-            this.ribbonPageGroup7.Name = "ribbonPageGroup7";
-            this.ribbonPageGroup7.Text = "Setup";
-            // 
-            // xtraTabPage11
-            // 
-            this.xtraTabPage11.Name = "xtraTabPage11";
-            this.xtraTabPage11.Size = new System.Drawing.Size(0, 0);
-            this.xtraTabPage11.Text = "Category";
-            // 
-            // xtraTabPage12
-            // 
-            this.xtraTabPage12.Name = "xtraTabPage12";
-            this.xtraTabPage12.Size = new System.Drawing.Size(0, 0);
-            this.xtraTabPage12.Text = "Image Cut";
-            // 
-            // xtraTabPage13
-            // 
-            this.xtraTabPage13.Name = "xtraTabPage13";
-            this.xtraTabPage13.Size = new System.Drawing.Size(0, 0);
-            this.xtraTabPage13.Text = "Model Transfer";
-            // 
-            // xtraTabPage14
-            // 
-            this.xtraTabPage14.Name = "xtraTabPage14";
-            this.xtraTabPage14.Size = new System.Drawing.Size(0, 0);
-            this.xtraTabPage14.Text = "Statistics";
-            // 
-            // xtraTabPage15
-            // 
-            this.xtraTabPage15.Name = "xtraTabPage15";
-            this.xtraTabPage15.Size = new System.Drawing.Size(0, 0);
-            this.xtraTabPage15.Text = "Setup";
-            // 
-            // barButtonItem16
-            // 
-            this.barButtonItem16.Caption = "Server";
-            this.barButtonItem16.Id = 16;
-            this.barButtonItem16.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem16.ImageOptions.LargeImage")));
-            this.barButtonItem16.Name = "barButtonItem16";
-            // 
-            // barButtonItem17
-            // 
-            this.barButtonItem17.Caption = "ADMS";
-            this.barButtonItem17.Id = 17;
-            this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
-            this.barButtonItem17.Name = "barButtonItem17";
             // 
             // Form1
             // 
