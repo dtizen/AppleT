@@ -44,7 +44,7 @@ namespace DXApplication1
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 1;
+            this.xtraTabControl1.SelectedTabPageIndex = 0;
         }
 
         private void ribbonControl1_Click(object sender, EventArgs e)
