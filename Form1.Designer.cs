@@ -30,6 +30,7 @@ namespace DXApplication1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
@@ -62,9 +63,6 @@ namespace DXApplication1
             DevExpress.XtraEditors.TileItemElement tileItemElement30 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement31 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement32 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement33 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement34 = new DevExpress.XtraEditors.TileItemElement();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl8 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
@@ -119,6 +117,13 @@ namespace DXApplication1
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
+            this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -133,6 +138,8 @@ namespace DXApplication1
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.tileControl1 = new DevExpress.XtraEditors.TileControl();
@@ -157,7 +164,7 @@ namespace DXApplication1
             this.tileItem28 = new DevExpress.XtraEditors.TileItem();
             this.tileItem29 = new DevExpress.XtraEditors.TileItem();
             this.tileItem30 = new DevExpress.XtraEditors.TileItem();
-            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
+            this.tileGroup4 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem11 = new DevExpress.XtraEditors.TileItem();
             this.tileItem12 = new DevExpress.XtraEditors.TileItem();
             this.tileItem13 = new DevExpress.XtraEditors.TileItem();
@@ -166,17 +173,7 @@ namespace DXApplication1
             this.tileItem16 = new DevExpress.XtraEditors.TileItem();
             this.tileItem17 = new DevExpress.XtraEditors.TileItem();
             this.tileItem18 = new DevExpress.XtraEditors.TileItem();
-            this.tileItem19 = new DevExpress.XtraEditors.TileItem();
-            this.tileItem20 = new DevExpress.XtraEditors.TileItem();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
-            this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
@@ -186,6 +183,7 @@ namespace DXApplication1
             this.xtraTabPage8 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage9 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage10 = new DevExpress.XtraTab.XtraTabPage();
+            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -214,7 +212,7 @@ namespace DXApplication1
             // ribbonControl1
             // 
             this.ribbonControl1.ApplicationButtonDropDownControl = this.backstageViewControl1;
-            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(40, 41, 40, 41);
+            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(35, 32, 35, 32);
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.ItemPanelStyle = DevExpress.XtraBars.Ribbon.RibbonItemPanelStyle.Classic;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
@@ -225,12 +223,12 @@ namespace DXApplication1
             this.barButtonItem4,
             this.barButtonItem5,
             this.barButtonItem6,
-            this.barButtonItem7});
+            this.barButtonItem7,
+            this.barButtonItem8});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 8;
+            this.ribbonControl1.MaxItemId = 9;
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.OptionsMenuMinWidth = 440;
+            this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.ribbonPageCategory1});
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -242,8 +240,9 @@ namespace DXApplication1
             this.ribbonPage6,
             this.ribbonPage7});
             this.ribbonControl1.QuickToolbarItemLinks.Add(this.barButtonItem3);
+            this.ribbonControl1.QuickToolbarItemLinks.Add(this.barButtonItem8);
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2019;
-            this.ribbonControl1.Size = new System.Drawing.Size(1763, 211);
+            this.ribbonControl1.Size = new System.Drawing.Size(1660, 176);
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // backstageViewControl1
@@ -266,13 +265,12 @@ namespace DXApplication1
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem7);
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem8);
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem9);
-            this.backstageViewControl1.Location = new System.Drawing.Point(45, 219);
-            this.backstageViewControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.backstageViewControl1.Location = new System.Drawing.Point(718, 81);
             this.backstageViewControl1.Name = "backstageViewControl1";
             this.backstageViewControl1.OwnerControl = this.ribbonControl1;
             this.backstageViewControl1.SelectedTab = this.backstageViewTabItem8;
             this.backstageViewControl1.SelectedTabIndex = 7;
-            this.backstageViewControl1.Size = new System.Drawing.Size(1158, 451);
+            this.backstageViewControl1.Size = new System.Drawing.Size(489, 68);
             this.backstageViewControl1.Style = DevExpress.XtraBars.Ribbon.BackstageViewStyle.Office2013;
             this.backstageViewControl1.TabIndex = 1;
             this.backstageViewControl1.Text = "backstageViewControl1";
@@ -280,9 +278,10 @@ namespace DXApplication1
             // backstageViewClientControl8
             // 
             this.backstageViewClientControl8.Controls.Add(this.backstageViewControl4);
-            this.backstageViewClientControl8.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl8.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl8.Name = "backstageViewClientControl8";
-            this.backstageViewClientControl8.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl8.Size = new System.Drawing.Size(277, 4);
             this.backstageViewClientControl8.TabIndex = 8;
             // 
             // backstageViewControl4
@@ -295,30 +294,34 @@ namespace DXApplication1
             this.backstageViewControl4.Items.Add(this.backstageViewTabItem18);
             this.backstageViewControl4.Items.Add(this.backstageViewTabItem19);
             this.backstageViewControl4.Location = new System.Drawing.Point(0, 0);
+            this.backstageViewControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl4.Name = "backstageViewControl4";
-            this.backstageViewControl4.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewControl4.Size = new System.Drawing.Size(277, 4);
             this.backstageViewControl4.TabIndex = 0;
             this.backstageViewControl4.Text = "backstageViewControl4";
             // 
             // backstageViewClientControl13
             // 
-            this.backstageViewClientControl13.Location = new System.Drawing.Point(279, 0);
+            this.backstageViewClientControl13.Location = new System.Drawing.Point(234, 0);
+            this.backstageViewClientControl13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl13.Name = "backstageViewClientControl13";
-            this.backstageViewClientControl13.Size = new System.Drawing.Size(592, 372);
+            this.backstageViewClientControl13.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl13.TabIndex = 1;
             // 
             // backstageViewClientControl18
             // 
-            this.backstageViewClientControl18.Location = new System.Drawing.Point(279, 0);
+            this.backstageViewClientControl18.Location = new System.Drawing.Point(234, 0);
+            this.backstageViewClientControl18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl18.Name = "backstageViewClientControl18";
-            this.backstageViewClientControl18.Size = new System.Drawing.Size(592, 372);
+            this.backstageViewClientControl18.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl18.TabIndex = 2;
             // 
             // backstageViewClientControl19
             // 
-            this.backstageViewClientControl19.Location = new System.Drawing.Point(279, 0);
+            this.backstageViewClientControl19.Location = new System.Drawing.Point(234, 0);
+            this.backstageViewClientControl19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl19.Name = "backstageViewClientControl19";
-            this.backstageViewClientControl19.Size = new System.Drawing.Size(592, 372);
+            this.backstageViewClientControl19.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl19.TabIndex = 3;
             // 
             // backstageViewTabItem13
@@ -342,10 +345,9 @@ namespace DXApplication1
             // backstageViewClientControl1
             // 
             this.backstageViewClientControl1.Controls.Add(this.recentItemControl1);
-            this.backstageViewClientControl1.Location = new System.Drawing.Point(230, 78);
-            this.backstageViewClientControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.backstageViewClientControl1.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl1.Name = "backstageViewClientControl1";
-            this.backstageViewClientControl1.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl1.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl1.TabIndex = 1;
             // 
             // recentItemControl1
@@ -354,9 +356,11 @@ namespace DXApplication1
             this.recentItemControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.recentItemControl1.Location = new System.Drawing.Point(0, 0);
             this.recentItemControl1.MainPanel = this.recentStackPanel1;
-            this.recentItemControl1.MinimumSize = new System.Drawing.Size(330, 100);
+            this.recentItemControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.recentItemControl1.MinimumSize = new System.Drawing.Size(289, 78);
             this.recentItemControl1.Name = "recentItemControl1";
-            this.recentItemControl1.Size = new System.Drawing.Size(906, 372);
+            this.recentItemControl1.Size = new System.Drawing.Size(289, 78);
+            this.recentItemControl1.SplitterPosition = 280;
             this.recentItemControl1.TabIndex = 0;
             this.recentItemControl1.Title = "ADMS operation";
             // 
@@ -371,9 +375,10 @@ namespace DXApplication1
             // backstageViewClientControl4
             // 
             this.backstageViewClientControl4.Controls.Add(this.recentItemControl2);
-            this.backstageViewClientControl4.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl4.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl4.Name = "backstageViewClientControl4";
-            this.backstageViewClientControl4.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl4.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl4.TabIndex = 4;
             // 
             // recentItemControl2
@@ -382,9 +387,11 @@ namespace DXApplication1
             this.recentItemControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.recentItemControl2.Location = new System.Drawing.Point(0, 0);
             this.recentItemControl2.MainPanel = this.recentStackPanel3;
-            this.recentItemControl2.MinimumSize = new System.Drawing.Size(330, 100);
+            this.recentItemControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.recentItemControl2.MinimumSize = new System.Drawing.Size(289, 78);
             this.recentItemControl2.Name = "recentItemControl2";
-            this.recentItemControl2.Size = new System.Drawing.Size(906, 372);
+            this.recentItemControl2.Size = new System.Drawing.Size(289, 78);
+            this.recentItemControl2.SplitterPosition = 280;
             this.recentItemControl2.TabIndex = 6;
             this.recentItemControl2.Title = "DL data control";
             // 
@@ -399,10 +406,9 @@ namespace DXApplication1
             // backstageViewClientControl2
             // 
             this.backstageViewClientControl2.Controls.Add(this.backstageViewControl3);
-            this.backstageViewClientControl2.Location = new System.Drawing.Point(230, 78);
-            this.backstageViewClientControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.backstageViewClientControl2.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl2.Name = "backstageViewClientControl2";
-            this.backstageViewClientControl2.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl2.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl2.TabIndex = 2;
             // 
             // backstageViewControl3
@@ -417,37 +423,42 @@ namespace DXApplication1
             this.backstageViewControl3.Items.Add(this.backstageViewTabItem16);
             this.backstageViewControl3.Items.Add(this.backstageViewTabItem17);
             this.backstageViewControl3.Location = new System.Drawing.Point(0, 0);
+            this.backstageViewControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl3.Name = "backstageViewControl3";
-            this.backstageViewControl3.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewControl3.Size = new System.Drawing.Size(278, 6);
             this.backstageViewControl3.TabIndex = 0;
             this.backstageViewControl3.Text = "backstageViewControl3";
             // 
             // backstageViewClientControl14
             // 
-            this.backstageViewClientControl14.Location = new System.Drawing.Point(259, 0);
+            this.backstageViewClientControl14.Location = new System.Drawing.Point(218, 0);
+            this.backstageViewClientControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl14.Name = "backstageViewClientControl14";
-            this.backstageViewClientControl14.Size = new System.Drawing.Size(656, 369);
+            this.backstageViewClientControl14.Size = new System.Drawing.Size(36, 6);
             this.backstageViewClientControl14.TabIndex = 1;
             // 
             // backstageViewClientControl15
             // 
-            this.backstageViewClientControl15.Location = new System.Drawing.Point(259, 0);
+            this.backstageViewClientControl15.Location = new System.Drawing.Point(218, 0);
+            this.backstageViewClientControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl15.Name = "backstageViewClientControl15";
-            this.backstageViewClientControl15.Size = new System.Drawing.Size(656, 369);
+            this.backstageViewClientControl15.Size = new System.Drawing.Size(36, 6);
             this.backstageViewClientControl15.TabIndex = 2;
             // 
             // backstageViewClientControl16
             // 
-            this.backstageViewClientControl16.Location = new System.Drawing.Point(259, 0);
+            this.backstageViewClientControl16.Location = new System.Drawing.Point(218, 0);
+            this.backstageViewClientControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl16.Name = "backstageViewClientControl16";
-            this.backstageViewClientControl16.Size = new System.Drawing.Size(656, 369);
+            this.backstageViewClientControl16.Size = new System.Drawing.Size(36, 6);
             this.backstageViewClientControl16.TabIndex = 3;
             // 
             // backstageViewClientControl17
             // 
-            this.backstageViewClientControl17.Location = new System.Drawing.Point(259, 0);
+            this.backstageViewClientControl17.Location = new System.Drawing.Point(218, 0);
+            this.backstageViewClientControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl17.Name = "backstageViewClientControl17";
-            this.backstageViewClientControl17.Size = new System.Drawing.Size(656, 369);
+            this.backstageViewClientControl17.Size = new System.Drawing.Size(36, 6);
             this.backstageViewClientControl17.TabIndex = 4;
             // 
             // backstageViewTabItem14
@@ -477,9 +488,10 @@ namespace DXApplication1
             // backstageViewClientControl3
             // 
             this.backstageViewClientControl3.Controls.Add(this.backstageViewControl2);
-            this.backstageViewClientControl3.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl3.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl3.Name = "backstageViewClientControl3";
-            this.backstageViewClientControl3.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl3.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl3.TabIndex = 3;
             // 
             // backstageViewControl2
@@ -492,30 +504,34 @@ namespace DXApplication1
             this.backstageViewControl2.Items.Add(this.backstageViewTabItem11);
             this.backstageViewControl2.Items.Add(this.backstageViewTabItem12);
             this.backstageViewControl2.Location = new System.Drawing.Point(0, 0);
+            this.backstageViewControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl2.Name = "backstageViewControl2";
-            this.backstageViewControl2.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewControl2.Size = new System.Drawing.Size(278, 6);
             this.backstageViewControl2.TabIndex = 0;
             this.backstageViewControl2.Text = "backstageViewControl2";
             // 
             // backstageViewClientControl10
             // 
-            this.backstageViewClientControl10.Location = new System.Drawing.Point(268, 0);
+            this.backstageViewClientControl10.Location = new System.Drawing.Point(223, 0);
+            this.backstageViewClientControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl10.Name = "backstageViewClientControl10";
-            this.backstageViewClientControl10.Size = new System.Drawing.Size(647, 369);
+            this.backstageViewClientControl10.Size = new System.Drawing.Size(31, 6);
             this.backstageViewClientControl10.TabIndex = 1;
             // 
             // backstageViewClientControl11
             // 
-            this.backstageViewClientControl11.Location = new System.Drawing.Point(268, 0);
+            this.backstageViewClientControl11.Location = new System.Drawing.Point(223, 0);
+            this.backstageViewClientControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl11.Name = "backstageViewClientControl11";
-            this.backstageViewClientControl11.Size = new System.Drawing.Size(647, 369);
+            this.backstageViewClientControl11.Size = new System.Drawing.Size(31, 6);
             this.backstageViewClientControl11.TabIndex = 2;
             // 
             // backstageViewClientControl12
             // 
-            this.backstageViewClientControl12.Location = new System.Drawing.Point(268, 0);
+            this.backstageViewClientControl12.Location = new System.Drawing.Point(223, 0);
+            this.backstageViewClientControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl12.Name = "backstageViewClientControl12";
-            this.backstageViewClientControl12.Size = new System.Drawing.Size(647, 369);
+            this.backstageViewClientControl12.Size = new System.Drawing.Size(31, 6);
             this.backstageViewClientControl12.TabIndex = 3;
             // 
             // backstageViewTabItem10
@@ -538,30 +554,34 @@ namespace DXApplication1
             // 
             // backstageViewClientControl5
             // 
-            this.backstageViewClientControl5.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl5.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl5.Name = "backstageViewClientControl5";
-            this.backstageViewClientControl5.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl5.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl5.TabIndex = 5;
             // 
             // backstageViewClientControl6
             // 
-            this.backstageViewClientControl6.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl6.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl6.Name = "backstageViewClientControl6";
-            this.backstageViewClientControl6.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl6.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl6.TabIndex = 6;
             // 
             // backstageViewClientControl7
             // 
-            this.backstageViewClientControl7.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl7.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl7.Name = "backstageViewClientControl7";
-            this.backstageViewClientControl7.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl7.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl7.TabIndex = 7;
             // 
             // backstageViewClientControl9
             // 
-            this.backstageViewClientControl9.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl9.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl9.Name = "backstageViewClientControl9";
-            this.backstageViewClientControl9.Size = new System.Drawing.Size(906, 372);
+            this.backstageViewClientControl9.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl9.TabIndex = 9;
             // 
             // backstageViewTabItem1
@@ -656,6 +676,55 @@ namespace DXApplication1
             this.barButtonItem4.Id = 4;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "New";
+            this.barButtonItem5.Id = 5;
+            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "Open";
+            this.barButtonItem6.Id = 6;
+            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.barButtonItem6.Name = "barButtonItem6";
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
+            // 
+            // barButtonItem7
+            // 
+            this.barButtonItem7.Caption = "Save";
+            this.barButtonItem7.Id = 7;
+            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.barButtonItem7.Name = "barButtonItem7";
+            // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "Ai traning";
+            this.barButtonItem8.Id = 8;
+            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.barButtonItem8.Name = "barButtonItem8";
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
+            // 
+            // ribbonPageCategory1
+            // 
+            this.ribbonPageCategory1.Name = "ribbonPageCategory1";
+            this.ribbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.ribbonPage8});
+            this.ribbonPageCategory1.Text = "Server setrup";
+            // 
+            // ribbonPage8
+            // 
+            this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup10});
+            this.ribbonPage8.Name = "ribbonPage8";
+            this.ribbonPage8.Text = "Setup";
+            // 
+            // ribbonPageGroup10
+            // 
+            this.ribbonPageGroup10.Name = "ribbonPageGroup10";
+            this.ribbonPageGroup10.Text = "ribbonPageGroup10";
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -664,7 +733,7 @@ namespace DXApplication1
             this.ribbonPageGroup8});
             this.ribbonPage1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage1.ImageOptions.Image")));
             this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "Dashboard";
+            this.ribbonPage1.Text = "ADMS";
             // 
             // ribbonPageGroup1
             // 
@@ -737,7 +806,7 @@ namespace DXApplication1
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem6);
             this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem7);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
-            this.ribbonPageGroup6.Text = "ribbonPageGroup6";
+            this.ribbonPageGroup6.Text = "Projects";
             // 
             // ribbonPage6
             // 
@@ -752,14 +821,28 @@ namespace DXApplication1
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "ribbonPageGroup7";
             // 
+            // ribbonPage7
+            // 
+            this.ribbonPage7.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup9});
+            this.ribbonPage7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage7.ImageOptions.Image")));
+            this.ribbonPage7.Name = "ribbonPage7";
+            this.ribbonPage7.Text = "Statistics";
+            // 
+            // ribbonPageGroup9
+            // 
+            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
+            this.ribbonPageGroup9.Text = "ribbonPageGroup9";
+            // 
             // xtraTabControl1
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl1.HeaderLocation = DevExpress.XtraTab.TabHeaderLocation.Bottom;
-            this.xtraTabControl1.Location = new System.Drawing.Point(0, 211);
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 176);
+            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(1763, 775);
+            this.xtraTabControl1.Size = new System.Drawing.Size(1660, 612);
             this.xtraTabControl1.TabIndex = 5;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -769,8 +852,9 @@ namespace DXApplication1
             // xtraTabPage1
             // 
             this.xtraTabPage1.Controls.Add(this.tileControl1);
+            this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1761, 743);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1658, 588);
             this.xtraTabPage1.Text = "xtraTabPage1";
             // 
             // tileControl1
@@ -779,17 +863,18 @@ namespace DXApplication1
             this.tileControl1.AllowDragTilesBetweenGroups = false;
             this.tileControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tileControl1.Groups.Add(this.tileGroup1);
-            this.tileControl1.Groups.Add(this.tileGroup3);
+            this.tileControl1.Groups.Add(this.tileGroup4);
             this.tileControl1.ItemCheckMode = DevExpress.XtraEditors.TileItemCheckMode.Multiple;
             this.tileControl1.Location = new System.Drawing.Point(0, 0);
-            this.tileControl1.MaxId = 39;
+            this.tileControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tileControl1.MaxId = 47;
             this.tileControl1.Name = "tileControl1";
-            this.tileControl1.Position = 420;
+            this.tileControl1.Padding = new System.Windows.Forms.Padding(16, 14, 16, 14);
             this.tileControl1.ShowGroupText = true;
             this.tileControl1.ShowText = true;
-            this.tileControl1.Size = new System.Drawing.Size(1761, 743);
+            this.tileControl1.Size = new System.Drawing.Size(1658, 588);
             this.tileControl1.TabIndex = 0;
-            this.tileControl1.Text = "ADMS";
+            this.tileControl1.Text = "sq1";
             // 
             // tileGroup1
             // 
@@ -1066,47 +1151,42 @@ namespace DXApplication1
             this.tileItem30.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem30.Name = "tileItem30";
             // 
-            // tileGroup3
+            // tileGroup4
             // 
-            this.tileGroup3.Items.Add(this.tileItem11);
-            this.tileGroup3.Items.Add(this.tileItem12);
-            this.tileGroup3.Items.Add(this.tileItem13);
-            this.tileGroup3.Items.Add(this.tileItem14);
-            this.tileGroup3.Items.Add(this.tileItem15);
-            this.tileGroup3.Items.Add(this.tileItem16);
-            this.tileGroup3.Items.Add(this.tileItem17);
-            this.tileGroup3.Items.Add(this.tileItem18);
-            this.tileGroup3.Items.Add(this.tileItem19);
-            this.tileGroup3.Items.Add(this.tileItem20);
-            this.tileGroup3.Name = "tileGroup3";
-            this.tileGroup3.Text = "Holding";
+            this.tileGroup4.Items.Add(this.tileItem11);
+            this.tileGroup4.Items.Add(this.tileItem12);
+            this.tileGroup4.Items.Add(this.tileItem13);
+            this.tileGroup4.Items.Add(this.tileItem14);
+            this.tileGroup4.Items.Add(this.tileItem15);
+            this.tileGroup4.Items.Add(this.tileItem16);
+            this.tileGroup4.Items.Add(this.tileItem17);
+            this.tileGroup4.Items.Add(this.tileItem18);
+            this.tileGroup4.Name = "tileGroup4";
+            this.tileGroup4.Text = "Holding";
             // 
             // tileItem11
             // 
-            tileItemElement25.Appearance.Disabled.BackColor = System.Drawing.Color.Silver;
-            tileItemElement25.Appearance.Disabled.Options.UseBackColor = true;
+            tileItemElement25.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement25.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
             tileItemElement25.Text = "tileItem11";
             this.tileItem11.Elements.Add(tileItemElement25);
-            this.tileItem11.Enabled = false;
-            this.tileItem11.Id = 19;
+            this.tileItem11.Id = 39;
             this.tileItem11.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem11.Name = "tileItem11";
-            this.tileItem11.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItem11_ItemClick);
             // 
             // tileItem12
             // 
             tileItemElement26.Text = "tileItem12";
             this.tileItem12.Elements.Add(tileItemElement26);
-            this.tileItem12.Id = 20;
+            this.tileItem12.Id = 40;
             this.tileItem12.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem12.Name = "tileItem12";
-            this.tileItem12.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItem12_ItemClick);
             // 
             // tileItem13
             // 
             tileItemElement27.Text = "tileItem13";
             this.tileItem13.Elements.Add(tileItemElement27);
-            this.tileItem13.Id = 21;
+            this.tileItem13.Id = 41;
             this.tileItem13.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem13.Name = "tileItem13";
             // 
@@ -1114,7 +1194,7 @@ namespace DXApplication1
             // 
             tileItemElement28.Text = "tileItem14";
             this.tileItem14.Elements.Add(tileItemElement28);
-            this.tileItem14.Id = 22;
+            this.tileItem14.Id = 42;
             this.tileItem14.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem14.Name = "tileItem14";
             // 
@@ -1122,7 +1202,7 @@ namespace DXApplication1
             // 
             tileItemElement29.Text = "tileItem15";
             this.tileItem15.Elements.Add(tileItemElement29);
-            this.tileItem15.Id = 23;
+            this.tileItem15.Id = 43;
             this.tileItem15.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem15.Name = "tileItem15";
             // 
@@ -1130,7 +1210,7 @@ namespace DXApplication1
             // 
             tileItemElement30.Text = "tileItem16";
             this.tileItem16.Elements.Add(tileItemElement30);
-            this.tileItem16.Id = 24;
+            this.tileItem16.Id = 44;
             this.tileItem16.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem16.Name = "tileItem16";
             // 
@@ -1138,7 +1218,7 @@ namespace DXApplication1
             // 
             tileItemElement31.Text = "tileItem17";
             this.tileItem17.Elements.Add(tileItemElement31);
-            this.tileItem17.Id = 25;
+            this.tileItem17.Id = 45;
             this.tileItem17.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem17.Name = "tileItem17";
             // 
@@ -1146,99 +1226,33 @@ namespace DXApplication1
             // 
             tileItemElement32.Text = "tileItem18";
             this.tileItem18.Elements.Add(tileItemElement32);
-            this.tileItem18.Id = 26;
+            this.tileItem18.Id = 46;
             this.tileItem18.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem18.Name = "tileItem18";
             // 
-            // tileItem19
-            // 
-            tileItemElement33.Text = "tileItem19";
-            this.tileItem19.Elements.Add(tileItemElement33);
-            this.tileItem19.Id = 27;
-            this.tileItem19.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
-            this.tileItem19.Name = "tileItem19";
-            // 
-            // tileItem20
-            // 
-            tileItemElement34.Text = "tileItem20";
-            this.tileItem20.Elements.Add(tileItemElement34);
-            this.tileItem20.Id = 28;
-            this.tileItem20.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
-            this.tileItem20.Name = "tileItem20";
-            // 
             // xtraTabPage2
             // 
+            this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1761, 743);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1658, 588);
             this.xtraTabPage2.Text = "xtraTabPage2";
-            // 
-            // ribbonPage7
-            // 
-            this.ribbonPage7.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup9});
-            this.ribbonPage7.Name = "ribbonPage7";
-            this.ribbonPage7.Text = "ribbonPage7";
-            // 
-            // ribbonPageGroup9
-            // 
-            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
-            this.ribbonPageGroup9.Text = "ribbonPageGroup9";
-            // 
-            // ribbonPageCategory1
-            // 
-            this.ribbonPageCategory1.Name = "ribbonPageCategory1";
-            this.ribbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage8});
-            this.ribbonPageCategory1.Text = "Server setrup";
-            // 
-            // ribbonPage8
-            // 
-            this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup10});
-            this.ribbonPage8.Name = "ribbonPage8";
-            this.ribbonPage8.Text = "Setup";
-            // 
-            // ribbonPageGroup10
-            // 
-            this.ribbonPageGroup10.Name = "ribbonPageGroup10";
-            this.ribbonPageGroup10.Text = "ribbonPageGroup10";
-            // 
-            // barButtonItem5
-            // 
-            this.barButtonItem5.Caption = "New";
-            this.barButtonItem5.Id = 5;
-            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
-            this.barButtonItem5.Name = "barButtonItem5";
-            // 
-            // barButtonItem6
-            // 
-            this.barButtonItem6.Caption = "Open";
-            this.barButtonItem6.Id = 6;
-            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
-            this.barButtonItem6.Name = "barButtonItem6";
-            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
-            // 
-            // barButtonItem7
-            // 
-            this.barButtonItem7.Caption = "Save";
-            this.barButtonItem7.Id = 7;
-            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
-            this.barButtonItem7.Name = "barButtonItem7";
             // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.xtraTabControl2);
+            this.xtraTabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(1761, 743);
+            this.xtraTabPage3.Size = new System.Drawing.Size(1658, 588);
             this.xtraTabPage3.Text = "AI Training";
             // 
             // xtraTabControl2
             // 
             this.xtraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl2.Location = new System.Drawing.Point(0, 0);
+            this.xtraTabControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage4;
-            this.xtraTabControl2.Size = new System.Drawing.Size(1761, 743);
+            this.xtraTabControl2.Size = new System.Drawing.Size(1658, 588);
             this.xtraTabControl2.TabIndex = 0;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage4,
@@ -1251,55 +1265,66 @@ namespace DXApplication1
             // 
             // xtraTabPage4
             // 
+            this.xtraTabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(2198, 889);
+            this.xtraTabPage4.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage4.Text = "Dataset and annotations";
             // 
             // xtraTabPage5
             // 
+            this.xtraTabPage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(298, 268);
+            this.xtraTabPage5.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage5.Text = "Dataset split";
             // 
             // xtraTabPage6
             // 
+            this.xtraTabPage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(1759, 711);
+            this.xtraTabPage6.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage6.Text = "Data augmentation";
             // 
             // xtraTabPage7
             // 
+            this.xtraTabPage7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(1759, 711);
+            this.xtraTabPage7.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage7.Text = "Tools";
             // 
             // xtraTabPage8
             // 
+            this.xtraTabPage8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(1759, 711);
+            this.xtraTabPage8.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage8.Text = "Validation and results";
             // 
             // xtraTabPage9
             // 
+            this.xtraTabPage9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(1759, 711);
+            this.xtraTabPage9.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage9.Text = "Inference tests";
             // 
             // xtraTabPage10
             // 
+            this.xtraTabPage10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xtraTabPage10.Name = "xtraTabPage10";
-            this.xtraTabPage10.Size = new System.Drawing.Size(1759, 711);
+            this.xtraTabPage10.Size = new System.Drawing.Size(1656, 564);
             this.xtraTabPage10.Text = "Benchmark";
+            // 
+            // tileGroup3
+            // 
+            this.tileGroup3.Name = "tileGroup3";
+            this.tileGroup3.Text = "Holding";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1763, 986);
+            this.ClientSize = new System.Drawing.Size(1660, 788);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.backstageViewControl1);
             this.Controls.Add(this.ribbonControl1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
             this.Text = "AppleT Deep Learning Server";
@@ -1422,17 +1447,6 @@ namespace DXApplication1
         private DevExpress.XtraEditors.TileItem tileItem23;
         private DevExpress.XtraEditors.TileItem tileItem24;
         private DevExpress.XtraEditors.TileItem tileItem25;
-        private DevExpress.XtraEditors.TileGroup tileGroup3;
-        private DevExpress.XtraEditors.TileItem tileItem11;
-        private DevExpress.XtraEditors.TileItem tileItem12;
-        private DevExpress.XtraEditors.TileItem tileItem13;
-        private DevExpress.XtraEditors.TileItem tileItem14;
-        private DevExpress.XtraEditors.TileItem tileItem15;
-        private DevExpress.XtraEditors.TileItem tileItem16;
-        private DevExpress.XtraEditors.TileItem tileItem17;
-        private DevExpress.XtraEditors.TileItem tileItem18;
-        private DevExpress.XtraEditors.TileItem tileItem19;
-        private DevExpress.XtraEditors.TileItem tileItem20;
         private DevExpress.XtraEditors.TileItem tileItem26;
         private DevExpress.XtraEditors.TileItem tileItem27;
         private DevExpress.XtraEditors.TileItem tileItem28;
@@ -1456,6 +1470,17 @@ namespace DXApplication1
         private DevExpress.XtraTab.XtraTabPage xtraTabPage8;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage9;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage10;
+        private DevExpress.XtraEditors.TileGroup tileGroup3;
+        private DevExpress.XtraEditors.TileGroup tileGroup4;
+        private DevExpress.XtraEditors.TileItem tileItem11;
+        private DevExpress.XtraEditors.TileItem tileItem12;
+        private DevExpress.XtraEditors.TileItem tileItem13;
+        private DevExpress.XtraEditors.TileItem tileItem14;
+        private DevExpress.XtraEditors.TileItem tileItem15;
+        private DevExpress.XtraEditors.TileItem tileItem16;
+        private DevExpress.XtraEditors.TileItem tileItem17;
+        private DevExpress.XtraEditors.TileItem tileItem18;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
     }
 }
 

@@ -76,14 +76,9 @@ namespace DXApplication1
             this.xtraTabControl1.SelectedTabPageIndex = 2;
         }
 
-        private void tileItem11_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           
-        }
-
-        private void tileItem12_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
- this.tileItem12.Enabled = false;
+            this.xtraTabControl1.SelectedTabPageIndex = 2;
         }
     }
 }
