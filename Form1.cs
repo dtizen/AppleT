@@ -81,8 +81,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = true;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-            this.groupControl5.ShowCaption = false;
-            this.groupControl6.ShowCaption = false;
+           
         }
 
         private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -98,8 +97,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = true;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-            this.groupControl5.ShowCaption = false;
-            this.groupControl6.ShowCaption = false;
+           
         }
 
         private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -137,8 +135,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = true;
             this.groupControl3.ShowCaption = false;
-            this.groupControl5.ShowCaption = false;
-            this.groupControl6.ShowCaption = false;
+            
         }
 
         private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -148,8 +145,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = true;
-            this.groupControl5.ShowCaption = false;
-            this.groupControl6.ShowCaption = false;
+           
         }
 
         private void barButtonItem21_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -165,8 +161,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-            this.groupControl5.ShowCaption = true;
-            this.groupControl6.ShowCaption = false;
+           
         }
 
         private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -176,8 +171,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-            this.groupControl5.ShowCaption = false;
-            this.groupControl6.ShowCaption = true;
+          
         }
 
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

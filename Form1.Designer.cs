@@ -31,38 +31,38 @@ namespace DXApplication1
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DevExpress.XtraEditors.TileItemElement tileItemElement33 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement34 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement35 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement36 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement37 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement38 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement39 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement40 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement41 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement42 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement43 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement44 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement45 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement46 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement47 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement48 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement49 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement50 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement51 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement52 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement53 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement54 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement55 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement56 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement57 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement58 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement59 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement60 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement61 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement62 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement63 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement64 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement16 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement17 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement18 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement21 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement22 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement23 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement24 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement25 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement26 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement27 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement28 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement29 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement30 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement31 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement32 = new DevExpress.XtraEditors.TileItemElement();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl8 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
@@ -225,8 +225,6 @@ namespace DXApplication1
             this.xtraTabControl4 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage22 = new DevExpress.XtraTab.XtraTabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
@@ -240,19 +238,6 @@ namespace DXApplication1
             this.spinEdit6 = new DevExpress.XtraEditors.SpinEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.xtraTabPage23 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage24 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage20 = new DevExpress.XtraTab.XtraTabPage();
@@ -273,6 +258,36 @@ namespace DXApplication1
             this.xtraTabPage25 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage26 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage27 = new DevExpress.XtraTab.XtraTabPage();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.spinEdit7 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit8 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit9 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit10 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit11 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit12 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit13 = new DevExpress.XtraEditors.SpinEdit();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -320,8 +335,6 @@ namespace DXApplication1
             this.xtraTabControl4.SuspendLayout();
             this.xtraTabPage22.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
@@ -338,6 +351,15 @@ namespace DXApplication1
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).BeginInit();
             this.xtraTabControl5.SuspendLayout();
+            this.xtraTabPage25.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -1167,51 +1189,51 @@ namespace DXApplication1
             // 
             // tileItem2
             // 
-            tileItemElement33.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement33.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement33.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement33.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement33.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement33.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement33.Appearance.Normal.Options.UseFont = true;
-            tileItemElement33.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement33.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement33.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement33.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement33.Appearance.Selected.Options.UseFont = true;
-            tileItemElement33.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement33.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement33.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement33.MaxWidth = 160;
-            tileItemElement33.Text = "ADMS1";
-            tileItemElement33.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
-            tileItemElement33.TextLocation = new System.Drawing.Point(75, 0);
-            tileItemElement34.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement34.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement34.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement34.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement34.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement34.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement34.Appearance.Normal.Options.UseFont = true;
-            tileItemElement34.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement34.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement34.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement34.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement34.Appearance.Selected.Options.UseFont = true;
-            tileItemElement34.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement34.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement34.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement34.MaxWidth = 160;
-            tileItemElement34.Text = "Good";
-            tileItemElement34.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
-            tileItemElement34.TextLocation = new System.Drawing.Point(75, 27);
-            tileItemElement35.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
-            tileItemElement35.ImageOptions.ImageLocation = new System.Drawing.Point(4, 8);
-            tileItemElement35.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
-            tileItemElement35.ImageOptions.ImageSize = new System.Drawing.Size(64, 64);
-            this.tileItem2.Elements.Add(tileItemElement33);
-            this.tileItem2.Elements.Add(tileItemElement34);
-            this.tileItem2.Elements.Add(tileItemElement35);
+            tileItemElement1.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement1.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement1.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement1.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement1.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement1.Appearance.Normal.Options.UseFont = true;
+            tileItemElement1.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement1.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement1.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement1.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement1.Appearance.Selected.Options.UseFont = true;
+            tileItemElement1.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement1.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement1.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement1.MaxWidth = 160;
+            tileItemElement1.Text = "ADMS1";
+            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileItemElement1.TextLocation = new System.Drawing.Point(75, 0);
+            tileItemElement2.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement2.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement2.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement2.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement2.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement2.Appearance.Normal.Options.UseFont = true;
+            tileItemElement2.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement2.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement2.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement2.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement2.Appearance.Selected.Options.UseFont = true;
+            tileItemElement2.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement2.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement2.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement2.MaxWidth = 160;
+            tileItemElement2.Text = "Good";
+            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleLeft;
+            tileItemElement2.TextLocation = new System.Drawing.Point(75, 27);
+            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileItemElement3.ImageOptions.ImageLocation = new System.Drawing.Point(4, 8);
+            tileItemElement3.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
+            tileItemElement3.ImageOptions.ImageSize = new System.Drawing.Size(64, 64);
+            this.tileItem2.Elements.Add(tileItemElement1);
+            this.tileItem2.Elements.Add(tileItemElement2);
+            this.tileItem2.Elements.Add(tileItemElement3);
             this.tileItem2.Id = 7;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem2.Name = "tileItem2";
@@ -1219,8 +1241,8 @@ namespace DXApplication1
             // 
             // tileItem3
             // 
-            tileItemElement36.Text = "tileItem3";
-            this.tileItem3.Elements.Add(tileItemElement36);
+            tileItemElement4.Text = "tileItem3";
+            this.tileItem3.Elements.Add(tileItemElement4);
             this.tileItem3.Id = 8;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem3.Name = "tileItem3";
@@ -1228,187 +1250,187 @@ namespace DXApplication1
             // 
             // tileItem4
             // 
-            tileItemElement37.Text = "tileItem4";
-            this.tileItem4.Elements.Add(tileItemElement37);
+            tileItemElement5.Text = "tileItem4";
+            this.tileItem4.Elements.Add(tileItemElement5);
             this.tileItem4.Id = 9;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
             // 
             // tileItem5
             // 
-            tileItemElement38.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement38.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement38.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement38.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement38.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement38.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement38.Appearance.Normal.Options.UseFont = true;
-            tileItemElement38.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement38.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement38.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement38.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 17F);
-            tileItemElement38.Appearance.Selected.Options.UseFont = true;
-            tileItemElement38.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement38.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement38.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
-            tileItemElement38.MaxWidth = 170;
-            tileItemElement38.Text = "Header";
-            tileItemElement38.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
-            tileItemElement38.TextLocation = new System.Drawing.Point(3, 0);
-            tileItemElement39.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement39.Appearance.Hovered.Options.UseFont = true;
-            tileItemElement39.Appearance.Hovered.Options.UseTextOptions = true;
-            tileItemElement39.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement39.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement39.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement39.Appearance.Normal.Options.UseFont = true;
-            tileItemElement39.Appearance.Normal.Options.UseTextOptions = true;
-            tileItemElement39.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement39.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement39.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
-            tileItemElement39.Appearance.Selected.Options.UseFont = true;
-            tileItemElement39.Appearance.Selected.Options.UseTextOptions = true;
-            tileItemElement39.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
-            tileItemElement39.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            tileItemElement39.MaxWidth = 160;
-            tileItemElement39.Text = "The quick brown fox jumps over the lazy dog.";
-            tileItemElement39.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
-            tileItemElement39.TextLocation = new System.Drawing.Point(3, 27);
-            tileItemElement40.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
-            tileItemElement40.ImageOptions.ImageLocation = new System.Drawing.Point(172, 8);
-            tileItemElement40.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
-            tileItemElement40.ImageOptions.ImageSize = new System.Drawing.Size(48, 64);
-            this.tileItem5.Elements.Add(tileItemElement38);
-            this.tileItem5.Elements.Add(tileItemElement39);
-            this.tileItem5.Elements.Add(tileItemElement40);
+            tileItemElement6.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement6.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement6.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement6.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement6.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement6.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement6.Appearance.Normal.Options.UseFont = true;
+            tileItemElement6.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement6.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement6.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement6.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI Light", 17F);
+            tileItemElement6.Appearance.Selected.Options.UseFont = true;
+            tileItemElement6.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement6.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement6.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            tileItemElement6.MaxWidth = 170;
+            tileItemElement6.Text = "Header";
+            tileItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileItemElement6.TextLocation = new System.Drawing.Point(3, 0);
+            tileItemElement7.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Hovered.Options.UseFont = true;
+            tileItemElement7.Appearance.Hovered.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Hovered.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement7.Appearance.Normal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Normal.Options.UseFont = true;
+            tileItemElement7.Appearance.Normal.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Normal.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement7.Appearance.Selected.Font = new System.Drawing.Font("Segoe UI", 9F);
+            tileItemElement7.Appearance.Selected.Options.UseFont = true;
+            tileItemElement7.Appearance.Selected.Options.UseTextOptions = true;
+            tileItemElement7.Appearance.Selected.TextOptions.Trimming = DevExpress.Utils.Trimming.EllipsisCharacter;
+            tileItemElement7.Appearance.Selected.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            tileItemElement7.MaxWidth = 160;
+            tileItemElement7.Text = "The quick brown fox jumps over the lazy dog.";
+            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileItemElement7.TextLocation = new System.Drawing.Point(3, 27);
+            tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.Manual;
+            tileItemElement8.ImageOptions.ImageLocation = new System.Drawing.Point(172, 8);
+            tileItemElement8.ImageOptions.ImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.ZoomOutside;
+            tileItemElement8.ImageOptions.ImageSize = new System.Drawing.Size(48, 64);
+            this.tileItem5.Elements.Add(tileItemElement6);
+            this.tileItem5.Elements.Add(tileItemElement7);
+            this.tileItem5.Elements.Add(tileItemElement8);
             this.tileItem5.Id = 10;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem5.Name = "tileItem5";
             // 
             // tileItem7
             // 
-            tileItemElement41.Text = "tileItem7";
-            this.tileItem7.Elements.Add(tileItemElement41);
+            tileItemElement9.Text = "tileItem7";
+            this.tileItem7.Elements.Add(tileItemElement9);
             this.tileItem7.Id = 13;
             this.tileItem7.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem7.Name = "tileItem7";
             // 
             // tileItem8
             // 
-            tileItemElement42.Text = "tileItem8";
-            this.tileItem8.Elements.Add(tileItemElement42);
+            tileItemElement10.Text = "tileItem8";
+            this.tileItem8.Elements.Add(tileItemElement10);
             this.tileItem8.Id = 14;
             this.tileItem8.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem8.Name = "tileItem8";
             // 
             // tileItem9
             // 
-            tileItemElement43.Text = "tileItem9";
-            this.tileItem9.Elements.Add(tileItemElement43);
+            tileItemElement11.Text = "tileItem9";
+            this.tileItem9.Elements.Add(tileItemElement11);
             this.tileItem9.Id = 15;
             this.tileItem9.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem9.Name = "tileItem9";
             // 
             // tileItem10
             // 
-            tileItemElement44.Text = "tileItem10";
-            this.tileItem10.Elements.Add(tileItemElement44);
+            tileItemElement12.Text = "tileItem10";
+            this.tileItem10.Elements.Add(tileItemElement12);
             this.tileItem10.Id = 16;
             this.tileItem10.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem10.Name = "tileItem10";
             // 
             // tileItem1
             // 
-            tileItemElement45.Text = "tileItem1";
-            this.tileItem1.Elements.Add(tileItemElement45);
+            tileItemElement13.Text = "tileItem1";
+            this.tileItem1.Elements.Add(tileItemElement13);
             this.tileItem1.Id = 17;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
             // 
             // tileItem6
             // 
-            tileItemElement46.Text = "tileItem6";
-            this.tileItem6.Elements.Add(tileItemElement46);
+            tileItemElement14.Text = "tileItem6";
+            this.tileItem6.Elements.Add(tileItemElement14);
             this.tileItem6.Id = 18;
             this.tileItem6.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem6.Name = "tileItem6";
             // 
             // tileItem21
             // 
-            tileItemElement47.Text = "tileItem21";
-            this.tileItem21.Elements.Add(tileItemElement47);
+            tileItemElement15.Text = "tileItem21";
+            this.tileItem21.Elements.Add(tileItemElement15);
             this.tileItem21.Id = 29;
             this.tileItem21.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem21.Name = "tileItem21";
             // 
             // tileItem22
             // 
-            tileItemElement48.Text = "tileItem22";
-            this.tileItem22.Elements.Add(tileItemElement48);
+            tileItemElement16.Text = "tileItem22";
+            this.tileItem22.Elements.Add(tileItemElement16);
             this.tileItem22.Id = 30;
             this.tileItem22.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem22.Name = "tileItem22";
             // 
             // tileItem23
             // 
-            tileItemElement49.Text = "tileItem23";
-            this.tileItem23.Elements.Add(tileItemElement49);
+            tileItemElement17.Text = "tileItem23";
+            this.tileItem23.Elements.Add(tileItemElement17);
             this.tileItem23.Id = 31;
             this.tileItem23.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem23.Name = "tileItem23";
             // 
             // tileItem24
             // 
-            tileItemElement50.Text = "tileItem24";
-            this.tileItem24.Elements.Add(tileItemElement50);
+            tileItemElement18.Text = "tileItem24";
+            this.tileItem24.Elements.Add(tileItemElement18);
             this.tileItem24.Id = 32;
             this.tileItem24.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem24.Name = "tileItem24";
             // 
             // tileItem25
             // 
-            tileItemElement51.Text = "tileItem25";
-            this.tileItem25.Elements.Add(tileItemElement51);
+            tileItemElement19.Text = "tileItem25";
+            this.tileItem25.Elements.Add(tileItemElement19);
             this.tileItem25.Id = 33;
             this.tileItem25.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem25.Name = "tileItem25";
             // 
             // tileItem26
             // 
-            tileItemElement52.Text = "tileItem26";
-            this.tileItem26.Elements.Add(tileItemElement52);
+            tileItemElement20.Text = "tileItem26";
+            this.tileItem26.Elements.Add(tileItemElement20);
             this.tileItem26.Id = 34;
             this.tileItem26.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem26.Name = "tileItem26";
             // 
             // tileItem27
             // 
-            tileItemElement53.Text = "tileItem27";
-            this.tileItem27.Elements.Add(tileItemElement53);
+            tileItemElement21.Text = "tileItem27";
+            this.tileItem27.Elements.Add(tileItemElement21);
             this.tileItem27.Id = 35;
             this.tileItem27.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem27.Name = "tileItem27";
             // 
             // tileItem28
             // 
-            tileItemElement54.Text = "tileItem28";
-            this.tileItem28.Elements.Add(tileItemElement54);
+            tileItemElement22.Text = "tileItem28";
+            this.tileItem28.Elements.Add(tileItemElement22);
             this.tileItem28.Id = 36;
             this.tileItem28.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem28.Name = "tileItem28";
             // 
             // tileItem29
             // 
-            tileItemElement55.Text = "tileItem29";
-            this.tileItem29.Elements.Add(tileItemElement55);
+            tileItemElement23.Text = "tileItem29";
+            this.tileItem29.Elements.Add(tileItemElement23);
             this.tileItem29.Id = 37;
             this.tileItem29.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem29.Name = "tileItem29";
             // 
             // tileItem30
             // 
-            tileItemElement56.Text = "tileItem30";
-            this.tileItem30.Elements.Add(tileItemElement56);
+            tileItemElement24.Text = "tileItem30";
+            this.tileItem30.Elements.Add(tileItemElement24);
             this.tileItem30.Id = 38;
             this.tileItem30.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem30.Name = "tileItem30";
@@ -1428,66 +1450,66 @@ namespace DXApplication1
             // 
             // tileItem11
             // 
-            tileItemElement57.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement57.Text = "tileItem11";
-            this.tileItem11.Elements.Add(tileItemElement57);
+            tileItemElement25.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement25.Text = "tileItem11";
+            this.tileItem11.Elements.Add(tileItemElement25);
             this.tileItem11.Id = 39;
             this.tileItem11.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem11.Name = "tileItem11";
             // 
             // tileItem12
             // 
-            tileItemElement58.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement58.Text = "tileItem12";
-            this.tileItem12.Elements.Add(tileItemElement58);
+            tileItemElement26.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement26.Text = "tileItem12";
+            this.tileItem12.Elements.Add(tileItemElement26);
             this.tileItem12.Id = 40;
             this.tileItem12.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem12.Name = "tileItem12";
             // 
             // tileItem13
             // 
-            tileItemElement59.Text = "tileItem13";
-            this.tileItem13.Elements.Add(tileItemElement59);
+            tileItemElement27.Text = "tileItem13";
+            this.tileItem13.Elements.Add(tileItemElement27);
             this.tileItem13.Id = 41;
             this.tileItem13.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem13.Name = "tileItem13";
             // 
             // tileItem14
             // 
-            tileItemElement60.Text = "tileItem14";
-            this.tileItem14.Elements.Add(tileItemElement60);
+            tileItemElement28.Text = "tileItem14";
+            this.tileItem14.Elements.Add(tileItemElement28);
             this.tileItem14.Id = 42;
             this.tileItem14.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem14.Name = "tileItem14";
             // 
             // tileItem15
             // 
-            tileItemElement61.Text = "tileItem15";
-            this.tileItem15.Elements.Add(tileItemElement61);
+            tileItemElement29.Text = "tileItem15";
+            this.tileItem15.Elements.Add(tileItemElement29);
             this.tileItem15.Id = 43;
             this.tileItem15.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem15.Name = "tileItem15";
             // 
             // tileItem16
             // 
-            tileItemElement62.Text = "tileItem16";
-            this.tileItem16.Elements.Add(tileItemElement62);
+            tileItemElement30.Text = "tileItem16";
+            this.tileItem16.Elements.Add(tileItemElement30);
             this.tileItem16.Id = 44;
             this.tileItem16.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem16.Name = "tileItem16";
             // 
             // tileItem17
             // 
-            tileItemElement63.Text = "tileItem17";
-            this.tileItem17.Elements.Add(tileItemElement63);
+            tileItemElement31.Text = "tileItem17";
+            this.tileItem17.Elements.Add(tileItemElement31);
             this.tileItem17.Id = 45;
             this.tileItem17.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem17.Name = "tileItem17";
             // 
             // tileItem18
             // 
-            tileItemElement64.Text = "tileItem18";
-            this.tileItem18.Elements.Add(tileItemElement64);
+            tileItemElement32.Text = "tileItem18";
+            this.tileItem18.Elements.Add(tileItemElement32);
             this.tileItem18.Id = 46;
             this.tileItem18.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem18.Name = "tileItem18";
@@ -1855,14 +1877,10 @@ namespace DXApplication1
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 5;
+            this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.groupControl6, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.groupControl5, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupControl3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupControl2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupControl1, 0, 0);
@@ -1875,34 +1893,14 @@ namespace DXApplication1
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1656, 579);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // groupControl6
-            // 
-            this.groupControl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl6.Location = new System.Drawing.Point(1331, 6);
-            this.groupControl6.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.groupControl6.Name = "groupControl6";
-            this.groupControl6.Size = new System.Drawing.Size(318, 567);
-            this.groupControl6.TabIndex = 6;
-            this.groupControl6.Text = "Inference tests";
-            // 
-            // groupControl5
-            // 
-            this.groupControl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl5.Location = new System.Drawing.Point(1000, 6);
-            this.groupControl5.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(317, 567);
-            this.groupControl5.TabIndex = 5;
-            this.groupControl5.Text = "Validation and results";
-            // 
             // groupControl3
             // 
             this.groupControl3.Controls.Add(this.xtraTabControl5);
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl3.Location = new System.Drawing.Point(669, 6);
+            this.groupControl3.Location = new System.Drawing.Point(1111, 6);
             this.groupControl3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(317, 567);
+            this.groupControl3.Size = new System.Drawing.Size(538, 567);
             this.groupControl3.TabIndex = 3;
             this.groupControl3.Text = "Data augmentation";
             // 
@@ -1910,10 +1908,10 @@ namespace DXApplication1
             // 
             this.groupControl2.Controls.Add(this.tableLayoutPanel6);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl2.Location = new System.Drawing.Point(338, 6);
+            this.groupControl2.Location = new System.Drawing.Point(559, 6);
             this.groupControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(317, 567);
+            this.groupControl2.Size = new System.Drawing.Size(538, 567);
             this.groupControl2.TabIndex = 2;
             this.groupControl2.Text = "Dataset split";
             // 
@@ -1947,17 +1945,17 @@ namespace DXApplication1
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(313, 198);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(534, 198);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(109, 0);
+            this.label1.Location = new System.Drawing.Point(183, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 39);
+            this.label1.Size = new System.Drawing.Size(168, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "#Image";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1966,10 +1964,10 @@ namespace DXApplication1
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(213, 0);
+            this.label2.Location = new System.Drawing.Point(361, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 39);
+            this.label2.Size = new System.Drawing.Size(168, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Proportion";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1982,7 +1980,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(109, 44);
+            this.spinEdit1.Location = new System.Drawing.Point(183, 44);
             this.spinEdit1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit1.MenuManager = this.ribbonControl1;
             this.spinEdit1.Name = "spinEdit1";
@@ -1990,7 +1988,7 @@ namespace DXApplication1
             this.spinEdit1.Properties.Appearance.Options.UseFont = true;
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(94, 28);
+            this.spinEdit1.Size = new System.Drawing.Size(168, 28);
             this.spinEdit1.TabIndex = 2;
             // 
             // spinEdit2
@@ -2001,7 +1999,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit2.Location = new System.Drawing.Point(213, 44);
+            this.spinEdit2.Location = new System.Drawing.Point(361, 44);
             this.spinEdit2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit2.MenuManager = this.ribbonControl1;
             this.spinEdit2.Name = "spinEdit2";
@@ -2009,7 +2007,7 @@ namespace DXApplication1
             this.spinEdit2.Properties.Appearance.Options.UseFont = true;
             this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit2.Size = new System.Drawing.Size(95, 28);
+            this.spinEdit2.Size = new System.Drawing.Size(168, 28);
             this.spinEdit2.TabIndex = 3;
             // 
             // spinEdit3
@@ -2020,7 +2018,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit3.Location = new System.Drawing.Point(109, 83);
+            this.spinEdit3.Location = new System.Drawing.Point(183, 83);
             this.spinEdit3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit3.MenuManager = this.ribbonControl1;
             this.spinEdit3.Name = "spinEdit3";
@@ -2028,7 +2026,7 @@ namespace DXApplication1
             this.spinEdit3.Properties.Appearance.Options.UseFont = true;
             this.spinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit3.Size = new System.Drawing.Size(94, 28);
+            this.spinEdit3.Size = new System.Drawing.Size(168, 28);
             this.spinEdit3.TabIndex = 4;
             // 
             // spinEdit4
@@ -2039,7 +2037,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit4.Location = new System.Drawing.Point(213, 83);
+            this.spinEdit4.Location = new System.Drawing.Point(361, 83);
             this.spinEdit4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit4.MenuManager = this.ribbonControl1;
             this.spinEdit4.Name = "spinEdit4";
@@ -2047,7 +2045,7 @@ namespace DXApplication1
             this.spinEdit4.Properties.Appearance.Options.UseFont = true;
             this.spinEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit4.Size = new System.Drawing.Size(95, 28);
+            this.spinEdit4.Size = new System.Drawing.Size(168, 28);
             this.spinEdit4.TabIndex = 5;
             // 
             // spinEdit5
@@ -2058,7 +2056,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit5.Location = new System.Drawing.Point(109, 122);
+            this.spinEdit5.Location = new System.Drawing.Point(183, 122);
             this.spinEdit5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit5.MenuManager = this.ribbonControl1;
             this.spinEdit5.Name = "spinEdit5";
@@ -2066,7 +2064,7 @@ namespace DXApplication1
             this.spinEdit5.Properties.Appearance.Options.UseFont = true;
             this.spinEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit5.Size = new System.Drawing.Size(94, 28);
+            this.spinEdit5.Size = new System.Drawing.Size(168, 28);
             this.spinEdit5.TabIndex = 6;
             // 
             // spinEdit6
@@ -2077,7 +2075,7 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit6.Location = new System.Drawing.Point(213, 122);
+            this.spinEdit6.Location = new System.Drawing.Point(361, 122);
             this.spinEdit6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.spinEdit6.MenuManager = this.ribbonControl1;
             this.spinEdit6.Name = "spinEdit6";
@@ -2085,7 +2083,7 @@ namespace DXApplication1
             this.spinEdit6.Properties.Appearance.Options.UseFont = true;
             this.spinEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit6.Size = new System.Drawing.Size(95, 28);
+            this.spinEdit6.Size = new System.Drawing.Size(168, 28);
             this.spinEdit6.TabIndex = 7;
             // 
             // groupControl1
@@ -2095,28 +2093,28 @@ namespace DXApplication1
             this.groupControl1.Location = new System.Drawing.Point(7, 6);
             this.groupControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(317, 567);
+            this.groupControl1.Size = new System.Drawing.Size(538, 567);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Current status";
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel5.Controls.Add(this.textBox14, 1, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox13, 0, 6);
-            this.tableLayoutPanel5.Controls.Add(this.textBox12, 1, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox11, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.textBox10, 1, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox9, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.textBox7, 0, 3);
-            this.tableLayoutPanel5.Controls.Add(this.textBox6, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox5, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.textBox4, 1, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox3, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox2, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.textBox1, 0, 0);
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.81273F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.18727F));
+            this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label10, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label11, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label12, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label13, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.label14, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.label15, 0, 6);
+            this.tableLayoutPanel5.Controls.Add(this.label16, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label17, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label18, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label19, 1, 4);
+            this.tableLayoutPanel5.Controls.Add(this.label20, 1, 5);
+            this.tableLayoutPanel5.Controls.Add(this.label21, 1, 6);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 23);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
@@ -2129,137 +2127,8 @@ namespace DXApplication1
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(313, 335);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(534, 292);
             this.tableLayoutPanel5.TabIndex = 0;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox14.Location = new System.Drawing.Point(224, 287);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(84, 22);
-            this.textBox14.TabIndex = 13;
-            this.textBox14.Text = "200";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox13.Location = new System.Drawing.Point(5, 287);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(209, 22);
-            this.textBox13.TabIndex = 12;
-            this.textBox13.Text = "Scratch";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox12.Location = new System.Drawing.Point(224, 240);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(84, 22);
-            this.textBox12.TabIndex = 11;
-            this.textBox12.Text = "300";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox11.Location = new System.Drawing.Point(5, 240);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(209, 22);
-            this.textBox11.TabIndex = 10;
-            this.textBox11.Text = "Particle";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox10.Location = new System.Drawing.Point(224, 193);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(84, 22);
-            this.textBox10.TabIndex = 9;
-            this.textBox10.Text = "2000";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox9.Location = new System.Drawing.Point(5, 193);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(209, 22);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.Text = "OK";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox7.Location = new System.Drawing.Point(5, 146);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(209, 22);
-            this.textBox7.TabIndex = 6;
-            this.textBox7.Text = "Categories;";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(224, 99);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(84, 22);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "000";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox5.Location = new System.Drawing.Point(5, 99);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(209, 22);
-            this.textBox5.TabIndex = 4;
-            this.textBox5.Text = "Categorized Image";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Location = new System.Drawing.Point(224, 52);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(84, 22);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox3.Location = new System.Drawing.Point(5, 52);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(209, 22);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Recipe001";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(224, 5);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(84, 22);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(5, 5);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 22);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "ADMS001";
             // 
             // xtraTabPage23
             // 
@@ -2330,7 +2199,7 @@ namespace DXApplication1
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 39);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 39);
+            this.label3.Size = new System.Drawing.Size(172, 39);
             this.label3.TabIndex = 8;
             this.label3.Text = "Trainig images";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2342,7 +2211,7 @@ namespace DXApplication1
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 78);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(98, 39);
+            this.label4.Size = new System.Drawing.Size(172, 39);
             this.label4.TabIndex = 9;
             this.label4.Text = "Validation Images";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2354,7 +2223,7 @@ namespace DXApplication1
             this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 117);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 39);
+            this.label5.Size = new System.Drawing.Size(172, 39);
             this.label5.TabIndex = 10;
             this.label5.Text = "Test Images";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2366,7 +2235,7 @@ namespace DXApplication1
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(3, 156);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 42);
+            this.label6.Size = new System.Drawing.Size(172, 42);
             this.label6.TabIndex = 11;
             this.label6.Text = "Total";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2375,9 +2244,9 @@ namespace DXApplication1
             // 
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(107, 156);
+            this.label7.Location = new System.Drawing.Point(181, 156);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 42);
+            this.label7.Size = new System.Drawing.Size(172, 42);
             this.label7.TabIndex = 12;
             this.label7.Text = "0";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2386,9 +2255,9 @@ namespace DXApplication1
             // 
             this.label8.AutoSize = true;
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Location = new System.Drawing.Point(211, 156);
+            this.label8.Location = new System.Drawing.Point(359, 156);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 42);
+            this.label8.Size = new System.Drawing.Size(172, 42);
             this.label8.TabIndex = 13;
             this.label8.Text = "0";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2399,7 +2268,7 @@ namespace DXApplication1
             this.xtraTabControl5.Location = new System.Drawing.Point(2, 23);
             this.xtraTabControl5.Name = "xtraTabControl5";
             this.xtraTabControl5.SelectedTabPage = this.xtraTabPage25;
-            this.xtraTabControl5.Size = new System.Drawing.Size(313, 542);
+            this.xtraTabControl5.Size = new System.Drawing.Size(534, 542);
             this.xtraTabControl5.TabIndex = 0;
             this.xtraTabControl5.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage25,
@@ -2408,21 +2277,447 @@ namespace DXApplication1
             // 
             // xtraTabPage25
             // 
+            this.xtraTabPage25.Controls.Add(this.tableLayoutPanel7);
             this.xtraTabPage25.Name = "xtraTabPage25";
-            this.xtraTabPage25.Size = new System.Drawing.Size(311, 518);
+            this.xtraTabPage25.Size = new System.Drawing.Size(532, 518);
             this.xtraTabPage25.Text = "Geometry";
             // 
             // xtraTabPage26
             // 
             this.xtraTabPage26.Name = "xtraTabPage26";
-            this.xtraTabPage26.Size = new System.Drawing.Size(298, 276);
+            this.xtraTabPage26.Size = new System.Drawing.Size(311, 518);
             this.xtraTabPage26.Text = "Color/Luminosity";
             // 
             // xtraTabPage27
             // 
             this.xtraTabPage27.Name = "xtraTabPage27";
-            this.xtraTabPage27.Size = new System.Drawing.Size(0, 0);
+            this.xtraTabPage27.Size = new System.Drawing.Size(311, 518);
             this.xtraTabPage27.Text = "Noise";
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 2;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel7.Controls.Add(this.label22, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.label23, 0, 1);
+            this.tableLayoutPanel7.Controls.Add(this.label24, 0, 2);
+            this.tableLayoutPanel7.Controls.Add(this.label25, 0, 3);
+            this.tableLayoutPanel7.Controls.Add(this.label26, 0, 4);
+            this.tableLayoutPanel7.Controls.Add(this.label27, 0, 5);
+            this.tableLayoutPanel7.Controls.Add(this.label28, 0, 6);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit7, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit8, 1, 1);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit9, 1, 2);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit10, 1, 3);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit11, 1, 4);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit12, 1, 5);
+            this.tableLayoutPanel7.Controls.Add(this.spinEdit13, 1, 6);
+            this.tableLayoutPanel7.Controls.Add(this.checkBox1, 1, 7);
+            this.tableLayoutPanel7.Controls.Add(this.checkBox2, 1, 8);
+            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 9;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(532, 390);
+            this.tableLayoutPanel7.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(259, 41);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Teminal :";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(3, 41);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(259, 41);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "Recipe :";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(3, 82);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(259, 41);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "Categorized images :";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 123);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(259, 41);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Categories";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(3, 164);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(259, 41);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "OK :";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label14.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(3, 205);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(259, 41);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "Particle :";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label15.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(3, 246);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(259, 46);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "Scratch :";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(268, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(263, 41);
+            this.label16.TabIndex = 21;
+            this.label16.Text = "ADMS001";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(268, 41);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(263, 41);
+            this.label17.TabIndex = 22;
+            this.label17.Text = "001";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(268, 82);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(263, 41);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "000";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(268, 164);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(263, 41);
+            this.label19.TabIndex = 24;
+            this.label19.Text = "2000";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label20.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(268, 205);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(263, 41);
+            this.label20.TabIndex = 25;
+            this.label20.Text = "300";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(268, 246);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(263, 46);
+            this.label21.TabIndex = 26;
+            this.label21.Text = "200";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label22.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(260, 43);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Maximum rotation";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label23.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(3, 43);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(260, 43);
+            this.label23.TabIndex = 1;
+            this.label23.Text = "Maximum vertical shift";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label24.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(3, 86);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(260, 43);
+            this.label24.TabIndex = 2;
+            this.label24.Text = "Maximum horizon shift";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label25.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(3, 129);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(260, 43);
+            this.label25.TabIndex = 3;
+            this.label25.Text = "Minimum scale";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label26.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(3, 172);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(260, 43);
+            this.label26.TabIndex = 4;
+            this.label26.Text = "Maximum scale";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label27.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(3, 215);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(260, 43);
+            this.label27.TabIndex = 5;
+            this.label27.Text = "Maximum vertical shear";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label28.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(3, 258);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(260, 43);
+            this.label28.TabIndex = 6;
+            this.label28.Text = "Minimum horizontal shear";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // spinEdit7
+            // 
+            this.spinEdit7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit7.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit7.Location = new System.Drawing.Point(269, 3);
+            this.spinEdit7.MenuManager = this.ribbonControl1;
+            this.spinEdit7.Name = "spinEdit7";
+            this.spinEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit7.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit7.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit7.TabIndex = 7;
+            // 
+            // spinEdit8
+            // 
+            this.spinEdit8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit8.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit8.Location = new System.Drawing.Point(269, 46);
+            this.spinEdit8.MenuManager = this.ribbonControl1;
+            this.spinEdit8.Name = "spinEdit8";
+            this.spinEdit8.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit8.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit8.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit8.TabIndex = 8;
+            // 
+            // spinEdit9
+            // 
+            this.spinEdit9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit9.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit9.Location = new System.Drawing.Point(269, 89);
+            this.spinEdit9.MenuManager = this.ribbonControl1;
+            this.spinEdit9.Name = "spinEdit9";
+            this.spinEdit9.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit9.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit9.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit9.TabIndex = 9;
+            // 
+            // spinEdit10
+            // 
+            this.spinEdit10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit10.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit10.Location = new System.Drawing.Point(269, 132);
+            this.spinEdit10.MenuManager = this.ribbonControl1;
+            this.spinEdit10.Name = "spinEdit10";
+            this.spinEdit10.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit10.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit10.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit10.TabIndex = 10;
+            // 
+            // spinEdit11
+            // 
+            this.spinEdit11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit11.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit11.Location = new System.Drawing.Point(269, 175);
+            this.spinEdit11.MenuManager = this.ribbonControl1;
+            this.spinEdit11.Name = "spinEdit11";
+            this.spinEdit11.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit11.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit11.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit11.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit11.TabIndex = 11;
+            // 
+            // spinEdit12
+            // 
+            this.spinEdit12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit12.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit12.Location = new System.Drawing.Point(269, 218);
+            this.spinEdit12.MenuManager = this.ribbonControl1;
+            this.spinEdit12.Name = "spinEdit12";
+            this.spinEdit12.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit12.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit12.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit12.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit12.TabIndex = 12;
+            // 
+            // spinEdit13
+            // 
+            this.spinEdit13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit13.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit13.Location = new System.Drawing.Point(269, 261);
+            this.spinEdit13.MenuManager = this.ribbonControl1;
+            this.spinEdit13.Name = "spinEdit13";
+            this.spinEdit13.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit13.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit13.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit13.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit13.TabIndex = 13;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(269, 304);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(95, 22);
+            this.checkBox1.TabIndex = 14;
+            this.checkBox1.Text = "Vertical flip";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(269, 347);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(112, 22);
+            this.checkBox2.TabIndex = 15;
+            this.checkBox2.Text = "Horizontal flip";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -2484,8 +2779,6 @@ namespace DXApplication1
             this.xtraTabControl4.ResumeLayout(false);
             this.xtraTabPage22.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
@@ -2504,6 +2797,16 @@ namespace DXApplication1
             this.tableLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).EndInit();
             this.xtraTabControl5.ResumeLayout(false);
+            this.xtraTabPage25.ResumeLayout(false);
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2651,8 +2954,6 @@ namespace DXApplication1
         private DevExpress.XtraTab.XtraTabPage xtraTabPage18;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage19;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private DevExpress.XtraEditors.GroupControl groupControl6;
-        private DevExpress.XtraEditors.GroupControl groupControl5;
         private DevExpress.XtraEditors.GroupControl groupControl3;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.GroupControl groupControl1;
@@ -2689,19 +2990,6 @@ namespace DXApplication1
         private DevExpress.XtraTab.XtraTabPage xtraTabPage23;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage24;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -2721,6 +3009,36 @@ namespace DXApplication1
         private DevExpress.XtraTab.XtraTabPage xtraTabPage25;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage26;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage27;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private DevExpress.XtraEditors.SpinEdit spinEdit7;
+        private DevExpress.XtraEditors.SpinEdit spinEdit8;
+        private DevExpress.XtraEditors.SpinEdit spinEdit9;
+        private DevExpress.XtraEditors.SpinEdit spinEdit10;
+        private DevExpress.XtraEditors.SpinEdit spinEdit11;
+        private DevExpress.XtraEditors.SpinEdit spinEdit12;
+        private DevExpress.XtraEditors.SpinEdit spinEdit13;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
