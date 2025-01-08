@@ -73,8 +73,15 @@ namespace DXApplication1
 
         private void barButtonItem6_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 0;
+            //this.xtraTabControl1.SelectedTabPageIndex = 7;
+            //this.xtraTabControl2.SelectedTabPageIndex = 0;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 0;
+            this.groupControl1.ShowCaption = true;
+            this.groupControl2.ShowCaption = false;
+            this.groupControl3.ShowCaption = false;
+            this.groupControl5.ShowCaption = false;
+            this.groupControl6.ShowCaption = false;
         }
 
         private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -85,8 +92,13 @@ namespace DXApplication1
 
         private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 0;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 0;
+            this.groupControl1.ShowCaption = true;
+            this.groupControl2.ShowCaption = false;
+            this.groupControl3.ShowCaption = false;
+            this.groupControl5.ShowCaption = false;
+            this.groupControl6.ShowCaption = false;
         }
 
         private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -106,13 +118,11 @@ namespace DXApplication1
 
         private void barButtonItem13_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 4;
+            MessageBox.Show("Cut process is finished.");
+            this.xtraTabControl1.SelectedTabPageIndex = 3;
         }
 
-        private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            this.xtraTabControl1.SelectedTabPageIndex = 5;
-        }
+       
 
         private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -121,38 +131,57 @@ namespace DXApplication1
 
         private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 1;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 1;
+            this.groupControl1.ShowCaption = false;
+            this.groupControl2.ShowCaption = true;
+            this.groupControl3.ShowCaption = false;
+            this.groupControl5.ShowCaption = false;
+            this.groupControl6.ShowCaption = false;
         }
 
         private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 2;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 2;
+            this.groupControl1.ShowCaption = false;
+            this.groupControl2.ShowCaption = false;
+            this.groupControl3.ShowCaption = true;
+            this.groupControl5.ShowCaption = false;
+            this.groupControl6.ShowCaption = false;
         }
 
         private void barButtonItem21_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 3;
+            this.xtraTabControl1.SelectedTabPageIndex = 10;
+           
         }
 
         private void barButtonItem22_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 4;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 4;
+            this.groupControl1.ShowCaption = false;
+            this.groupControl2.ShowCaption = false;
+            this.groupControl3.ShowCaption = false;
+            this.groupControl5.ShowCaption = true;
+            this.groupControl6.ShowCaption = false;
         }
 
         private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 5;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+            //this.xtraTabControl2.SelectedTabPageIndex = 4;
+            this.groupControl1.ShowCaption = false;
+            this.groupControl2.ShowCaption = false;
+            this.groupControl3.ShowCaption = false;
+            this.groupControl5.ShowCaption = false;
+            this.groupControl6.ShowCaption = true;
         }
 
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 7;
-            this.xtraTabControl2.SelectedTabPageIndex = 6;
+            this.xtraTabControl1.SelectedTabPageIndex = 11;
         }
 
         private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -165,6 +194,16 @@ namespace DXApplication1
         {
             this.xtraTabControl1.SelectedTabPageIndex = 8;
             this.xtraTabControl3.SelectedTabPageIndex = 1;
+        }
+
+        private void barButtonItem26_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.xtraTabControl1.SelectedTabPageIndex = 5;
+        }
+
+        private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
         }
     }
 }
