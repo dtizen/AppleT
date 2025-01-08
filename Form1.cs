@@ -203,6 +203,7 @@ namespace DXApplication1
 
         private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            this.xtraTabControl4.SelectedTabPageIndex = 0;
             this.xtraTabControl1.SelectedTabPageIndex = 9;
         }
     }
