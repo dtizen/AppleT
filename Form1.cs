@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace DXApplication1
 {
     public partial class Form1 : DevExpress.XtraBars.Ribbon.RibbonForm
@@ -14,7 +15,7 @@ namespace DXApplication1
         public Form1()
         {
             InitializeComponent();
-
+           
         }
 
         private void dashboardDesigner1_Load(object sender, EventArgs e)
