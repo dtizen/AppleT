@@ -63,6 +63,9 @@ namespace DXApplication1
             DevExpress.XtraEditors.TileItemElement tileItemElement30 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement31 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement32 = new DevExpress.XtraEditors.TileItemElement();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl8 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
@@ -226,52 +229,13 @@ namespace DXApplication1
             this.xtraTabPage22 = new DevExpress.XtraTab.XtraTabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
-            this.spinEdit2 = new DevExpress.XtraEditors.SpinEdit();
-            this.spinEdit3 = new DevExpress.XtraEditors.SpinEdit();
-            this.spinEdit4 = new DevExpress.XtraEditors.SpinEdit();
-            this.spinEdit5 = new DevExpress.XtraEditors.SpinEdit();
-            this.spinEdit6 = new DevExpress.XtraEditors.SpinEdit();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.xtraTabPage23 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage24 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage20 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage21 = new DevExpress.XtraTab.XtraTabPage();
-            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
-            this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.label29 = new System.Windows.Forms.Label();
+            this.spinEdit14 = new DevExpress.XtraEditors.SpinEdit();
             this.xtraTabControl5 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage25 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage26 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage27 = new DevExpress.XtraTab.XtraTabPage();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -288,10 +252,50 @@ namespace DXApplication1
             this.spinEdit13 = new DevExpress.XtraEditors.SpinEdit();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
-            this.spinEdit14 = new DevExpress.XtraEditors.SpinEdit();
-            this.label29 = new System.Windows.Forms.Label();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.xtraTabPage26 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage27 = new DevExpress.XtraTab.XtraTabPage();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit2 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit3 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit4 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit5 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit6 = new DevExpress.XtraEditors.SpinEdit();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.xtraTabPage23 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage24 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage20 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage21 = new DevExpress.XtraTab.XtraTabPage();
+            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
+            this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -341,6 +345,20 @@ namespace DXApplication1
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
+            this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).BeginInit();
+            this.xtraTabControl5.SuspendLayout();
+            this.xtraTabPage25.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -353,20 +371,8 @@ namespace DXApplication1
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).BeginInit();
-            this.xtraTabControl5.SuspendLayout();
-            this.xtraTabPage25.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
-            this.groupControl5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).BeginInit();
+            this.xtraTabPage23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -483,7 +489,7 @@ namespace DXApplication1
             this.backstageViewClientControl13.Location = new System.Drawing.Point(234, 0);
             this.backstageViewClientControl13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl13.Name = "backstageViewClientControl13";
-            this.backstageViewClientControl13.Size = new System.Drawing.Size(53, 19);
+            this.backstageViewClientControl13.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl13.TabIndex = 1;
             // 
             // backstageViewClientControl18
@@ -491,7 +497,7 @@ namespace DXApplication1
             this.backstageViewClientControl18.Location = new System.Drawing.Point(234, 0);
             this.backstageViewClientControl18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl18.Name = "backstageViewClientControl18";
-            this.backstageViewClientControl18.Size = new System.Drawing.Size(53, 19);
+            this.backstageViewClientControl18.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl18.TabIndex = 2;
             // 
             // backstageViewClientControl19
@@ -499,7 +505,7 @@ namespace DXApplication1
             this.backstageViewClientControl19.Location = new System.Drawing.Point(234, 0);
             this.backstageViewClientControl19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl19.Name = "backstageViewClientControl19";
-            this.backstageViewClientControl19.Size = new System.Drawing.Size(53, 19);
+            this.backstageViewClientControl19.Size = new System.Drawing.Size(27, 6);
             this.backstageViewClientControl19.TabIndex = 3;
             // 
             // backstageViewTabItem13
@@ -523,9 +529,9 @@ namespace DXApplication1
             // backstageViewClientControl1
             // 
             this.backstageViewClientControl1.Controls.Add(this.recentItemControl1);
-            this.backstageViewClientControl1.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl1.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl1.Name = "backstageViewClientControl1";
-            this.backstageViewClientControl1.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl1.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl1.TabIndex = 1;
             // 
             // recentItemControl1
@@ -553,10 +559,10 @@ namespace DXApplication1
             // backstageViewClientControl4
             // 
             this.backstageViewClientControl4.Controls.Add(this.recentItemControl2);
-            this.backstageViewClientControl4.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl4.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl4.Name = "backstageViewClientControl4";
-            this.backstageViewClientControl4.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl4.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl4.TabIndex = 4;
             // 
             // recentItemControl2
@@ -584,9 +590,9 @@ namespace DXApplication1
             // backstageViewClientControl2
             // 
             this.backstageViewClientControl2.Controls.Add(this.backstageViewControl3);
-            this.backstageViewClientControl2.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl2.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl2.Name = "backstageViewClientControl2";
-            this.backstageViewClientControl2.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl2.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl2.TabIndex = 2;
             // 
             // backstageViewControl3
@@ -603,7 +609,7 @@ namespace DXApplication1
             this.backstageViewControl3.Location = new System.Drawing.Point(0, 0);
             this.backstageViewControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl3.Name = "backstageViewControl3";
-            this.backstageViewControl3.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewControl3.Size = new System.Drawing.Size(278, 6);
             this.backstageViewControl3.TabIndex = 0;
             this.backstageViewControl3.Text = "backstageViewControl3";
             // 
@@ -612,7 +618,7 @@ namespace DXApplication1
             this.backstageViewClientControl14.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl14.Name = "backstageViewClientControl14";
-            this.backstageViewClientControl14.Size = new System.Drawing.Size(35, 19);
+            this.backstageViewClientControl14.Size = new System.Drawing.Size(42, 4);
             this.backstageViewClientControl14.TabIndex = 1;
             // 
             // backstageViewClientControl15
@@ -620,7 +626,7 @@ namespace DXApplication1
             this.backstageViewClientControl15.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl15.Name = "backstageViewClientControl15";
-            this.backstageViewClientControl15.Size = new System.Drawing.Size(35, 19);
+            this.backstageViewClientControl15.Size = new System.Drawing.Size(42, 4);
             this.backstageViewClientControl15.TabIndex = 2;
             // 
             // backstageViewClientControl16
@@ -628,7 +634,7 @@ namespace DXApplication1
             this.backstageViewClientControl16.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl16.Name = "backstageViewClientControl16";
-            this.backstageViewClientControl16.Size = new System.Drawing.Size(35, 19);
+            this.backstageViewClientControl16.Size = new System.Drawing.Size(42, 4);
             this.backstageViewClientControl16.TabIndex = 3;
             // 
             // backstageViewClientControl17
@@ -636,7 +642,7 @@ namespace DXApplication1
             this.backstageViewClientControl17.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl17.Name = "backstageViewClientControl17";
-            this.backstageViewClientControl17.Size = new System.Drawing.Size(35, 19);
+            this.backstageViewClientControl17.Size = new System.Drawing.Size(42, 4);
             this.backstageViewClientControl17.TabIndex = 4;
             // 
             // backstageViewTabItem14
@@ -666,10 +672,10 @@ namespace DXApplication1
             // backstageViewClientControl3
             // 
             this.backstageViewClientControl3.Controls.Add(this.backstageViewControl2);
-            this.backstageViewClientControl3.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl3.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl3.Name = "backstageViewClientControl3";
-            this.backstageViewClientControl3.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl3.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl3.TabIndex = 3;
             // 
             // backstageViewControl2
@@ -684,7 +690,7 @@ namespace DXApplication1
             this.backstageViewControl2.Location = new System.Drawing.Point(0, 0);
             this.backstageViewControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl2.Name = "backstageViewControl2";
-            this.backstageViewControl2.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewControl2.Size = new System.Drawing.Size(278, 6);
             this.backstageViewControl2.TabIndex = 0;
             this.backstageViewControl2.Text = "backstageViewControl2";
             // 
@@ -693,7 +699,7 @@ namespace DXApplication1
             this.backstageViewClientControl10.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl10.Name = "backstageViewClientControl10";
-            this.backstageViewClientControl10.Size = new System.Drawing.Size(30, 19);
+            this.backstageViewClientControl10.Size = new System.Drawing.Size(37, 4);
             this.backstageViewClientControl10.TabIndex = 1;
             // 
             // backstageViewClientControl11
@@ -701,7 +707,7 @@ namespace DXApplication1
             this.backstageViewClientControl11.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl11.Name = "backstageViewClientControl11";
-            this.backstageViewClientControl11.Size = new System.Drawing.Size(30, 19);
+            this.backstageViewClientControl11.Size = new System.Drawing.Size(37, 4);
             this.backstageViewClientControl11.TabIndex = 2;
             // 
             // backstageViewClientControl12
@@ -709,7 +715,7 @@ namespace DXApplication1
             this.backstageViewClientControl12.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl12.Name = "backstageViewClientControl12";
-            this.backstageViewClientControl12.Size = new System.Drawing.Size(30, 19);
+            this.backstageViewClientControl12.Size = new System.Drawing.Size(37, 4);
             this.backstageViewClientControl12.TabIndex = 3;
             // 
             // backstageViewTabItem10
@@ -732,34 +738,34 @@ namespace DXApplication1
             // 
             // backstageViewClientControl5
             // 
-            this.backstageViewClientControl5.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl5.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl5.Name = "backstageViewClientControl5";
-            this.backstageViewClientControl5.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl5.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl5.TabIndex = 5;
             // 
             // backstageViewClientControl6
             // 
-            this.backstageViewClientControl6.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl6.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl6.Name = "backstageViewClientControl6";
-            this.backstageViewClientControl6.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl6.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl6.TabIndex = 6;
             // 
             // backstageViewClientControl7
             // 
-            this.backstageViewClientControl7.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl7.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl7.Name = "backstageViewClientControl7";
-            this.backstageViewClientControl7.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl7.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl7.TabIndex = 7;
             // 
             // backstageViewClientControl9
             // 
-            this.backstageViewClientControl9.Location = new System.Drawing.Point(194, 63);
+            this.backstageViewClientControl9.Location = new System.Drawing.Point(194, 62);
             this.backstageViewClientControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl9.Name = "backstageViewClientControl9";
-            this.backstageViewClientControl9.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl9.Size = new System.Drawing.Size(278, 6);
             this.backstageViewClientControl9.TabIndex = 9;
             // 
             // backstageViewTabItem1
@@ -1150,7 +1156,7 @@ namespace DXApplication1
             this.xtraTabPage1.Controls.Add(this.tileControl1);
             this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1658, 603);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1658, 608);
             this.xtraTabPage1.Text = "ADMS Dashboard";
             // 
             // tileControl1
@@ -1168,7 +1174,7 @@ namespace DXApplication1
             this.tileControl1.Padding = new System.Windows.Forms.Padding(38, 34, 38, 34);
             this.tileControl1.ShowGroupText = true;
             this.tileControl1.ShowText = true;
-            this.tileControl1.Size = new System.Drawing.Size(1658, 603);
+            this.tileControl1.Size = new System.Drawing.Size(1658, 608);
             this.tileControl1.TabIndex = 0;
             this.tileControl1.Text = "ADMS Dashboard";
             // 
@@ -1560,7 +1566,7 @@ namespace DXApplication1
             this.tableLayoutPanel3.Controls.Add(this.gridControl2, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 5);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(5);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1625,7 +1631,7 @@ namespace DXApplication1
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(1166, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(487, 358);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1664,7 +1670,7 @@ namespace DXApplication1
             this.tableLayoutPanel4.Controls.Add(this.groupControl7, 3, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(5);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1686,7 +1692,7 @@ namespace DXApplication1
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(336, 5);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
@@ -1700,7 +1706,7 @@ namespace DXApplication1
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.InitialImage = null;
             this.pictureBox2.Location = new System.Drawing.Point(667, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(653, 598);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1867,7 +1873,7 @@ namespace DXApplication1
             // 
             this.xtraTabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl4.Location = new System.Drawing.Point(0, 0);
-            this.xtraTabControl4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.xtraTabControl4.Margin = new System.Windows.Forms.Padding(5);
             this.xtraTabControl4.Name = "xtraTabControl4";
             this.xtraTabControl4.SelectedTabPage = this.xtraTabPage22;
             this.xtraTabControl4.Size = new System.Drawing.Size(1658, 608);
@@ -1880,7 +1886,7 @@ namespace DXApplication1
             // xtraTabPage22
             // 
             this.xtraTabPage22.Controls.Add(this.tableLayoutPanel1);
-            this.xtraTabPage22.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.xtraTabPage22.Margin = new System.Windows.Forms.Padding(5);
             this.xtraTabPage22.Name = "xtraTabPage22";
             this.xtraTabPage22.Size = new System.Drawing.Size(1656, 584);
             this.xtraTabPage22.Text = "Parameters";
@@ -1915,363 +1921,54 @@ namespace DXApplication1
             this.groupControl3.TabIndex = 3;
             this.groupControl3.Text = "Data augmentation";
             // 
-            // groupControl2
+            // groupControl5
             // 
-            this.groupControl2.Controls.Add(this.tableLayoutPanel6);
-            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl2.Location = new System.Drawing.Point(559, 6);
-            this.groupControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(538, 572);
-            this.groupControl2.TabIndex = 2;
-            this.groupControl2.Text = "Dataset split";
+            this.groupControl5.Controls.Add(this.simpleButton1);
+            this.groupControl5.Controls.Add(this.label29);
+            this.groupControl5.Controls.Add(this.spinEdit14);
+            this.groupControl5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupControl5.Location = new System.Drawing.Point(2, 470);
+            this.groupControl5.Name = "groupControl5";
+            this.groupControl5.Size = new System.Drawing.Size(534, 100);
+            this.groupControl5.TabIndex = 1;
+            this.groupControl5.Text = "Training control";
             // 
-            // tableLayoutPanel6
+            // simpleButton1
             // 
-            this.tableLayoutPanel6.ColumnCount = 3;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel6.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit1, 1, 1);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit2, 2, 1);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit3, 1, 2);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit4, 2, 2);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit5, 1, 3);
-            this.tableLayoutPanel6.Controls.Add(this.spinEdit6, 2, 3);
-            this.tableLayoutPanel6.Controls.Add(this.label3, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.label4, 0, 2);
-            this.tableLayoutPanel6.Controls.Add(this.label5, 0, 3);
-            this.tableLayoutPanel6.Controls.Add(this.label6, 0, 4);
-            this.tableLayoutPanel6.Controls.Add(this.label7, 1, 4);
-            this.tableLayoutPanel6.Controls.Add(this.label8, 2, 4);
-            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(2, 23);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 5;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(534, 198);
-            this.tableLayoutPanel6.TabIndex = 0;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(399, 49);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(100, 35);
+            this.simpleButton1.TabIndex = 2;
+            this.simpleButton1.Text = "Train";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
-            // label1
+            // label29
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(183, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "#Image";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(23, 51);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(245, 29);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "Number of operations";
             // 
-            // label2
+            // spinEdit14
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(361, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 39);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Proportion";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // spinEdit1
-            // 
-            this.spinEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit1.EditValue = new decimal(new int[] {
+            this.spinEdit14.EditValue = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(183, 44);
-            this.spinEdit1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit1.MenuManager = this.ribbonControl1;
-            this.spinEdit1.Name = "spinEdit1";
-            this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit1.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.spinEdit14.Location = new System.Drawing.Point(299, 48);
+            this.spinEdit14.MenuManager = this.ribbonControl1;
+            this.spinEdit14.Name = "spinEdit14";
+            this.spinEdit14.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit14.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit14.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit1.TabIndex = 2;
-            // 
-            // spinEdit2
-            // 
-            this.spinEdit2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit2.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit2.Location = new System.Drawing.Point(361, 44);
-            this.spinEdit2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit2.MenuManager = this.ribbonControl1;
-            this.spinEdit2.Name = "spinEdit2";
-            this.spinEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit2.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit2.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit2.TabIndex = 3;
-            // 
-            // spinEdit3
-            // 
-            this.spinEdit3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit3.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit3.Location = new System.Drawing.Point(183, 83);
-            this.spinEdit3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit3.MenuManager = this.ribbonControl1;
-            this.spinEdit3.Name = "spinEdit3";
-            this.spinEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit3.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit3.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit3.TabIndex = 4;
-            // 
-            // spinEdit4
-            // 
-            this.spinEdit4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit4.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit4.Location = new System.Drawing.Point(361, 83);
-            this.spinEdit4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit4.MenuManager = this.ribbonControl1;
-            this.spinEdit4.Name = "spinEdit4";
-            this.spinEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit4.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit4.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit4.TabIndex = 5;
-            // 
-            // spinEdit5
-            // 
-            this.spinEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit5.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit5.Location = new System.Drawing.Point(183, 122);
-            this.spinEdit5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit5.MenuManager = this.ribbonControl1;
-            this.spinEdit5.Name = "spinEdit5";
-            this.spinEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit5.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit5.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit5.TabIndex = 6;
-            // 
-            // spinEdit6
-            // 
-            this.spinEdit6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.spinEdit6.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit6.Location = new System.Drawing.Point(361, 122);
-            this.spinEdit6.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.spinEdit6.MenuManager = this.ribbonControl1;
-            this.spinEdit6.Name = "spinEdit6";
-            this.spinEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit6.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit6.Size = new System.Drawing.Size(168, 28);
-            this.spinEdit6.TabIndex = 7;
-            // 
-            // groupControl1
-            // 
-            this.groupControl1.Controls.Add(this.tableLayoutPanel5);
-            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl1.Location = new System.Drawing.Point(7, 6);
-            this.groupControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(538, 572);
-            this.groupControl1.TabIndex = 1;
-            this.groupControl1.Text = "Current status";
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.81273F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.18727F));
-            this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label10, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label11, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label12, 0, 3);
-            this.tableLayoutPanel5.Controls.Add(this.label13, 0, 4);
-            this.tableLayoutPanel5.Controls.Add(this.label14, 0, 5);
-            this.tableLayoutPanel5.Controls.Add(this.label15, 0, 6);
-            this.tableLayoutPanel5.Controls.Add(this.label16, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label17, 1, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label18, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label19, 1, 4);
-            this.tableLayoutPanel5.Controls.Add(this.label20, 1, 5);
-            this.tableLayoutPanel5.Controls.Add(this.label21, 1, 6);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 23);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 7;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(534, 292);
-            this.tableLayoutPanel5.TabIndex = 0;
-            // 
-            // xtraTabPage23
-            // 
-            this.xtraTabPage23.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.xtraTabPage23.Name = "xtraTabPage23";
-            this.xtraTabPage23.Size = new System.Drawing.Size(1656, 584);
-            this.xtraTabPage23.Text = "Training";
-            // 
-            // xtraTabPage24
-            // 
-            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.xtraTabPage24.Name = "xtraTabPage24";
-            this.xtraTabPage24.Size = new System.Drawing.Size(1656, 584);
-            this.xtraTabPage24.Text = "Benchmark";
-            // 
-            // xtraTabPage20
-            // 
-            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.xtraTabPage20.Name = "xtraTabPage20";
-            this.xtraTabPage20.Size = new System.Drawing.Size(1658, 608);
-            this.xtraTabPage20.Text = "Tools";
-            // 
-            // xtraTabPage21
-            // 
-            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.xtraTabPage21.Name = "xtraTabPage21";
-            this.xtraTabPage21.Size = new System.Drawing.Size(1658, 608);
-            this.xtraTabPage21.Text = "Benchmark";
-            // 
-            // tileGroup3
-            // 
-            this.tileGroup3.Name = "tileGroup3";
-            this.tileGroup3.Text = "Holding";
-            // 
-            // ribbonPage6
-            // 
-            this.ribbonPage6.Name = "ribbonPage6";
-            this.ribbonPage6.Text = "ribbonPage6";
-            // 
-            // ribbonPageGroup9
-            // 
-            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
-            this.ribbonPageGroup9.Text = "AI Training";
-            // 
-            // ribbonPageGroup6
-            // 
-            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
-            this.ribbonPageGroup6.Text = "Projects";
-            // 
-            // ribbonPage5
-            // 
-            this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup6,
-            this.ribbonPageGroup9});
-            this.ribbonPage5.Name = "ribbonPage5";
-            this.ribbonPage5.Text = "AI Training";
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 39);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Trainig images";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 39);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Validation Images";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 39);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Test Images";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 156);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(172, 42);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Total";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(181, 156);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(172, 42);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "0";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Location = new System.Drawing.Point(359, 156);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(172, 42);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "0";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.spinEdit14.Size = new System.Drawing.Size(71, 36);
+            this.spinEdit14.TabIndex = 0;
             // 
             // xtraTabControl5
             // 
@@ -2292,18 +1989,6 @@ namespace DXApplication1
             this.xtraTabPage25.Name = "xtraTabPage25";
             this.xtraTabPage25.Size = new System.Drawing.Size(532, 400);
             this.xtraTabPage25.Text = "Geometry";
-            // 
-            // xtraTabPage26
-            // 
-            this.xtraTabPage26.Name = "xtraTabPage26";
-            this.xtraTabPage26.Size = new System.Drawing.Size(311, 518);
-            this.xtraTabPage26.Text = "Color/Luminosity";
-            // 
-            // xtraTabPage27
-            // 
-            this.xtraTabPage27.Name = "xtraTabPage27";
-            this.xtraTabPage27.Size = new System.Drawing.Size(311, 518);
-            this.xtraTabPage27.Text = "Noise";
             // 
             // tableLayoutPanel7
             // 
@@ -2341,162 +2026,6 @@ namespace DXApplication1
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel7.Size = new System.Drawing.Size(532, 390);
             this.tableLayoutPanel7.TabIndex = 0;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(259, 41);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Teminal :";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 41);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(259, 41);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "Recipe :";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(3, 82);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(259, 41);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Categorized images :";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 123);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(259, 41);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Categories";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(3, 164);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(259, 41);
-            this.label13.TabIndex = 18;
-            this.label13.Text = "OK :";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 205);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(259, 41);
-            this.label14.TabIndex = 19;
-            this.label14.Text = "Particle :";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label15.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(3, 246);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(259, 46);
-            this.label15.TabIndex = 20;
-            this.label15.Text = "Scratch :";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(268, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(263, 41);
-            this.label16.TabIndex = 21;
-            this.label16.Text = "ADMS001";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label17.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(268, 41);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(263, 41);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "001";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(268, 82);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(263, 41);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "000";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(268, 164);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(263, 41);
-            this.label19.TabIndex = 24;
-            this.label19.Text = "2000";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label20.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(268, 205);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(263, 41);
-            this.label20.TabIndex = 25;
-            this.label20.Text = "300";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(268, 246);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(263, 46);
-            this.label21.TabIndex = 26;
-            this.label21.Text = "200";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label22
             // 
@@ -2730,53 +2259,550 @@ namespace DXApplication1
             this.checkBox2.Text = "Horizontal flip";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // groupControl5
+            // xtraTabPage26
             // 
-            this.groupControl5.Controls.Add(this.simpleButton1);
-            this.groupControl5.Controls.Add(this.label29);
-            this.groupControl5.Controls.Add(this.spinEdit14);
-            this.groupControl5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl5.Location = new System.Drawing.Point(2, 470);
-            this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(534, 100);
-            this.groupControl5.TabIndex = 1;
-            this.groupControl5.Text = "Training control";
+            this.xtraTabPage26.Name = "xtraTabPage26";
+            this.xtraTabPage26.Size = new System.Drawing.Size(532, 400);
+            this.xtraTabPage26.Text = "Color/Luminosity";
             // 
-            // spinEdit14
+            // xtraTabPage27
             // 
-            this.spinEdit14.EditValue = new decimal(new int[] {
+            this.xtraTabPage27.Name = "xtraTabPage27";
+            this.xtraTabPage27.Size = new System.Drawing.Size(532, 400);
+            this.xtraTabPage27.Text = "Noise";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.tableLayoutPanel6);
+            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl2.Location = new System.Drawing.Point(559, 6);
+            this.groupControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(538, 572);
+            this.groupControl2.TabIndex = 2;
+            this.groupControl2.Text = "Dataset split";
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 3;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel6.Controls.Add(this.label1, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit1, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit2, 2, 1);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit3, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit4, 2, 2);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit5, 1, 3);
+            this.tableLayoutPanel6.Controls.Add(this.spinEdit6, 2, 3);
+            this.tableLayoutPanel6.Controls.Add(this.label3, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label4, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.label5, 0, 3);
+            this.tableLayoutPanel6.Controls.Add(this.label6, 0, 4);
+            this.tableLayoutPanel6.Controls.Add(this.label7, 1, 4);
+            this.tableLayoutPanel6.Controls.Add(this.label8, 2, 4);
+            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(2, 23);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 5;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(534, 198);
+            this.tableLayoutPanel6.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(183, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 39);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "#Image";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Location = new System.Drawing.Point(361, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(168, 39);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Proportion";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // spinEdit1
+            // 
+            this.spinEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit1.EditValue = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            this.spinEdit14.Location = new System.Drawing.Point(299, 48);
-            this.spinEdit14.MenuManager = this.ribbonControl1;
-            this.spinEdit14.Name = "spinEdit14";
-            this.spinEdit14.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit14.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit14.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.spinEdit1.Location = new System.Drawing.Point(183, 44);
+            this.spinEdit1.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit1.MenuManager = this.ribbonControl1;
+            this.spinEdit1.Name = "spinEdit1";
+            this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit1.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit14.Size = new System.Drawing.Size(71, 36);
-            this.spinEdit14.TabIndex = 0;
+            this.spinEdit1.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit1.TabIndex = 2;
             // 
-            // label29
+            // spinEdit2
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(23, 51);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(245, 29);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "Number of operations";
+            this.spinEdit2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit2.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit2.Location = new System.Drawing.Point(361, 44);
+            this.spinEdit2.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit2.MenuManager = this.ribbonControl1;
+            this.spinEdit2.Name = "spinEdit2";
+            this.spinEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit2.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit2.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit2.TabIndex = 3;
             // 
-            // simpleButton1
+            // spinEdit3
             // 
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(399, 49);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(100, 35);
-            this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Train";
+            this.spinEdit3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit3.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit3.Location = new System.Drawing.Point(183, 83);
+            this.spinEdit3.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit3.MenuManager = this.ribbonControl1;
+            this.spinEdit3.Name = "spinEdit3";
+            this.spinEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit3.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit3.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit3.TabIndex = 4;
+            // 
+            // spinEdit4
+            // 
+            this.spinEdit4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit4.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit4.Location = new System.Drawing.Point(361, 83);
+            this.spinEdit4.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit4.MenuManager = this.ribbonControl1;
+            this.spinEdit4.Name = "spinEdit4";
+            this.spinEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit4.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit4.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit4.TabIndex = 5;
+            // 
+            // spinEdit5
+            // 
+            this.spinEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit5.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit5.Location = new System.Drawing.Point(183, 122);
+            this.spinEdit5.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit5.MenuManager = this.ribbonControl1;
+            this.spinEdit5.Name = "spinEdit5";
+            this.spinEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit5.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit5.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit5.TabIndex = 6;
+            // 
+            // spinEdit6
+            // 
+            this.spinEdit6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit6.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit6.Location = new System.Drawing.Point(361, 122);
+            this.spinEdit6.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit6.MenuManager = this.ribbonControl1;
+            this.spinEdit6.Name = "spinEdit6";
+            this.spinEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit6.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit6.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit6.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(172, 39);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Trainig images";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(172, 39);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Validation Images";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(172, 39);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Test Images";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 156);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(172, 42);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Total";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Location = new System.Drawing.Point(181, 156);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(172, 42);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "0";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label8.Location = new System.Drawing.Point(359, 156);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(172, 42);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "0";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.tableLayoutPanel5);
+            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl1.Location = new System.Drawing.Point(7, 6);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(538, 572);
+            this.groupControl1.TabIndex = 1;
+            this.groupControl1.Text = "Current status";
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.81273F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.18727F));
+            this.tableLayoutPanel5.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label10, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label11, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label12, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label13, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.label14, 0, 5);
+            this.tableLayoutPanel5.Controls.Add(this.label15, 0, 6);
+            this.tableLayoutPanel5.Controls.Add(this.label16, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label17, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label18, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label19, 1, 4);
+            this.tableLayoutPanel5.Controls.Add(this.label20, 1, 5);
+            this.tableLayoutPanel5.Controls.Add(this.label21, 1, 6);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 23);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 7;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(534, 292);
+            this.tableLayoutPanel5.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(259, 41);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Teminal :";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(3, 41);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(259, 41);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "Recipe :";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(3, 82);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(259, 41);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "Categorized images :";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 123);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(259, 41);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Categories";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label13.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(3, 164);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(259, 41);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "OK :";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label14.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(3, 205);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(259, 41);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "Particle :";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label15.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(3, 246);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(259, 46);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "Scratch :";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(268, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(263, 41);
+            this.label16.TabIndex = 21;
+            this.label16.Text = "ADMS001";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(268, 41);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(263, 41);
+            this.label17.TabIndex = 22;
+            this.label17.Text = "001";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(268, 82);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(263, 41);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "000";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(268, 164);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(263, 41);
+            this.label19.TabIndex = 24;
+            this.label19.Text = "2000";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label20.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(268, 205);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(263, 41);
+            this.label20.TabIndex = 25;
+            this.label20.Text = "300";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(268, 246);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(263, 46);
+            this.label21.TabIndex = 26;
+            this.label21.Text = "200";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // xtraTabPage23
+            // 
+            this.xtraTabPage23.Controls.Add(this.chart1);
+            this.xtraTabPage23.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage23.Name = "xtraTabPage23";
+            this.xtraTabPage23.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage23.Text = "Training results";
+            // 
+            // xtraTabPage24
+            // 
+            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage24.Name = "xtraTabPage24";
+            this.xtraTabPage24.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage24.Text = "Benchmark";
+            // 
+            // xtraTabPage20
+            // 
+            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage20.Name = "xtraTabPage20";
+            this.xtraTabPage20.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage20.Text = "Tools";
+            // 
+            // xtraTabPage21
+            // 
+            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage21.Name = "xtraTabPage21";
+            this.xtraTabPage21.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage21.Text = "Benchmark";
+            // 
+            // tileGroup3
+            // 
+            this.tileGroup3.Name = "tileGroup3";
+            this.tileGroup3.Text = "Holding";
+            // 
+            // ribbonPage6
+            // 
+            this.ribbonPage6.Name = "ribbonPage6";
+            this.ribbonPage6.Text = "ribbonPage6";
+            // 
+            // ribbonPageGroup9
+            // 
+            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
+            this.ribbonPageGroup9.Text = "AI Training";
+            // 
+            // ribbonPageGroup6
+            // 
+            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
+            this.ribbonPageGroup6.Text = "Projects";
+            // 
+            // ribbonPage5
+            // 
+            this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup6,
+            this.ribbonPageGroup9});
+            this.ribbonPage5.Name = "ribbonPage5";
+            this.ribbonPage5.Text = "AI Training";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Black;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(0, 0);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(1656, 584);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
             // 
             // Form1
             // 
@@ -2840,6 +2866,22 @@ namespace DXApplication1
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
+            this.groupControl5.ResumeLayout(false);
+            this.groupControl5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).EndInit();
+            this.xtraTabControl5.ResumeLayout(false);
+            this.xtraTabPage25.ResumeLayout(false);
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
@@ -2854,22 +2896,8 @@ namespace DXApplication1
             this.groupControl1.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).EndInit();
-            this.xtraTabControl5.ResumeLayout(false);
-            this.xtraTabPage25.ResumeLayout(false);
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit10.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit11.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit12.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit13.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
-            this.groupControl5.ResumeLayout(false);
-            this.groupControl5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).EndInit();
+            this.xtraTabPage23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3106,6 +3134,7 @@ namespace DXApplication1
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.Label label29;
         private DevExpress.XtraEditors.SpinEdit spinEdit14;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }
 

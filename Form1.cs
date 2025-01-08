@@ -207,5 +207,10 @@ namespace DXApplication1
             this.xtraTabControl4.SelectedTabPageIndex = 0;
             this.xtraTabControl1.SelectedTabPageIndex = 9;
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            this.xtraTabControl4.SelectedTabPageIndex = 1;
+        }
     }
 }
