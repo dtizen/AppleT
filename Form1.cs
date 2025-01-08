@@ -208,18 +208,24 @@ namespace DXApplication1
             this.xtraTabControl1.SelectedTabPageIndex = 9;
         }
 
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-            marqueeProgressBarControl1.Visible = true;
-            this.timer1.Enabled = true;
-        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
 
             this.xtraTabControl4.SelectedTabPageIndex = 1;
-            marqueeProgressBarControl1.Visible = false;
+            marqueeProgressBarControl2.Visible = false;
             this.timer1.Enabled = false;
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            marqueeProgressBarControl2.Visible = true;
+            this.timer1.Enabled = true;
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            this.xtraTabControl4.SelectedTabPageIndex = 1;
         }
     }
 }

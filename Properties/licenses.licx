@@ -2,7 +2,9 @@ DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v24.2, Version=24.
 DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v24.2.UI, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraEditors.TileControl, DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.DashboardWin.DashboardDesigner, DevExpress.Dashboard.v24.2.Win, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.DashboardWin.DashboardViewer, DevExpress.Dashboard.v24.2.Win, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
 DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
