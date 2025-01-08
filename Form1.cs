@@ -86,8 +86,8 @@ namespace DXApplication1
 
         private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 6;
-            this.xtraTabControl2.SelectedTabPageIndex = 0;
+            this.xtraTabControl4.SelectedTabPageIndex = 0;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
         }
 
         private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -197,6 +197,12 @@ namespace DXApplication1
         }
 
         private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.xtraTabControl4.SelectedTabPageIndex = 0;
+            this.xtraTabControl1.SelectedTabPageIndex = 9;
+        }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             this.xtraTabControl4.SelectedTabPageIndex = 0;
             this.xtraTabControl1.SelectedTabPageIndex = 9;
