@@ -15,7 +15,7 @@ namespace DXApplication1
         public Form1()
         {
             InitializeComponent();
-           
+
         }
 
         private void dashboardDesigner1_Load(object sender, EventArgs e)
@@ -81,7 +81,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = true;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-           
+
         }
 
         private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -97,7 +97,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = true;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-           
+
         }
 
         private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -121,7 +121,7 @@ namespace DXApplication1
             this.xtraTabControl1.SelectedTabPageIndex = 3;
         }
 
-       
+
 
         private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -135,7 +135,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = true;
             this.groupControl3.ShowCaption = false;
-            
+
         }
 
         private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -145,13 +145,13 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = true;
-           
+
         }
 
         private void barButtonItem21_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             this.xtraTabControl1.SelectedTabPageIndex = 10;
-           
+
         }
 
         private void barButtonItem22_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -161,7 +161,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-           
+
         }
 
         private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -171,7 +171,7 @@ namespace DXApplication1
             this.groupControl1.ShowCaption = false;
             this.groupControl2.ShowCaption = false;
             this.groupControl3.ShowCaption = false;
-          
+
         }
 
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -210,7 +210,16 @@ namespace DXApplication1
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
+            marqueeProgressBarControl1.Visible = true;
+            this.timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
             this.xtraTabControl4.SelectedTabPageIndex = 1;
+            marqueeProgressBarControl1.Visible = false;
+            this.timer1.Enabled = false;
         }
     }
 }
