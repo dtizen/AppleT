@@ -1345,6 +1345,8 @@ namespace DXApplication1
             // 
             // tileItem9
             // 
+            this.tileItem9.AppearanceItem.Normal.BackColor = System.Drawing.Color.Blue;
+            this.tileItem9.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement11.Text = "tileItem9";
             this.tileItem9.Elements.Add(tileItemElement11);
             this.tileItem9.Id = 15;
