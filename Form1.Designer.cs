@@ -1276,6 +1276,8 @@ namespace DXApplication1
             // 
             // tileItem5
             // 
+            this.tileItem5.AppearanceItem.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tileItem5.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement6.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
             tileItemElement6.Appearance.Hovered.Options.UseFont = true;
             tileItemElement6.Appearance.Hovered.Options.UseTextOptions = true;
