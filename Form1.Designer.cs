@@ -1345,6 +1345,8 @@ namespace DXApplication1
             // 
             // tileItem9
             // 
+            this.tileItem9.AppearanceItem.Normal.BackColor = System.Drawing.Color.Blue;
+            this.tileItem9.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement11.Text = "tileItem9";
             this.tileItem9.Elements.Add(tileItemElement11);
             this.tileItem9.Id = 15;
@@ -1369,6 +1371,8 @@ namespace DXApplication1
             // 
             // tileItem6
             // 
+            this.tileItem6.AppearanceItem.Normal.BackColor = System.Drawing.Color.Maroon;
+            this.tileItem6.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement14.Text = "tileItem6";
             this.tileItem6.Elements.Add(tileItemElement14);
             this.tileItem6.Id = 18;
