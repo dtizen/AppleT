@@ -1205,6 +1205,8 @@ namespace DXApplication1
             // 
             // tileItem2
             // 
+            this.tileItem2.AppearanceItem.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.tileItem2.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement1.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
             tileItemElement1.Appearance.Hovered.Options.UseFont = true;
             tileItemElement1.Appearance.Hovered.Options.UseTextOptions = true;
@@ -1274,6 +1276,8 @@ namespace DXApplication1
             // 
             // tileItem5
             // 
+            this.tileItem5.AppearanceItem.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.tileItem5.AppearanceItem.Normal.Options.UseBackColor = true;
             tileItemElement6.Appearance.Hovered.Font = new System.Drawing.Font("Segoe UI Light", 17F);
             tileItemElement6.Appearance.Hovered.Options.UseFont = true;
             tileItemElement6.Appearance.Hovered.Options.UseTextOptions = true;
