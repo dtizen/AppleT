@@ -251,6 +251,7 @@ namespace DXApplication1
             this.xtraTabPage26 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage27 = new DevExpress.XtraTab.XtraTabPage();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -282,24 +283,26 @@ namespace DXApplication1
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.xtraTabPage23 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage24 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage20 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage21 = new DevExpress.XtraTab.XtraTabPage();
-            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
-            this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.groupControl10 = new DevExpress.XtraEditors.GroupControl();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.groupControl11 = new DevExpress.XtraEditors.GroupControl();
+            this.marqueeProgressBarControl2 = new DevExpress.XtraEditors.MarqueeProgressBarControl();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.label43 = new System.Windows.Forms.Label();
+            this.spinEdit17 = new DevExpress.XtraEditors.SpinEdit();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.groupControl8 = new DevExpress.XtraEditors.GroupControl();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.comboBoxEdit5 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.label42 = new System.Windows.Forms.Label();
+            this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -316,19 +319,16 @@ namespace DXApplication1
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.comboBoxEdit5 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.label42 = new System.Windows.Forms.Label();
-            this.groupControl8 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl10 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl11 = new DevExpress.XtraEditors.GroupControl();
-            this.marqueeProgressBarControl2 = new DevExpress.XtraEditors.MarqueeProgressBarControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.label43 = new System.Windows.Forms.Label();
-            this.spinEdit17 = new DevExpress.XtraEditors.SpinEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.xtraTabPage24 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage20 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage21 = new DevExpress.XtraTab.XtraTabPage();
+            this.tileGroup3 = new DevExpress.XtraEditors.TileGroup();
+            this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -402,11 +402,23 @@ namespace DXApplication1
             this.groupControl1.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.xtraTabPage23.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tableLayoutPanel8.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).BeginInit();
+            this.groupControl10.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).BeginInit();
+            this.groupControl11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl8)).BeginInit();
+            this.groupControl8.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).BeginInit();
+            this.groupControl9.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
@@ -414,18 +426,6 @@ namespace DXApplication1
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinEdit15.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinEdit16.Properties)).BeginInit();
-            this.tableLayoutPanel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl8)).BeginInit();
-            this.groupControl8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).BeginInit();
-            this.groupControl9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).BeginInit();
-            this.groupControl10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).BeginInit();
-            this.groupControl11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -671,7 +671,7 @@ namespace DXApplication1
             this.backstageViewClientControl14.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl14.Name = "backstageViewClientControl14";
-            this.backstageViewClientControl14.Size = new System.Drawing.Size(42, 4);
+            this.backstageViewClientControl14.Size = new System.Drawing.Size(43, 6);
             this.backstageViewClientControl14.TabIndex = 1;
             // 
             // backstageViewClientControl15
@@ -679,7 +679,7 @@ namespace DXApplication1
             this.backstageViewClientControl15.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl15.Name = "backstageViewClientControl15";
-            this.backstageViewClientControl15.Size = new System.Drawing.Size(42, 4);
+            this.backstageViewClientControl15.Size = new System.Drawing.Size(43, 6);
             this.backstageViewClientControl15.TabIndex = 2;
             // 
             // backstageViewClientControl16
@@ -687,7 +687,7 @@ namespace DXApplication1
             this.backstageViewClientControl16.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl16.Name = "backstageViewClientControl16";
-            this.backstageViewClientControl16.Size = new System.Drawing.Size(42, 4);
+            this.backstageViewClientControl16.Size = new System.Drawing.Size(43, 6);
             this.backstageViewClientControl16.TabIndex = 3;
             // 
             // backstageViewClientControl17
@@ -695,7 +695,7 @@ namespace DXApplication1
             this.backstageViewClientControl17.Location = new System.Drawing.Point(218, 0);
             this.backstageViewClientControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl17.Name = "backstageViewClientControl17";
-            this.backstageViewClientControl17.Size = new System.Drawing.Size(42, 4);
+            this.backstageViewClientControl17.Size = new System.Drawing.Size(43, 6);
             this.backstageViewClientControl17.TabIndex = 4;
             // 
             // backstageViewTabItem14
@@ -752,7 +752,7 @@ namespace DXApplication1
             this.backstageViewClientControl10.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl10.Name = "backstageViewClientControl10";
-            this.backstageViewClientControl10.Size = new System.Drawing.Size(37, 4);
+            this.backstageViewClientControl10.Size = new System.Drawing.Size(38, 6);
             this.backstageViewClientControl10.TabIndex = 1;
             // 
             // backstageViewClientControl11
@@ -760,7 +760,7 @@ namespace DXApplication1
             this.backstageViewClientControl11.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl11.Name = "backstageViewClientControl11";
-            this.backstageViewClientControl11.Size = new System.Drawing.Size(37, 4);
+            this.backstageViewClientControl11.Size = new System.Drawing.Size(38, 6);
             this.backstageViewClientControl11.TabIndex = 2;
             // 
             // backstageViewClientControl12
@@ -768,7 +768,7 @@ namespace DXApplication1
             this.backstageViewClientControl12.Location = new System.Drawing.Point(223, 0);
             this.backstageViewClientControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewClientControl12.Name = "backstageViewClientControl12";
-            this.backstageViewClientControl12.Size = new System.Drawing.Size(37, 4);
+            this.backstageViewClientControl12.Size = new System.Drawing.Size(38, 6);
             this.backstageViewClientControl12.TabIndex = 3;
             // 
             // backstageViewTabItem10
@@ -1765,6 +1765,7 @@ namespace DXApplication1
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // groupControl7
             // 
@@ -2267,13 +2268,13 @@ namespace DXApplication1
             // xtraTabPage26
             // 
             this.xtraTabPage26.Name = "xtraTabPage26";
-            this.xtraTabPage26.Size = new System.Drawing.Size(532, 400);
+            this.xtraTabPage26.Size = new System.Drawing.Size(532, 523);
             this.xtraTabPage26.Text = "Color/Luminosity";
             // 
             // xtraTabPage27
             // 
             this.xtraTabPage27.Name = "xtraTabPage27";
-            this.xtraTabPage27.Size = new System.Drawing.Size(532, 400);
+            this.xtraTabPage27.Size = new System.Drawing.Size(532, 523);
             this.xtraTabPage27.Text = "Noise";
             // 
             // groupControl2
@@ -2287,6 +2288,18 @@ namespace DXApplication1
             this.groupControl2.Size = new System.Drawing.Size(538, 572);
             this.groupControl2.TabIndex = 2;
             this.groupControl2.Text = "Dataset split";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.simpleButton1.Location = new System.Drawing.Point(2, 527);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(534, 43);
+            this.simpleButton1.TabIndex = 2;
+            this.simpleButton1.Text = "Training";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // tableLayoutPanel6
             // 
@@ -2737,84 +2750,6 @@ namespace DXApplication1
             this.xtraTabPage23.Size = new System.Drawing.Size(1656, 584);
             this.xtraTabPage23.Text = "Training results";
             // 
-            // xtraTabPage24
-            // 
-            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(5);
-            this.xtraTabPage24.Name = "xtraTabPage24";
-            this.xtraTabPage24.Size = new System.Drawing.Size(1656, 584);
-            this.xtraTabPage24.Text = "Benchmark";
-            // 
-            // xtraTabPage20
-            // 
-            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.xtraTabPage20.Name = "xtraTabPage20";
-            this.xtraTabPage20.Size = new System.Drawing.Size(1658, 608);
-            this.xtraTabPage20.Text = "Tools";
-            // 
-            // xtraTabPage21
-            // 
-            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.xtraTabPage21.Name = "xtraTabPage21";
-            this.xtraTabPage21.Size = new System.Drawing.Size(1658, 608);
-            this.xtraTabPage21.Text = "Benchmark";
-            // 
-            // tileGroup3
-            // 
-            this.tileGroup3.Name = "tileGroup3";
-            this.tileGroup3.Text = "Holding";
-            // 
-            // ribbonPage6
-            // 
-            this.ribbonPage6.Name = "ribbonPage6";
-            this.ribbonPage6.Text = "ribbonPage6";
-            // 
-            // ribbonPageGroup9
-            // 
-            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
-            this.ribbonPageGroup9.Text = "AI Training";
-            // 
-            // ribbonPageGroup6
-            // 
-            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
-            this.ribbonPageGroup6.Text = "Projects";
-            // 
-            // ribbonPage5
-            // 
-            this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup6,
-            this.ribbonPageGroup9});
-            this.ribbonPage5.Name = "ribbonPage5";
-            this.ribbonPage5.Text = "AI Training";
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // chart1
-            // 
-            this.chart1.BackColor = System.Drawing.Color.Black;
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(0, 0);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(1378, 276);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 3000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // tableLayoutPanel8
             // 
             this.tableLayoutPanel8.ColumnCount = 4;
@@ -2847,15 +2782,15 @@ namespace DXApplication1
             this.panel1.Size = new System.Drawing.Size(266, 558);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // groupControl10
             // 
-            this.tableLayoutPanel8.SetColumnSpan(this.panel2, 3);
-            this.panel2.Controls.Add(this.chart1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(275, 285);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1378, 276);
-            this.panel2.TabIndex = 1;
+            this.groupControl10.Controls.Add(this.panel3);
+            this.groupControl10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl10.Location = new System.Drawing.Point(0, 0);
+            this.groupControl10.Name = "groupControl10";
+            this.groupControl10.Size = new System.Drawing.Size(266, 558);
+            this.groupControl10.TabIndex = 0;
+            this.groupControl10.Text = "Tools";
             // 
             // panel3
             // 
@@ -2868,15 +2803,14 @@ namespace DXApplication1
             this.panel3.Size = new System.Drawing.Size(262, 57);
             this.panel3.TabIndex = 0;
             // 
-            // label30
+            // label32
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(7, 7);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(42, 16);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "Tool1";
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(7, 33);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(69, 14);
+            this.label32.TabIndex = 2;
+            this.label32.Text = "Not trained";
             // 
             // label31
             // 
@@ -2887,14 +2821,176 @@ namespace DXApplication1
             this.label31.TabIndex = 1;
             this.label31.Text = "created on 2025-01-01";
             // 
-            // label32
+            // label30
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(7, 33);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(69, 14);
-            this.label32.TabIndex = 2;
-            this.label32.Text = "Not trained";
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(7, 7);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(41, 16);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Tool1";
+            // 
+            // groupControl11
+            // 
+            this.groupControl11.Controls.Add(this.marqueeProgressBarControl2);
+            this.groupControl11.Controls.Add(this.simpleButton3);
+            this.groupControl11.Controls.Add(this.label43);
+            this.groupControl11.Controls.Add(this.spinEdit17);
+            this.groupControl11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl11.Location = new System.Drawing.Point(1159, 3);
+            this.groupControl11.Name = "groupControl11";
+            this.groupControl11.Size = new System.Drawing.Size(494, 276);
+            this.groupControl11.TabIndex = 9;
+            this.groupControl11.Text = "Training control";
+            // 
+            // marqueeProgressBarControl2
+            // 
+            this.marqueeProgressBarControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.marqueeProgressBarControl2.EditValue = 0;
+            this.marqueeProgressBarControl2.Location = new System.Drawing.Point(32, 243);
+            this.marqueeProgressBarControl2.MenuManager = this.ribbonControl1;
+            this.marqueeProgressBarControl2.Name = "marqueeProgressBarControl2";
+            this.marqueeProgressBarControl2.Size = new System.Drawing.Size(338, 18);
+            this.marqueeProgressBarControl2.TabIndex = 3;
+            this.marqueeProgressBarControl2.Visible = false;
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.simpleButton3.Location = new System.Drawing.Point(387, 236);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(100, 35);
+            this.simpleButton3.TabIndex = 2;
+            this.simpleButton3.Text = "Train";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(23, 51);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(245, 29);
+            this.label43.TabIndex = 1;
+            this.label43.Text = "Number of operations";
+            // 
+            // spinEdit17
+            // 
+            this.spinEdit17.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit17.Location = new System.Drawing.Point(299, 48);
+            this.spinEdit17.MenuManager = this.ribbonControl1;
+            this.spinEdit17.Name = "spinEdit17";
+            this.spinEdit17.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit17.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit17.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit17.Size = new System.Drawing.Size(71, 36);
+            this.spinEdit17.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.tableLayoutPanel8.SetColumnSpan(this.panel2, 3);
+            this.panel2.Controls.Add(this.chart1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(275, 285);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1378, 276);
+            this.panel2.TabIndex = 1;
+            // 
+            // chart1
+            // 
+            this.chart1.BackColor = System.Drawing.Color.Black;
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
+            this.chart1.Location = new System.Drawing.Point(0, 0);
+            this.chart1.Name = "chart1";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
+            this.chart1.Size = new System.Drawing.Size(1378, 276);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
+            // groupControl8
+            // 
+            this.groupControl8.Controls.Add(this.tableLayoutPanel10);
+            this.groupControl8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl8.Location = new System.Drawing.Point(716, 3);
+            this.groupControl8.Name = "groupControl8";
+            this.groupControl8.Size = new System.Drawing.Size(437, 276);
+            this.groupControl8.TabIndex = 5;
+            this.groupControl8.Text = "Dataset split";
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.24714F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.75286F));
+            this.tableLayoutPanel10.Controls.Add(this.comboBoxEdit5, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.simpleButton2, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.label42, 0, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(2, 23);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 2;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(433, 70);
+            this.tableLayoutPanel10.TabIndex = 3;
+            // 
+            // comboBoxEdit5
+            // 
+            this.comboBoxEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit5.Location = new System.Drawing.Point(73, 3);
+            this.comboBoxEdit5.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit5.Name = "comboBoxEdit5";
+            this.comboBoxEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit5.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit5.Size = new System.Drawing.Size(357, 24);
+            this.comboBoxEdit5.TabIndex = 0;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.simpleButton2.Location = new System.Drawing.Point(73, 38);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(357, 29);
+            this.simpleButton2.TabIndex = 1;
+            this.simpleButton2.Text = "New random split";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label42.Location = new System.Drawing.Point(3, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(64, 35);
+            this.label42.TabIndex = 2;
+            this.label42.Text = "Split:";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // groupControl9
+            // 
+            this.groupControl9.Controls.Add(this.tableLayoutPanel9);
+            this.groupControl9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl9.Location = new System.Drawing.Point(275, 3);
+            this.groupControl9.Name = "groupControl9";
+            this.groupControl9.Size = new System.Drawing.Size(435, 276);
+            this.groupControl9.TabIndex = 6;
+            this.groupControl9.Tag = "";
+            this.groupControl9.Text = "Unsupervised segmenter properties";
             // 
             // tableLayoutPanel9
             // 
@@ -3131,159 +3227,65 @@ namespace DXApplication1
             this.label41.TabIndex = 15;
             this.label41.Text = "-";
             // 
-            // tableLayoutPanel10
+            // xtraTabPage24
             // 
-            this.tableLayoutPanel10.ColumnCount = 2;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.24714F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.75286F));
-            this.tableLayoutPanel10.Controls.Add(this.comboBoxEdit5, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.simpleButton2, 1, 1);
-            this.tableLayoutPanel10.Controls.Add(this.label42, 0, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(2, 23);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 2;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(433, 70);
-            this.tableLayoutPanel10.TabIndex = 3;
+            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage24.Name = "xtraTabPage24";
+            this.xtraTabPage24.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage24.Text = "Benchmark";
             // 
-            // comboBoxEdit5
+            // xtraTabPage20
             // 
-            this.comboBoxEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBoxEdit5.Location = new System.Drawing.Point(73, 3);
-            this.comboBoxEdit5.MenuManager = this.ribbonControl1;
-            this.comboBoxEdit5.Name = "comboBoxEdit5";
-            this.comboBoxEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit5.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit5.Size = new System.Drawing.Size(357, 24);
-            this.comboBoxEdit5.TabIndex = 0;
+            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage20.Name = "xtraTabPage20";
+            this.xtraTabPage20.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage20.Text = "Tools";
             // 
-            // simpleButton2
+            // xtraTabPage21
             // 
-            this.simpleButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton2.Location = new System.Drawing.Point(73, 38);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(357, 29);
-            this.simpleButton2.TabIndex = 1;
-            this.simpleButton2.Text = "New random split";
+            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage21.Name = "xtraTabPage21";
+            this.xtraTabPage21.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage21.Text = "Benchmark";
             // 
-            // label42
+            // tileGroup3
             // 
-            this.label42.AutoSize = true;
-            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label42.Location = new System.Drawing.Point(3, 0);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(64, 35);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Split:";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.tileGroup3.Name = "tileGroup3";
+            this.tileGroup3.Text = "Holding";
             // 
-            // groupControl8
+            // ribbonPage6
             // 
-            this.groupControl8.Controls.Add(this.tableLayoutPanel10);
-            this.groupControl8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl8.Location = new System.Drawing.Point(716, 3);
-            this.groupControl8.Name = "groupControl8";
-            this.groupControl8.Size = new System.Drawing.Size(437, 276);
-            this.groupControl8.TabIndex = 5;
-            this.groupControl8.Text = "Dataset split";
+            this.ribbonPage6.Name = "ribbonPage6";
+            this.ribbonPage6.Text = "ribbonPage6";
             // 
-            // groupControl9
+            // ribbonPageGroup9
             // 
-            this.groupControl9.Controls.Add(this.tableLayoutPanel9);
-            this.groupControl9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl9.Location = new System.Drawing.Point(275, 3);
-            this.groupControl9.Name = "groupControl9";
-            this.groupControl9.Size = new System.Drawing.Size(435, 276);
-            this.groupControl9.TabIndex = 6;
-            this.groupControl9.Tag = "";
-            this.groupControl9.Text = "Unsupervised segmenter properties";
+            this.ribbonPageGroup9.Name = "ribbonPageGroup9";
+            this.ribbonPageGroup9.Text = "AI Training";
             // 
-            // groupControl10
+            // ribbonPageGroup6
             // 
-            this.groupControl10.Controls.Add(this.panel3);
-            this.groupControl10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl10.Location = new System.Drawing.Point(0, 0);
-            this.groupControl10.Name = "groupControl10";
-            this.groupControl10.Size = new System.Drawing.Size(266, 558);
-            this.groupControl10.TabIndex = 0;
-            this.groupControl10.Text = "Tools";
+            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
+            this.ribbonPageGroup6.Text = "Projects";
             // 
-            // groupControl11
+            // ribbonPage5
             // 
-            this.groupControl11.Controls.Add(this.marqueeProgressBarControl2);
-            this.groupControl11.Controls.Add(this.simpleButton3);
-            this.groupControl11.Controls.Add(this.label43);
-            this.groupControl11.Controls.Add(this.spinEdit17);
-            this.groupControl11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl11.Location = new System.Drawing.Point(1159, 3);
-            this.groupControl11.Name = "groupControl11";
-            this.groupControl11.Size = new System.Drawing.Size(494, 276);
-            this.groupControl11.TabIndex = 9;
-            this.groupControl11.Text = "Training control";
+            this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup6,
+            this.ribbonPageGroup9});
+            this.ribbonPage5.Name = "ribbonPage5";
+            this.ribbonPage5.Text = "AI Training";
             // 
-            // marqueeProgressBarControl2
+            // imageList1
             // 
-            this.marqueeProgressBarControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.marqueeProgressBarControl2.Location = new System.Drawing.Point(32, 243);
-            this.marqueeProgressBarControl2.MenuManager = this.ribbonControl1;
-            this.marqueeProgressBarControl2.Name = "marqueeProgressBarControl2";
-            this.marqueeProgressBarControl2.Size = new System.Drawing.Size(338, 18);
-            this.marqueeProgressBarControl2.TabIndex = 3;
-            this.marqueeProgressBarControl2.Visible = false;
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // simpleButton3
+            // timer1
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(387, 236);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(100, 35);
-            this.simpleButton3.TabIndex = 2;
-            this.simpleButton3.Text = "Train";
-            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(23, 51);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(245, 29);
-            this.label43.TabIndex = 1;
-            this.label43.Text = "Number of operations";
-            // 
-            // spinEdit17
-            // 
-            this.spinEdit17.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit17.Location = new System.Drawing.Point(299, 48);
-            this.spinEdit17.MenuManager = this.ribbonControl1;
-            this.spinEdit17.Name = "spinEdit17";
-            this.spinEdit17.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.spinEdit17.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit17.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit17.Size = new System.Drawing.Size(71, 36);
-            this.spinEdit17.TabIndex = 0;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.simpleButton1.Location = new System.Drawing.Point(2, 527);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(534, 43);
-            this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Training";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -3374,12 +3376,26 @@ namespace DXApplication1
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             this.xtraTabPage23.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.tableLayoutPanel8.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).EndInit();
+            this.groupControl10.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).EndInit();
+            this.groupControl11.ResumeLayout(false);
+            this.groupControl11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl8)).EndInit();
+            this.groupControl8.ResumeLayout(false);
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).EndInit();
+            this.groupControl9.ResumeLayout(false);
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
@@ -3388,20 +3404,6 @@ namespace DXApplication1
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinEdit15.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinEdit16.Properties)).EndInit();
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.tableLayoutPanel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl8)).EndInit();
-            this.groupControl8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).EndInit();
-            this.groupControl9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl10)).EndInit();
-            this.groupControl10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl11)).EndInit();
-            this.groupControl11.ResumeLayout(false);
-            this.groupControl11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

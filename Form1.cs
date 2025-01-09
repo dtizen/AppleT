@@ -227,5 +227,10 @@ namespace DXApplication1
         {
             this.xtraTabControl4.SelectedTabPageIndex = 1;
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
