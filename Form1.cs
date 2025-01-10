@@ -210,7 +210,7 @@ namespace DXApplication1
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            this.xtraTabControl4.SelectedTabPageIndex = 1;
+            this.xtraTabControl1.SelectedTabPageIndex = 3;
         }
     }
 }
