@@ -55,6 +55,8 @@ namespace DXApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: 이 코드는 데이터를 'jungwonDataSet.jw_manage' 테이블에 로드합니다. 필요 시 이 코드를 이동하거나 제거할 수 있습니다.
+            this.jw_manageTableAdapter.Fill(this.jungwonDataSet.jw_manage);
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
         }
 
@@ -210,7 +212,12 @@ namespace DXApplication1
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            this.xtraTabControl1.SelectedTabPageIndex = 3;
+            this.xtraTabControl1.SelectedTabPageIndex = 10;
+        }
+
+        private void addIndicatorBarItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
     }
 }
