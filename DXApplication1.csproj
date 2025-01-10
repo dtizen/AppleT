@@ -84,6 +84,10 @@
     <Reference Include="DevExpress.XtraTreeList.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeMap.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeMap.v24.2.UI, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Open_eVision_NetApi, Version=24.10.1.31748, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Open_eVision_NetApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
@@ -116,6 +120,11 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="jungwonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jungwonDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -138,6 +147,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="App.config" />
+    <None Include="jungwonDataSet.xsc">
+      <DependentUpon>jungwonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jungwonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jungwonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jungwonDataSet.xss">
+      <DependentUpon>jungwonDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
