@@ -143,12 +143,12 @@ namespace DXApplication1
             DevExpress.XtraCharts.UI.CreateBoxPlotChartItem createBoxPlotChartItem1 = new DevExpress.XtraCharts.UI.CreateBoxPlotChartItem();
             DevExpress.Skins.SkinPaddingEdges skinPaddingEdges1 = new DevExpress.Skins.SkinPaddingEdges();
             DevExpress.Skins.SkinPaddingEdges skinPaddingEdges2 = new DevExpress.Skins.SkinPaddingEdges();
+            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem7 = new DevExpress.XtraCharts.ChartIntervalItem();
+            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem8 = new DevExpress.XtraCharts.ChartIntervalItem();
+            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem9 = new DevExpress.XtraCharts.ChartIntervalItem();
             DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem1 = new DevExpress.XtraCharts.ChartIntervalItem();
             DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem2 = new DevExpress.XtraCharts.ChartIntervalItem();
             DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem3 = new DevExpress.XtraCharts.ChartIntervalItem();
-            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem4 = new DevExpress.XtraCharts.ChartIntervalItem();
-            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem5 = new DevExpress.XtraCharts.ChartIntervalItem();
-            DevExpress.XtraCharts.ChartIntervalItem chartIntervalItem6 = new DevExpress.XtraCharts.ChartIntervalItem();
             DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
@@ -512,6 +512,38 @@ namespace DXApplication1
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.jw_manageTableAdapter = new DXApplication1.jungwonDataSetTableAdapters.jw_manageTableAdapter();
             this.chartBarController1 = new DevExpress.XtraCharts.UI.ChartBarController(this.components);
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.spinEdit17 = new DevExpress.XtraEditors.SpinEdit();
+            this.spinEdit18 = new DevExpress.XtraEditors.SpinEdit();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit5 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit6 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.comboBoxEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.label38 = new System.Windows.Forms.Label();
+            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton15 = new DevExpress.XtraEditors.SimpleButton();
+            this.spinEdit14 = new DevExpress.XtraEditors.SpinEdit();
+            this.label39 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -628,17 +660,33 @@ namespace DXApplication1
             this.groupControl11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).BeginInit();
+            this.groupControl12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).BeginInit();
+            this.groupControl13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl14)).BeginInit();
+            this.groupControl14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl15)).BeginInit();
             this.groupControl15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartBarController1)).BeginInit();
+            this.tableLayoutPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit18.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).BeginInit();
+            this.tableLayoutPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).BeginInit();
+            this.tableLayoutPanel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControl1
             // 
             this.ribbonControl1.ApplicationButtonDropDownControl = this.backstageViewControl1;
-            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(84, 78, 84, 78);
+            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(96, 100, 96, 100);
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.ItemPanelStyle = DevExpress.XtraBars.Ribbon.RibbonItemPanelStyle.Classic;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
@@ -714,12 +762,12 @@ namespace DXApplication1
             this.addVerticalConstantLineBarItem1,
             this.addHorizontalConstantLineBarItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.ribbonControl1.MaxItemId = 71;
             this.ribbonControl1.MiniToolbars.Add(this.ribbonMiniToolbar1);
             this.ribbonControl1.MiniToolbars.Add(this.ribbonMiniToolbar2);
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.OptionsMenuMinWidth = 940;
+            this.ribbonControl1.OptionsMenuMinWidth = 1074;
             this.ribbonControl1.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.chartRibbonPageCategory1});
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -733,7 +781,7 @@ namespace DXApplication1
             this.selectAxisMeasureUnitRepositoryItemComboBox1,
             this.selectPeriodRepositoryItemComboBox1});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2019;
-            this.ribbonControl1.Size = new System.Drawing.Size(1660, 161);
+            this.ribbonControl1.Size = new System.Drawing.Size(1897, 200);
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // backstageViewControl1
@@ -756,12 +804,13 @@ namespace DXApplication1
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem7);
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem8);
             this.backstageViewControl1.Items.Add(this.backstageViewTabItem9);
-            this.backstageViewControl1.Location = new System.Drawing.Point(1143, 70);
+            this.backstageViewControl1.Location = new System.Drawing.Point(1306, 90);
+            this.backstageViewControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backstageViewControl1.Name = "backstageViewControl1";
             this.backstageViewControl1.OwnerControl = this.ribbonControl1;
             this.backstageViewControl1.SelectedTab = this.backstageViewTabItem8;
             this.backstageViewControl1.SelectedTabIndex = 7;
-            this.backstageViewControl1.Size = new System.Drawing.Size(489, 68);
+            this.backstageViewControl1.Size = new System.Drawing.Size(559, 87);
             this.backstageViewControl1.Style = DevExpress.XtraBars.Ribbon.BackstageViewStyle.Office2013;
             this.backstageViewControl1.TabIndex = 1;
             this.backstageViewControl1.Text = "backstageViewControl1";
@@ -769,10 +818,9 @@ namespace DXApplication1
             // backstageViewClientControl8
             // 
             this.backstageViewClientControl8.Controls.Add(this.backstageViewControl4);
-            this.backstageViewClientControl8.Location = new System.Drawing.Point(194, 63);
-            this.backstageViewClientControl8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl8.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl8.Name = "backstageViewClientControl8";
-            this.backstageViewClientControl8.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewClientControl8.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl8.TabIndex = 8;
             // 
             // backstageViewControl4
@@ -785,34 +833,30 @@ namespace DXApplication1
             this.backstageViewControl4.Items.Add(this.backstageViewTabItem18);
             this.backstageViewControl4.Items.Add(this.backstageViewTabItem19);
             this.backstageViewControl4.Location = new System.Drawing.Point(0, 0);
-            this.backstageViewControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl4.Name = "backstageViewControl4";
-            this.backstageViewControl4.Size = new System.Drawing.Size(277, 4);
+            this.backstageViewControl4.Size = new System.Drawing.Size(307, 8);
             this.backstageViewControl4.TabIndex = 0;
             this.backstageViewControl4.Text = "backstageViewControl4";
             // 
             // backstageViewClientControl13
             // 
-            this.backstageViewClientControl13.Location = new System.Drawing.Point(234, 0);
-            this.backstageViewClientControl13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl13.Location = new System.Drawing.Point(279, 0);
             this.backstageViewClientControl13.Name = "backstageViewClientControl13";
-            this.backstageViewClientControl13.Size = new System.Drawing.Size(27, 6);
+            this.backstageViewClientControl13.Size = new System.Drawing.Size(-28, 8);
             this.backstageViewClientControl13.TabIndex = 1;
             // 
             // backstageViewClientControl18
             // 
-            this.backstageViewClientControl18.Location = new System.Drawing.Point(234, 0);
-            this.backstageViewClientControl18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl18.Location = new System.Drawing.Point(279, 0);
             this.backstageViewClientControl18.Name = "backstageViewClientControl18";
-            this.backstageViewClientControl18.Size = new System.Drawing.Size(27, 6);
+            this.backstageViewClientControl18.Size = new System.Drawing.Size(-28, 8);
             this.backstageViewClientControl18.TabIndex = 2;
             // 
             // backstageViewClientControl19
             // 
-            this.backstageViewClientControl19.Location = new System.Drawing.Point(234, 0);
-            this.backstageViewClientControl19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl19.Location = new System.Drawing.Point(279, 0);
             this.backstageViewClientControl19.Name = "backstageViewClientControl19";
-            this.backstageViewClientControl19.Size = new System.Drawing.Size(27, 6);
+            this.backstageViewClientControl19.Size = new System.Drawing.Size(-28, 8);
             this.backstageViewClientControl19.TabIndex = 3;
             // 
             // backstageViewTabItem13
@@ -836,9 +880,10 @@ namespace DXApplication1
             // backstageViewClientControl1
             // 
             this.backstageViewClientControl1.Controls.Add(this.recentItemControl1);
-            this.backstageViewClientControl1.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl1.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backstageViewClientControl1.Name = "backstageViewClientControl1";
-            this.backstageViewClientControl1.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl1.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl1.TabIndex = 1;
             // 
             // recentItemControl1
@@ -847,11 +892,10 @@ namespace DXApplication1
             this.recentItemControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.recentItemControl1.Location = new System.Drawing.Point(0, 0);
             this.recentItemControl1.MainPanel = this.recentStackPanel1;
-            this.recentItemControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.recentItemControl1.MinimumSize = new System.Drawing.Size(289, 78);
+            this.recentItemControl1.MinimumSize = new System.Drawing.Size(330, 100);
             this.recentItemControl1.Name = "recentItemControl1";
-            this.recentItemControl1.Size = new System.Drawing.Size(289, 78);
-            this.recentItemControl1.SplitterPosition = 265;
+            this.recentItemControl1.Size = new System.Drawing.Size(330, 100);
+            this.recentItemControl1.SplitterPosition = 289;
             this.recentItemControl1.TabIndex = 0;
             this.recentItemControl1.Title = "ADMS operation";
             // 
@@ -866,10 +910,9 @@ namespace DXApplication1
             // backstageViewClientControl4
             // 
             this.backstageViewClientControl4.Controls.Add(this.recentItemControl2);
-            this.backstageViewClientControl4.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl4.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl4.Name = "backstageViewClientControl4";
-            this.backstageViewClientControl4.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl4.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl4.TabIndex = 4;
             // 
             // recentItemControl2
@@ -878,11 +921,10 @@ namespace DXApplication1
             this.recentItemControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.recentItemControl2.Location = new System.Drawing.Point(0, 0);
             this.recentItemControl2.MainPanel = this.recentStackPanel3;
-            this.recentItemControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.recentItemControl2.MinimumSize = new System.Drawing.Size(289, 78);
+            this.recentItemControl2.MinimumSize = new System.Drawing.Size(330, 100);
             this.recentItemControl2.Name = "recentItemControl2";
-            this.recentItemControl2.Size = new System.Drawing.Size(289, 78);
-            this.recentItemControl2.SplitterPosition = 265;
+            this.recentItemControl2.Size = new System.Drawing.Size(330, 100);
+            this.recentItemControl2.SplitterPosition = 289;
             this.recentItemControl2.TabIndex = 6;
             this.recentItemControl2.Title = "DL data control";
             // 
@@ -897,9 +939,10 @@ namespace DXApplication1
             // backstageViewClientControl2
             // 
             this.backstageViewClientControl2.Controls.Add(this.backstageViewControl3);
-            this.backstageViewClientControl2.Location = new System.Drawing.Point(194, 62);
+            this.backstageViewClientControl2.Location = new System.Drawing.Point(230, 78);
+            this.backstageViewClientControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backstageViewClientControl2.Name = "backstageViewClientControl2";
-            this.backstageViewClientControl2.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl2.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl2.TabIndex = 2;
             // 
             // backstageViewControl3
@@ -914,42 +957,37 @@ namespace DXApplication1
             this.backstageViewControl3.Items.Add(this.backstageViewTabItem16);
             this.backstageViewControl3.Items.Add(this.backstageViewTabItem17);
             this.backstageViewControl3.Location = new System.Drawing.Point(0, 0);
-            this.backstageViewControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl3.Name = "backstageViewControl3";
-            this.backstageViewControl3.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewControl3.Size = new System.Drawing.Size(307, 8);
             this.backstageViewControl3.TabIndex = 0;
             this.backstageViewControl3.Text = "backstageViewControl3";
             // 
             // backstageViewClientControl14
             // 
-            this.backstageViewClientControl14.Location = new System.Drawing.Point(218, 0);
-            this.backstageViewClientControl14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl14.Location = new System.Drawing.Point(259, 0);
             this.backstageViewClientControl14.Name = "backstageViewClientControl14";
-            this.backstageViewClientControl14.Size = new System.Drawing.Size(43, 6);
+            this.backstageViewClientControl14.Size = new System.Drawing.Size(38, 8);
             this.backstageViewClientControl14.TabIndex = 1;
             // 
             // backstageViewClientControl15
             // 
-            this.backstageViewClientControl15.Location = new System.Drawing.Point(218, 0);
-            this.backstageViewClientControl15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl15.Location = new System.Drawing.Point(259, 0);
             this.backstageViewClientControl15.Name = "backstageViewClientControl15";
-            this.backstageViewClientControl15.Size = new System.Drawing.Size(43, 6);
+            this.backstageViewClientControl15.Size = new System.Drawing.Size(38, 8);
             this.backstageViewClientControl15.TabIndex = 2;
             // 
             // backstageViewClientControl16
             // 
-            this.backstageViewClientControl16.Location = new System.Drawing.Point(218, 0);
-            this.backstageViewClientControl16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl16.Location = new System.Drawing.Point(259, 0);
             this.backstageViewClientControl16.Name = "backstageViewClientControl16";
-            this.backstageViewClientControl16.Size = new System.Drawing.Size(43, 6);
+            this.backstageViewClientControl16.Size = new System.Drawing.Size(38, 8);
             this.backstageViewClientControl16.TabIndex = 3;
             // 
             // backstageViewClientControl17
             // 
-            this.backstageViewClientControl17.Location = new System.Drawing.Point(218, 0);
-            this.backstageViewClientControl17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl17.Location = new System.Drawing.Point(259, 0);
             this.backstageViewClientControl17.Name = "backstageViewClientControl17";
-            this.backstageViewClientControl17.Size = new System.Drawing.Size(43, 6);
+            this.backstageViewClientControl17.Size = new System.Drawing.Size(38, 8);
             this.backstageViewClientControl17.TabIndex = 4;
             // 
             // backstageViewTabItem14
@@ -979,10 +1017,9 @@ namespace DXApplication1
             // backstageViewClientControl3
             // 
             this.backstageViewClientControl3.Controls.Add(this.backstageViewControl2);
-            this.backstageViewClientControl3.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl3.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl3.Name = "backstageViewClientControl3";
-            this.backstageViewClientControl3.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl3.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl3.TabIndex = 3;
             // 
             // backstageViewControl2
@@ -995,34 +1032,30 @@ namespace DXApplication1
             this.backstageViewControl2.Items.Add(this.backstageViewTabItem11);
             this.backstageViewControl2.Items.Add(this.backstageViewTabItem12);
             this.backstageViewControl2.Location = new System.Drawing.Point(0, 0);
-            this.backstageViewControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.backstageViewControl2.Name = "backstageViewControl2";
-            this.backstageViewControl2.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewControl2.Size = new System.Drawing.Size(307, 8);
             this.backstageViewControl2.TabIndex = 0;
             this.backstageViewControl2.Text = "backstageViewControl2";
             // 
             // backstageViewClientControl10
             // 
-            this.backstageViewClientControl10.Location = new System.Drawing.Point(223, 0);
-            this.backstageViewClientControl10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl10.Location = new System.Drawing.Point(268, 0);
             this.backstageViewClientControl10.Name = "backstageViewClientControl10";
-            this.backstageViewClientControl10.Size = new System.Drawing.Size(38, 6);
+            this.backstageViewClientControl10.Size = new System.Drawing.Size(29, 8);
             this.backstageViewClientControl10.TabIndex = 1;
             // 
             // backstageViewClientControl11
             // 
-            this.backstageViewClientControl11.Location = new System.Drawing.Point(223, 0);
-            this.backstageViewClientControl11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl11.Location = new System.Drawing.Point(268, 0);
             this.backstageViewClientControl11.Name = "backstageViewClientControl11";
-            this.backstageViewClientControl11.Size = new System.Drawing.Size(38, 6);
+            this.backstageViewClientControl11.Size = new System.Drawing.Size(29, 8);
             this.backstageViewClientControl11.TabIndex = 2;
             // 
             // backstageViewClientControl12
             // 
-            this.backstageViewClientControl12.Location = new System.Drawing.Point(223, 0);
-            this.backstageViewClientControl12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl12.Location = new System.Drawing.Point(268, 0);
             this.backstageViewClientControl12.Name = "backstageViewClientControl12";
-            this.backstageViewClientControl12.Size = new System.Drawing.Size(38, 6);
+            this.backstageViewClientControl12.Size = new System.Drawing.Size(29, 8);
             this.backstageViewClientControl12.TabIndex = 3;
             // 
             // backstageViewTabItem10
@@ -1045,34 +1078,30 @@ namespace DXApplication1
             // 
             // backstageViewClientControl5
             // 
-            this.backstageViewClientControl5.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl5.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl5.Name = "backstageViewClientControl5";
-            this.backstageViewClientControl5.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl5.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl5.TabIndex = 5;
             // 
             // backstageViewClientControl6
             // 
-            this.backstageViewClientControl6.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl6.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl6.Name = "backstageViewClientControl6";
-            this.backstageViewClientControl6.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl6.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl6.TabIndex = 6;
             // 
             // backstageViewClientControl7
             // 
-            this.backstageViewClientControl7.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl7.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl7.Name = "backstageViewClientControl7";
-            this.backstageViewClientControl7.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl7.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl7.TabIndex = 7;
             // 
             // backstageViewClientControl9
             // 
-            this.backstageViewClientControl9.Location = new System.Drawing.Point(194, 62);
-            this.backstageViewClientControl9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backstageViewClientControl9.Location = new System.Drawing.Point(230, 78);
             this.backstageViewClientControl9.Name = "backstageViewClientControl9";
-            this.backstageViewClientControl9.Size = new System.Drawing.Size(278, 6);
+            this.backstageViewClientControl9.Size = new System.Drawing.Size(307, 8);
             this.backstageViewClientControl9.TabIndex = 9;
             // 
             // backstageViewTabItem1
@@ -1406,7 +1435,7 @@ namespace DXApplication1
             chartControlCommandGalleryItemGroupCylinderColumn1,
             chartControlCommandGalleryItemGroupConeColumn1,
             chartControlCommandGalleryItemGroupPyramidColumn1});
-            this.commandBarGalleryDropDown1.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown1.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown1.Gallery.RowCount = 10;
             this.commandBarGalleryDropDown1.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown1.Name = "commandBarGalleryDropDown1";
@@ -1441,7 +1470,7 @@ namespace DXApplication1
             this.commandBarGalleryDropDown2.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
             chartControlCommandGalleryItemGroup2DLine1,
             chartControlCommandGalleryItemGroup3DLine1});
-            this.commandBarGalleryDropDown2.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown2.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown2.Gallery.RowCount = 4;
             this.commandBarGalleryDropDown2.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown2.Name = "commandBarGalleryDropDown2";
@@ -1470,7 +1499,7 @@ namespace DXApplication1
             this.commandBarGalleryDropDown3.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
             chartControlCommandGalleryItemGroup2DPie1,
             chartControlCommandGalleryItemGroup3DPie1});
-            this.commandBarGalleryDropDown3.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown3.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown3.Gallery.RowCount = 2;
             this.commandBarGalleryDropDown3.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown3.Name = "commandBarGalleryDropDown3";
@@ -1497,7 +1526,7 @@ namespace DXApplication1
             createRotatedStackedBarChartItem1});
             this.commandBarGalleryDropDown4.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
             chartControlCommandGalleryItemGroup2DBar1});
-            this.commandBarGalleryDropDown4.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown4.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown4.Gallery.RowCount = 2;
             this.commandBarGalleryDropDown4.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown4.Name = "commandBarGalleryDropDown4";
@@ -1537,7 +1566,7 @@ namespace DXApplication1
             this.commandBarGalleryDropDown5.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
             chartControlCommandGalleryItemGroup2DArea1,
             chartControlCommandGalleryItemGroup3DArea1});
-            this.commandBarGalleryDropDown5.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown5.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown5.Gallery.RowCount = 5;
             this.commandBarGalleryDropDown5.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown5.Name = "commandBarGalleryDropDown5";
@@ -1596,7 +1625,7 @@ namespace DXApplication1
             chartControlCommandGalleryItemGroupRange1,
             chartControlCommandGalleryItemGroupGantt1,
             chartControlCommandGalleryItemGroupBoxPlot1});
-            this.commandBarGalleryDropDown6.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown6.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown6.Gallery.RowCount = 9;
             this.commandBarGalleryDropDown6.Gallery.ShowScrollBar = DevExpress.XtraBars.Ribbon.Gallery.ShowScrollBar.Auto;
             this.commandBarGalleryDropDown6.Name = "commandBarGalleryDropDown6";
@@ -1633,14 +1662,14 @@ namespace DXApplication1
             this.commandBarGalleryDropDown7.Gallery.Appearance.ItemDescriptionAppearance.Pressed.Options.UseTextOptions = true;
             this.commandBarGalleryDropDown7.Gallery.Appearance.ItemDescriptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
             this.commandBarGalleryDropDown7.Gallery.ColumnCount = 1;
-            this.commandBarGalleryDropDown7.Gallery.ImageSize = new System.Drawing.Size(160, 10);
+            this.commandBarGalleryDropDown7.Gallery.ImageSize = new System.Drawing.Size(183, 13);
             this.commandBarGalleryDropDown7.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.MiddleLeft;
             this.commandBarGalleryDropDown7.Gallery.ItemImageLocation = DevExpress.Utils.Locations.Right;
-            skinPaddingEdges1.Bottom = -3;
-            skinPaddingEdges1.Top = -3;
+            skinPaddingEdges1.Bottom = -4;
+            skinPaddingEdges1.Top = -4;
             this.commandBarGalleryDropDown7.Gallery.ItemImagePadding = skinPaddingEdges1;
-            skinPaddingEdges2.Bottom = -3;
-            skinPaddingEdges2.Top = -3;
+            skinPaddingEdges2.Bottom = -4;
+            skinPaddingEdges2.Top = -4;
             this.commandBarGalleryDropDown7.Gallery.ItemTextPadding = skinPaddingEdges2;
             this.commandBarGalleryDropDown7.Gallery.RowCount = 10;
             this.commandBarGalleryDropDown7.Gallery.ShowGroupCaption = false;
@@ -1655,7 +1684,7 @@ namespace DXApplication1
             // 
             // 
             this.changeAppearanceGalleryBaseItem1.Gallery.ColumnCount = 7;
-            this.changeAppearanceGalleryBaseItem1.Gallery.ImageSize = new System.Drawing.Size(80, 50);
+            this.changeAppearanceGalleryBaseItem1.Gallery.ImageSize = new System.Drawing.Size(91, 64);
             this.changeAppearanceGalleryBaseItem1.Gallery.RowCount = 4;
             this.changeAppearanceGalleryBaseItem1.Id = 38;
             this.changeAppearanceGalleryBaseItem1.Name = "changeAppearanceGalleryBaseItem1";
@@ -1860,7 +1889,7 @@ namespace DXApplication1
             this.commandBarGalleryDropDown8.Gallery.Appearance.ItemCaptionAppearance.Pressed.Options.UseTextOptions = true;
             this.commandBarGalleryDropDown8.Gallery.Appearance.ItemCaptionAppearance.Pressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
             this.commandBarGalleryDropDown8.Gallery.ColumnCount = 1;
-            this.commandBarGalleryDropDown8.Gallery.ImageSize = new System.Drawing.Size(32, 32);
+            this.commandBarGalleryDropDown8.Gallery.ImageSize = new System.Drawing.Size(37, 41);
             this.commandBarGalleryDropDown8.Gallery.RowCount = 10;
             this.commandBarGalleryDropDown8.Gallery.ShowGroupCaption = false;
             this.commandBarGalleryDropDown8.Gallery.ShowItemImage = false;
@@ -1882,7 +1911,7 @@ namespace DXApplication1
             // selectAxisMeasureUnitBarItem1
             // 
             this.selectAxisMeasureUnitBarItem1.Edit = this.selectAxisMeasureUnitRepositoryItemComboBox1;
-            this.selectAxisMeasureUnitBarItem1.EditValue = chartIntervalItem1;
+            this.selectAxisMeasureUnitBarItem1.EditValue = chartIntervalItem7;
             this.selectAxisMeasureUnitBarItem1.Id = 67;
             this.selectAxisMeasureUnitBarItem1.Name = "selectAxisMeasureUnitBarItem1";
             this.selectAxisMeasureUnitBarItem1.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.Caption;
@@ -1893,23 +1922,23 @@ namespace DXApplication1
             this.selectAxisMeasureUnitRepositoryItemComboBox1.AutoHeight = false;
             this.selectAxisMeasureUnitRepositoryItemComboBox1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            chartIntervalItem1.Caption = "1 day";
-            chartIntervalItem1.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Day;
-            chartIntervalItem2.Caption = "1 week";
-            chartIntervalItem2.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Week;
-            chartIntervalItem3.Caption = "1 month";
-            chartIntervalItem3.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Month;
+            chartIntervalItem7.Caption = "1 day";
+            chartIntervalItem7.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Day;
+            chartIntervalItem8.Caption = "1 week";
+            chartIntervalItem8.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Week;
+            chartIntervalItem9.Caption = "1 month";
+            chartIntervalItem9.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Month;
             this.selectAxisMeasureUnitRepositoryItemComboBox1.Items.AddRange(new object[] {
-            chartIntervalItem1,
-            chartIntervalItem2,
-            chartIntervalItem3});
+            chartIntervalItem7,
+            chartIntervalItem8,
+            chartIntervalItem9});
             this.selectAxisMeasureUnitRepositoryItemComboBox1.Name = "selectAxisMeasureUnitRepositoryItemComboBox1";
             this.selectAxisMeasureUnitRepositoryItemComboBox1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             // 
             // selectPeriodBarItem1
             // 
             this.selectPeriodBarItem1.Edit = this.selectPeriodRepositoryItemComboBox1;
-            this.selectPeriodBarItem1.EditValue = chartIntervalItem4;
+            this.selectPeriodBarItem1.EditValue = chartIntervalItem1;
             this.selectPeriodBarItem1.Id = 68;
             this.selectPeriodBarItem1.Name = "selectPeriodBarItem1";
             this.selectPeriodBarItem1.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.Caption;
@@ -1920,18 +1949,18 @@ namespace DXApplication1
             this.selectPeriodRepositoryItemComboBox1.AutoHeight = false;
             this.selectPeriodRepositoryItemComboBox1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            chartIntervalItem4.Caption = "6 month";
-            chartIntervalItem4.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Month;
-            chartIntervalItem4.MeasureUnitMultiplier = 6;
-            chartIntervalItem5.Caption = "1 year";
-            chartIntervalItem5.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Year;
-            chartIntervalItem6.Caption = "2 years";
-            chartIntervalItem6.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Year;
-            chartIntervalItem6.MeasureUnitMultiplier = 2;
+            chartIntervalItem1.Caption = "6 month";
+            chartIntervalItem1.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Month;
+            chartIntervalItem1.MeasureUnitMultiplier = 6;
+            chartIntervalItem2.Caption = "1 year";
+            chartIntervalItem2.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Year;
+            chartIntervalItem3.Caption = "2 years";
+            chartIntervalItem3.MeasureUnit = DevExpress.XtraCharts.DateTimeMeasureUnit.Year;
+            chartIntervalItem3.MeasureUnitMultiplier = 2;
             this.selectPeriodRepositoryItemComboBox1.Items.AddRange(new object[] {
-            chartIntervalItem4,
-            chartIntervalItem5,
-            chartIntervalItem6});
+            chartIntervalItem1,
+            chartIntervalItem2,
+            chartIntervalItem3});
             this.selectPeriodRepositoryItemComboBox1.Name = "selectPeriodRepositoryItemComboBox1";
             this.selectPeriodRepositoryItemComboBox1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             // 
@@ -1967,11 +1996,12 @@ namespace DXApplication1
             this.chartControl1.AppearanceNameSerializable = "Dark Flat";
             this.chartControl1.DataSource = this.jwmanageBindingSource;
             this.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chartControl1.Location = new System.Drawing.Point(2, 23);
+            this.chartControl1.Location = new System.Drawing.Point(2, 28);
+            this.chartControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.PaletteBaseColorNumber = 2;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[0];
-            this.chartControl1.Size = new System.Drawing.Size(1234, 273);
+            this.chartControl1.Size = new System.Drawing.Size(1766, 450);
             this.chartControl1.TabIndex = 0;
             // 
             // jwmanageBindingSource
@@ -2116,11 +2146,11 @@ namespace DXApplication1
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.xtraTabControl1.HeaderLocation = DevExpress.XtraTab.TabHeaderLocation.Bottom;
-            this.xtraTabControl1.Location = new System.Drawing.Point(0, 161);
-            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 200);
+            this.xtraTabControl1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(1660, 632);
+            this.xtraTabControl1.Size = new System.Drawing.Size(1897, 813);
             this.xtraTabControl1.TabIndex = 5;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -2139,9 +2169,9 @@ namespace DXApplication1
             // xtraTabPage1
             // 
             this.xtraTabPage1.Controls.Add(this.tileControl1);
-            this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage1.Text = "ADMS Dashboard";
             // 
             // tileControl1
@@ -2153,13 +2183,13 @@ namespace DXApplication1
             this.tileControl1.Groups.Add(this.tileGroup4);
             this.tileControl1.ItemCheckMode = DevExpress.XtraEditors.TileItemCheckMode.Multiple;
             this.tileControl1.Location = new System.Drawing.Point(0, 0);
-            this.tileControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.tileControl1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.tileControl1.MaxId = 47;
             this.tileControl1.Name = "tileControl1";
-            this.tileControl1.Padding = new System.Windows.Forms.Padding(38, 34, 38, 34);
+            this.tileControl1.Padding = new System.Windows.Forms.Padding(43, 44, 43, 44);
             this.tileControl1.ShowGroupText = true;
             this.tileControl1.ShowText = true;
-            this.tileControl1.Size = new System.Drawing.Size(1658, 608);
+            this.tileControl1.Size = new System.Drawing.Size(1895, 783);
             this.tileControl1.TabIndex = 0;
             this.tileControl1.Text = "ADMS Dashboard";
             // 
@@ -2542,9 +2572,9 @@ namespace DXApplication1
             // xtraTabPage16
             // 
             this.xtraTabPage16.Controls.Add(this.tableLayoutPanel2);
-            this.xtraTabPage16.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage16.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage16.Name = "xtraTabPage16";
-            this.xtraTabPage16.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage16.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage16.Text = "Recipe Control";
             // 
             // tableLayoutPanel2
@@ -2558,12 +2588,12 @@ namespace DXApplication1
             this.tableLayoutPanel2.Controls.Add(this.pictureEdit1, 1, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.57069F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.42931F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1658, 608);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1895, 783);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -2574,63 +2604,63 @@ namespace DXApplication1
             this.tableLayoutPanel3.Controls.Add(this.gridControl1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.gridControl2, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 5);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 6);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1151, 358);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1315, 462);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.gridControl1.Location = new System.Drawing.Point(7, 6);
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.gridControl1.Location = new System.Drawing.Point(8, 8);
             this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.gridControl1.MenuManager = this.ribbonControl1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(254, 346);
+            this.gridControl1.Size = new System.Drawing.Size(291, 446);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
-            this.gridView1.DetailHeight = 530;
+            this.gridView1.DetailHeight = 681;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1367;
+            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1562;
             // 
             // gridControl2
             // 
             this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl2.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.gridControl2.Location = new System.Drawing.Point(275, 6);
+            this.gridControl2.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.gridControl2.Location = new System.Drawing.Point(315, 8);
             this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.gridControl2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.gridControl2.MenuManager = this.ribbonControl1;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(869, 346);
+            this.gridControl2.Size = new System.Drawing.Size(992, 446);
             this.gridControl2.TabIndex = 1;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
             // 
-            this.gridView2.DetailHeight = 530;
+            this.gridView2.DetailHeight = 681;
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsEditForm.PopupEditFormWidth = 1367;
+            this.gridView2.OptionsEditForm.PopupEditFormWidth = 1562;
             // 
             // imageSlider1
             // 
             this.imageSlider1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imageSlider1.Location = new System.Drawing.Point(7, 374);
-            this.imageSlider1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.imageSlider1.Location = new System.Drawing.Point(8, 482);
+            this.imageSlider1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.imageSlider1.Name = "imageSlider1";
-            this.imageSlider1.Size = new System.Drawing.Size(1147, 228);
+            this.imageSlider1.Size = new System.Drawing.Size(1311, 293);
             this.imageSlider1.TabIndex = 1;
             this.imageSlider1.Text = "imageSlider1";
             // 
@@ -2639,10 +2669,10 @@ namespace DXApplication1
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(1166, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.pictureBox1.Location = new System.Drawing.Point(1333, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(487, 358);
+            this.pictureBox1.Size = new System.Drawing.Size(556, 462);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -2650,20 +2680,20 @@ namespace DXApplication1
             // pictureEdit1
             // 
             this.pictureEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureEdit1.Location = new System.Drawing.Point(1168, 374);
-            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.pictureEdit1.Location = new System.Drawing.Point(1335, 482);
+            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.pictureEdit1.MenuManager = this.ribbonControl1;
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(483, 228);
+            this.pictureEdit1.Size = new System.Drawing.Size(552, 293);
             this.pictureEdit1.TabIndex = 3;
             // 
             // xtraTabPage2
             // 
             this.xtraTabPage2.Controls.Add(this.tableLayoutPanel4);
-            this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage2.Text = "Image Load";
             // 
             // tableLayoutPanel4
@@ -2679,20 +2709,20 @@ namespace DXApplication1
             this.tableLayoutPanel4.Controls.Add(this.groupControl7, 3, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1658, 608);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1895, 783);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // groupControl4
             // 
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl4.Location = new System.Drawing.Point(7, 6);
-            this.groupControl4.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl4.Location = new System.Drawing.Point(8, 8);
+            this.groupControl4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(317, 596);
+            this.groupControl4.Size = new System.Drawing.Size(363, 767);
             this.groupControl4.TabIndex = 0;
             this.groupControl4.Text = "groupControl4";
             // 
@@ -2700,12 +2730,12 @@ namespace DXApplication1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(336, 5);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(5);
+            this.dataGridView1.Location = new System.Drawing.Point(385, 6);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(321, 598);
+            this.dataGridView1.Size = new System.Drawing.Size(367, 771);
             this.dataGridView1.TabIndex = 1;
             // 
             // pictureBox2
@@ -2714,10 +2744,10 @@ namespace DXApplication1
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(667, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.pictureBox2.Location = new System.Drawing.Point(764, 6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(653, 598);
+            this.pictureBox2.Size = new System.Drawing.Size(746, 771);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -2725,19 +2755,19 @@ namespace DXApplication1
             // groupControl7
             // 
             this.groupControl7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl7.Location = new System.Drawing.Point(1332, 6);
-            this.groupControl7.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl7.Location = new System.Drawing.Point(1524, 8);
+            this.groupControl7.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.groupControl7.Name = "groupControl7";
-            this.groupControl7.Size = new System.Drawing.Size(319, 596);
+            this.groupControl7.Size = new System.Drawing.Size(363, 767);
             this.groupControl7.TabIndex = 3;
             this.groupControl7.Text = "groupControl7";
             // 
             // xtraTabPage11
             // 
             this.xtraTabPage11.Controls.Add(this.tableLayoutPanel8);
-            this.xtraTabPage11.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.xtraTabPage11.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.xtraTabPage11.Name = "xtraTabPage11";
-            this.xtraTabPage11.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage11.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage11.Text = "Category";
             // 
             // tableLayoutPanel8
@@ -2751,10 +2781,11 @@ namespace DXApplication1
             this.tableLayoutPanel8.Controls.Add(this.groupControl9, 2, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(1658, 608);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1895, 783);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
             // groupControl6
@@ -2762,9 +2793,10 @@ namespace DXApplication1
             this.groupControl6.Controls.Add(this.dataGridView2);
             this.groupControl6.Controls.Add(this.panel1);
             this.groupControl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl6.Location = new System.Drawing.Point(3, 3);
+            this.groupControl6.Location = new System.Drawing.Point(3, 4);
+            this.groupControl6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl6.Name = "groupControl6";
-            this.groupControl6.Size = new System.Drawing.Size(325, 602);
+            this.groupControl6.Size = new System.Drawing.Size(373, 775);
             this.groupControl6.TabIndex = 0;
             this.groupControl6.Text = "Dataset";
             // 
@@ -2774,18 +2806,21 @@ namespace DXApplication1
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView2.Location = new System.Drawing.Point(2, 123);
+            this.dataGridView2.Location = new System.Drawing.Point(2, 157);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(321, 477);
+            this.dataGridView2.Size = new System.Drawing.Size(369, 616);
             this.dataGridView2.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(2, 23);
+            this.panel1.Location = new System.Drawing.Point(2, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(321, 100);
+            this.panel1.Size = new System.Drawing.Size(369, 129);
             this.panel1.TabIndex = 0;
             // 
             // groupControl8
@@ -2794,9 +2829,10 @@ namespace DXApplication1
             this.groupControl8.Appearance.Options.UseBackColor = true;
             this.groupControl8.Controls.Add(this.dataGridView3);
             this.groupControl8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl8.Location = new System.Drawing.Point(334, 3);
+            this.groupControl8.Location = new System.Drawing.Point(382, 4);
+            this.groupControl8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl8.Name = "groupControl8";
-            this.groupControl8.Size = new System.Drawing.Size(325, 602);
+            this.groupControl8.Size = new System.Drawing.Size(373, 775);
             this.groupControl8.TabIndex = 1;
             this.groupControl8.Text = "Images";
             // 
@@ -2806,19 +2842,22 @@ namespace DXApplication1
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView3.Location = new System.Drawing.Point(2, 23);
+            this.dataGridView3.Location = new System.Drawing.Point(2, 28);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 23;
-            this.dataGridView3.Size = new System.Drawing.Size(321, 577);
+            this.dataGridView3.Size = new System.Drawing.Size(369, 745);
             this.dataGridView3.TabIndex = 2;
             // 
             // groupControl9
             // 
             this.groupControl9.Controls.Add(this.tableLayoutPanel9);
             this.groupControl9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl9.Location = new System.Drawing.Point(665, 3);
+            this.groupControl9.Location = new System.Drawing.Point(761, 4);
+            this.groupControl9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl9.Name = "groupControl9";
-            this.groupControl9.Size = new System.Drawing.Size(990, 602);
+            this.groupControl9.Size = new System.Drawing.Size(1131, 775);
             this.groupControl9.TabIndex = 2;
             this.groupControl9.Text = "Viewing";
             // 
@@ -2826,23 +2865,25 @@ namespace DXApplication1
             // 
             this.tableLayoutPanel9.ColumnCount = 2;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
             this.tableLayoutPanel9.Controls.Add(this.xtraTabControl6, 1, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(2, 23);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(2, 28);
+            this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(986, 577);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1127, 745);
             this.tableLayoutPanel9.TabIndex = 0;
             // 
             // xtraTabControl6
             // 
             this.xtraTabControl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl6.Location = new System.Drawing.Point(639, 3);
+            this.xtraTabControl6.Location = new System.Drawing.Point(730, 4);
+            this.xtraTabControl6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabControl6.Name = "xtraTabControl6";
             this.xtraTabControl6.SelectedTabPage = this.xtraTabPage28;
-            this.xtraTabControl6.Size = new System.Drawing.Size(344, 571);
+            this.xtraTabControl6.Size = new System.Drawing.Size(394, 737);
             this.xtraTabControl6.TabIndex = 0;
             this.xtraTabControl6.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage28,
@@ -2853,8 +2894,9 @@ namespace DXApplication1
             // 
             this.xtraTabPage28.Controls.Add(this.tableLayoutPanel10);
             this.xtraTabPage28.Controls.Add(this.groupControl10);
+            this.xtraTabPage28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage28.Name = "xtraTabPage28";
-            this.xtraTabPage28.Size = new System.Drawing.Size(342, 547);
+            this.xtraTabPage28.Size = new System.Drawing.Size(392, 707);
             this.xtraTabPage28.Text = "Image";
             // 
             // tableLayoutPanel10
@@ -2863,13 +2905,14 @@ namespace DXApplication1
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel10.Controls.Add(this.tableLayoutPanel11, 0, 1);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 57);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 73);
+            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 3;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.57143F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.85715F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.57143F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(342, 490);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(392, 634);
             this.tableLayoutPanel10.TabIndex = 1;
             // 
             // tableLayoutPanel11
@@ -2894,119 +2937,132 @@ namespace DXApplication1
             this.tableLayoutPanel11.Controls.Add(this.simpleButton12, 3, 2);
             this.tableLayoutPanel11.Controls.Add(this.simpleButton13, 4, 2);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 142);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 185);
+            this.tableLayoutPanel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 3;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(336, 204);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(386, 263);
             this.tableLayoutPanel11.TabIndex = 0;
             // 
             // simpleButton2
             // 
             this.simpleButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton2.Location = new System.Drawing.Point(24, 3);
+            this.simpleButton2.Location = new System.Drawing.Point(28, 4);
+            this.simpleButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton2.Size = new System.Drawing.Size(77, 79);
             this.simpleButton2.TabIndex = 0;
             this.simpleButton2.Text = "OK";
             // 
             // simpleButton3
             // 
             this.simpleButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton3.Location = new System.Drawing.Point(97, 3);
+            this.simpleButton3.Location = new System.Drawing.Point(111, 4);
+            this.simpleButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton3.Size = new System.Drawing.Size(77, 79);
             this.simpleButton3.TabIndex = 1;
             this.simpleButton3.Text = "Scratch";
             // 
             // simpleButton4
             // 
             this.simpleButton4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton4.Location = new System.Drawing.Point(170, 3);
+            this.simpleButton4.Location = new System.Drawing.Point(194, 4);
+            this.simpleButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton4.Size = new System.Drawing.Size(77, 79);
             this.simpleButton4.TabIndex = 2;
             this.simpleButton4.Text = "Particle";
             // 
             // simpleButton5
             // 
             this.simpleButton5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton5.Location = new System.Drawing.Point(243, 3);
+            this.simpleButton5.Location = new System.Drawing.Point(277, 4);
+            this.simpleButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton5.Size = new System.Drawing.Size(77, 79);
             this.simpleButton5.TabIndex = 3;
             this.simpleButton5.Text = "Splatter";
             // 
             // simpleButton6
             // 
             this.simpleButton6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton6.Location = new System.Drawing.Point(24, 71);
+            this.simpleButton6.Location = new System.Drawing.Point(28, 91);
+            this.simpleButton6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton6.Size = new System.Drawing.Size(77, 79);
             this.simpleButton6.TabIndex = 4;
             this.simpleButton6.Text = "Hotspot";
             // 
             // simpleButton7
             // 
             this.simpleButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton7.Location = new System.Drawing.Point(97, 71);
+            this.simpleButton7.Location = new System.Drawing.Point(111, 91);
+            this.simpleButton7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton7.Size = new System.Drawing.Size(77, 79);
             this.simpleButton7.TabIndex = 5;
             this.simpleButton7.Text = "Burst";
             // 
             // simpleButton8
             // 
             this.simpleButton8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton8.Location = new System.Drawing.Point(170, 71);
+            this.simpleButton8.Location = new System.Drawing.Point(194, 91);
+            this.simpleButton8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton8.Size = new System.Drawing.Size(77, 79);
             this.simpleButton8.TabIndex = 6;
             this.simpleButton8.Text = "Residue";
             // 
             // simpleButton9
             // 
             this.simpleButton9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton9.Location = new System.Drawing.Point(243, 71);
+            this.simpleButton9.Location = new System.Drawing.Point(277, 91);
+            this.simpleButton9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton9.Size = new System.Drawing.Size(77, 79);
             this.simpleButton9.TabIndex = 7;
             this.simpleButton9.Text = "Abnormal";
             // 
             // simpleButton10
             // 
             this.simpleButton10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton10.Location = new System.Drawing.Point(24, 139);
+            this.simpleButton10.Location = new System.Drawing.Point(28, 178);
+            this.simpleButton10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton10.Size = new System.Drawing.Size(77, 81);
             this.simpleButton10.TabIndex = 8;
             this.simpleButton10.Text = "Scribe_area";
             // 
             // simpleButton11
             // 
             this.simpleButton11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton11.Location = new System.Drawing.Point(97, 139);
+            this.simpleButton11.Location = new System.Drawing.Point(111, 178);
+            this.simpleButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton11.Name = "simpleButton11";
-            this.simpleButton11.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton11.Size = new System.Drawing.Size(77, 81);
             this.simpleButton11.TabIndex = 9;
             this.simpleButton11.Text = "Discolor";
             // 
             // simpleButton12
             // 
             this.simpleButton12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton12.Location = new System.Drawing.Point(170, 139);
+            this.simpleButton12.Location = new System.Drawing.Point(194, 178);
+            this.simpleButton12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton12.Name = "simpleButton12";
-            this.simpleButton12.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton12.Size = new System.Drawing.Size(77, 81);
             this.simpleButton12.TabIndex = 10;
             // 
             // simpleButton13
             // 
             this.simpleButton13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.simpleButton13.Location = new System.Drawing.Point(243, 139);
+            this.simpleButton13.Location = new System.Drawing.Point(277, 178);
+            this.simpleButton13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton13.Name = "simpleButton13";
-            this.simpleButton13.Size = new System.Drawing.Size(67, 62);
+            this.simpleButton13.Size = new System.Drawing.Size(77, 81);
             this.simpleButton13.TabIndex = 11;
             // 
             // groupControl10
@@ -3014,73 +3070,77 @@ namespace DXApplication1
             this.groupControl10.Controls.Add(this.imageComboBoxEdit1);
             this.groupControl10.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl10.Location = new System.Drawing.Point(0, 0);
+            this.groupControl10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl10.Name = "groupControl10";
-            this.groupControl10.Size = new System.Drawing.Size(342, 57);
+            this.groupControl10.Size = new System.Drawing.Size(392, 73);
             this.groupControl10.TabIndex = 0;
             this.groupControl10.Text = "Image labeling";
             // 
             // imageComboBoxEdit1
             // 
             this.imageComboBoxEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imageComboBoxEdit1.Location = new System.Drawing.Point(2, 23);
+            this.imageComboBoxEdit1.Location = new System.Drawing.Point(2, 28);
+            this.imageComboBoxEdit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.imageComboBoxEdit1.MenuManager = this.ribbonControl1;
             this.imageComboBoxEdit1.Name = "imageComboBoxEdit1";
             this.imageComboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imageComboBoxEdit1.Properties.Appearance.Options.UseFont = true;
             this.imageComboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit1.Size = new System.Drawing.Size(338, 30);
+            this.imageComboBoxEdit1.Size = new System.Drawing.Size(388, 36);
             this.imageComboBoxEdit1.TabIndex = 0;
             // 
             // xtraTabPage29
             // 
+            this.xtraTabPage29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage29.Name = "xtraTabPage29";
-            this.xtraTabPage29.Size = new System.Drawing.Size(342, 547);
+            this.xtraTabPage29.Size = new System.Drawing.Size(392, 707);
             this.xtraTabPage29.Text = "Ground truth";
             // 
             // xtraTabPage30
             // 
+            this.xtraTabPage30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage30.Name = "xtraTabPage30";
-            this.xtraTabPage30.Size = new System.Drawing.Size(342, 547);
+            this.xtraTabPage30.Size = new System.Drawing.Size(392, 707);
             this.xtraTabPage30.Text = "Results";
             // 
             // xtraTabPage12
             // 
-            this.xtraTabPage12.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.xtraTabPage12.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.xtraTabPage12.Name = "xtraTabPage12";
-            this.xtraTabPage12.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage12.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage12.Text = "Image Cut";
             // 
             // xtraTabPage13
             // 
-            this.xtraTabPage13.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.xtraTabPage13.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.xtraTabPage13.Name = "xtraTabPage13";
-            this.xtraTabPage13.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage13.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage13.Text = "Model Transfer";
             // 
             // xtraTabPage14
             // 
-            this.xtraTabPage14.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.xtraTabPage14.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.xtraTabPage14.Name = "xtraTabPage14";
-            this.xtraTabPage14.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage14.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage14.Text = "Statistics";
             // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.xtraTabControl2);
-            this.xtraTabPage3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage3.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage3.Text = "AI Training";
             // 
             // xtraTabControl2
             // 
             this.xtraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl2.Location = new System.Drawing.Point(0, 0);
-            this.xtraTabControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabControl2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage4;
-            this.xtraTabControl2.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabControl2.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabControl2.TabIndex = 0;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage4,
@@ -3093,69 +3153,69 @@ namespace DXApplication1
             // 
             // xtraTabPage4
             // 
-            this.xtraTabPage4.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage4.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage4.Text = "Dataset and annotations";
             // 
             // xtraTabPage5
             // 
-            this.xtraTabPage5.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage5.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage5.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage5.Text = "Dataset split";
             // 
             // xtraTabPage6
             // 
-            this.xtraTabPage6.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage6.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage6.Size = new System.Drawing.Size(2366, 941);
             this.xtraTabPage6.Text = "Data augmentation";
             // 
             // xtraTabPage7
             // 
-            this.xtraTabPage7.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage7.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage7.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage7.Text = "Tools";
             // 
             // xtraTabPage8
             // 
-            this.xtraTabPage8.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage8.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage8.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage8.Text = "Validation and results";
             // 
             // xtraTabPage9
             // 
-            this.xtraTabPage9.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage9.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage9.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage9.Text = "Inference tests";
             // 
             // xtraTabPage10
             // 
-            this.xtraTabPage10.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage10.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage10.Name = "xtraTabPage10";
-            this.xtraTabPage10.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage10.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage10.Text = "Benchmark";
             // 
             // xtraTabPage15
             // 
             this.xtraTabPage15.Controls.Add(this.xtraTabControl3);
-            this.xtraTabPage15.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.xtraTabPage15.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.xtraTabPage15.Name = "xtraTabPage15";
-            this.xtraTabPage15.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage15.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage15.Text = "Setup";
             // 
             // xtraTabControl3
             // 
             this.xtraTabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl3.Location = new System.Drawing.Point(0, 0);
-            this.xtraTabControl3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabControl3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabControl3.Name = "xtraTabControl3";
             this.xtraTabControl3.SelectedTabPage = this.xtraTabPage17;
-            this.xtraTabControl3.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabControl3.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabControl3.TabIndex = 0;
             this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage17,
@@ -3163,34 +3223,34 @@ namespace DXApplication1
             // 
             // xtraTabPage17
             // 
-            this.xtraTabPage17.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage17.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage17.Name = "xtraTabPage17";
-            this.xtraTabPage17.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage17.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage17.Text = "Server";
             // 
             // xtraTabPage18
             // 
-            this.xtraTabPage18.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage18.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage18.Name = "xtraTabPage18";
-            this.xtraTabPage18.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage18.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage18.Text = "ADMS";
             // 
             // xtraTabPage19
             // 
             this.xtraTabPage19.Controls.Add(this.xtraTabControl4);
-            this.xtraTabPage19.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage19.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage19.Name = "xtraTabPage19";
-            this.xtraTabPage19.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage19.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage19.Text = "AI";
             // 
             // xtraTabControl4
             // 
             this.xtraTabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl4.Location = new System.Drawing.Point(0, 0);
-            this.xtraTabControl4.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabControl4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.xtraTabControl4.Name = "xtraTabControl4";
             this.xtraTabControl4.SelectedTabPage = this.xtraTabPage22;
-            this.xtraTabControl4.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabControl4.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabControl4.TabIndex = 1;
             this.xtraTabControl4.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage22,
@@ -3200,9 +3260,9 @@ namespace DXApplication1
             // xtraTabPage22
             // 
             this.xtraTabPage22.Controls.Add(this.tableLayoutPanel1);
-            this.xtraTabPage22.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage22.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.xtraTabPage22.Name = "xtraTabPage22";
-            this.xtraTabPage22.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage22.Size = new System.Drawing.Size(2366, 941);
             this.xtraTabPage22.Text = "Parameters";
             // 
             // tableLayoutPanel1
@@ -3216,11 +3276,11 @@ namespace DXApplication1
             this.tableLayoutPanel1.Controls.Add(this.groupControl1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1656, 584);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(2958, 1176);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // groupControl3
@@ -3228,20 +3288,21 @@ namespace DXApplication1
             this.groupControl3.Controls.Add(this.xtraTabControl5);
             this.groupControl3.Controls.Add(this.groupControl5);
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl3.Location = new System.Drawing.Point(1111, 6);
-            this.groupControl3.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl3.Location = new System.Drawing.Point(1980, 8);
+            this.groupControl3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(538, 572);
+            this.groupControl3.Size = new System.Drawing.Size(970, 1160);
             this.groupControl3.TabIndex = 3;
             this.groupControl3.Text = "Data augmentation";
             // 
             // xtraTabControl5
             // 
             this.xtraTabControl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl5.Location = new System.Drawing.Point(2, 23);
+            this.xtraTabControl5.Location = new System.Drawing.Point(2, 28);
+            this.xtraTabControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabControl5.Name = "xtraTabControl5";
             this.xtraTabControl5.SelectedTabPage = this.xtraTabPage25;
-            this.xtraTabControl5.Size = new System.Drawing.Size(534, 471);
+            this.xtraTabControl5.Size = new System.Drawing.Size(966, 1032);
             this.xtraTabControl5.TabIndex = 0;
             this.xtraTabControl5.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage25,
@@ -3251,8 +3312,9 @@ namespace DXApplication1
             // xtraTabPage25
             // 
             this.xtraTabPage25.Controls.Add(this.tableLayoutPanel7);
+            this.xtraTabPage25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage25.Name = "xtraTabPage25";
-            this.xtraTabPage25.Size = new System.Drawing.Size(532, 447);
+            this.xtraTabPage25.Size = new System.Drawing.Size(964, 1002);
             this.xtraTabPage25.Text = "Geometry";
             // 
             // tableLayoutPanel7
@@ -3278,6 +3340,7 @@ namespace DXApplication1
             this.tableLayoutPanel7.Controls.Add(this.checkBox2, 1, 8);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 9;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
@@ -3289,7 +3352,7 @@ namespace DXApplication1
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(532, 390);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1205, 501);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
             // label22
@@ -3299,7 +3362,7 @@ namespace DXApplication1
             this.label22.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(3, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(260, 43);
+            this.label22.Size = new System.Drawing.Size(596, 55);
             this.label22.TabIndex = 0;
             this.label22.Text = "Maximum rotation";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3309,9 +3372,9 @@ namespace DXApplication1
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label23.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(3, 43);
+            this.label23.Location = new System.Drawing.Point(3, 55);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(260, 43);
+            this.label23.Size = new System.Drawing.Size(596, 55);
             this.label23.TabIndex = 1;
             this.label23.Text = "Maximum vertical shift";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3321,9 +3384,9 @@ namespace DXApplication1
             this.label24.AutoSize = true;
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label24.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(3, 86);
+            this.label24.Location = new System.Drawing.Point(3, 110);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(260, 43);
+            this.label24.Size = new System.Drawing.Size(596, 55);
             this.label24.TabIndex = 2;
             this.label24.Text = "Maximum horizon shift";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3333,9 +3396,9 @@ namespace DXApplication1
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label25.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(3, 129);
+            this.label25.Location = new System.Drawing.Point(3, 165);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(260, 43);
+            this.label25.Size = new System.Drawing.Size(596, 55);
             this.label25.TabIndex = 3;
             this.label25.Text = "Minimum scale";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3345,9 +3408,9 @@ namespace DXApplication1
             this.label26.AutoSize = true;
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(3, 172);
+            this.label26.Location = new System.Drawing.Point(3, 220);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(260, 43);
+            this.label26.Size = new System.Drawing.Size(596, 55);
             this.label26.TabIndex = 4;
             this.label26.Text = "Maximum scale";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3357,9 +3420,9 @@ namespace DXApplication1
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(3, 215);
+            this.label27.Location = new System.Drawing.Point(3, 275);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(260, 43);
+            this.label27.Size = new System.Drawing.Size(596, 55);
             this.label27.TabIndex = 5;
             this.label27.Text = "Maximum vertical shear";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3369,9 +3432,9 @@ namespace DXApplication1
             this.label28.AutoSize = true;
             this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label28.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(3, 258);
+            this.label28.Location = new System.Drawing.Point(3, 330);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(260, 43);
+            this.label28.Size = new System.Drawing.Size(596, 55);
             this.label28.TabIndex = 6;
             this.label28.Text = "Minimum horizontal shear";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3384,14 +3447,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit7.Location = new System.Drawing.Point(269, 3);
+            this.spinEdit7.Location = new System.Drawing.Point(605, 4);
+            this.spinEdit7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit7.MenuManager = this.ribbonControl1;
             this.spinEdit7.Name = "spinEdit7";
             this.spinEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit7.Properties.Appearance.Options.UseFont = true;
             this.spinEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit7.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit7.Size = new System.Drawing.Size(597, 36);
             this.spinEdit7.TabIndex = 7;
             // 
             // spinEdit8
@@ -3402,14 +3466,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit8.Location = new System.Drawing.Point(269, 46);
+            this.spinEdit8.Location = new System.Drawing.Point(605, 59);
+            this.spinEdit8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit8.MenuManager = this.ribbonControl1;
             this.spinEdit8.Name = "spinEdit8";
             this.spinEdit8.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit8.Properties.Appearance.Options.UseFont = true;
             this.spinEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit8.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit8.Size = new System.Drawing.Size(597, 36);
             this.spinEdit8.TabIndex = 8;
             // 
             // spinEdit9
@@ -3420,14 +3485,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit9.Location = new System.Drawing.Point(269, 89);
+            this.spinEdit9.Location = new System.Drawing.Point(605, 114);
+            this.spinEdit9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit9.MenuManager = this.ribbonControl1;
             this.spinEdit9.Name = "spinEdit9";
             this.spinEdit9.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit9.Properties.Appearance.Options.UseFont = true;
             this.spinEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit9.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit9.Size = new System.Drawing.Size(597, 36);
             this.spinEdit9.TabIndex = 9;
             // 
             // spinEdit10
@@ -3438,14 +3504,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit10.Location = new System.Drawing.Point(269, 132);
+            this.spinEdit10.Location = new System.Drawing.Point(605, 169);
+            this.spinEdit10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit10.MenuManager = this.ribbonControl1;
             this.spinEdit10.Name = "spinEdit10";
             this.spinEdit10.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit10.Properties.Appearance.Options.UseFont = true;
             this.spinEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit10.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit10.Size = new System.Drawing.Size(597, 36);
             this.spinEdit10.TabIndex = 10;
             // 
             // spinEdit11
@@ -3456,14 +3523,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit11.Location = new System.Drawing.Point(269, 175);
+            this.spinEdit11.Location = new System.Drawing.Point(605, 224);
+            this.spinEdit11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit11.MenuManager = this.ribbonControl1;
             this.spinEdit11.Name = "spinEdit11";
             this.spinEdit11.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit11.Properties.Appearance.Options.UseFont = true;
             this.spinEdit11.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit11.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit11.Size = new System.Drawing.Size(597, 36);
             this.spinEdit11.TabIndex = 11;
             // 
             // spinEdit12
@@ -3474,14 +3542,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit12.Location = new System.Drawing.Point(269, 218);
+            this.spinEdit12.Location = new System.Drawing.Point(605, 279);
+            this.spinEdit12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit12.MenuManager = this.ribbonControl1;
             this.spinEdit12.Name = "spinEdit12";
             this.spinEdit12.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit12.Properties.Appearance.Options.UseFont = true;
             this.spinEdit12.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit12.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit12.Size = new System.Drawing.Size(597, 36);
             this.spinEdit12.TabIndex = 12;
             // 
             // spinEdit13
@@ -3492,23 +3561,25 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit13.Location = new System.Drawing.Point(269, 261);
+            this.spinEdit13.Location = new System.Drawing.Point(605, 334);
+            this.spinEdit13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.spinEdit13.MenuManager = this.ribbonControl1;
             this.spinEdit13.Name = "spinEdit13";
             this.spinEdit13.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit13.Properties.Appearance.Options.UseFont = true;
             this.spinEdit13.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit13.Size = new System.Drawing.Size(260, 30);
+            this.spinEdit13.Size = new System.Drawing.Size(597, 36);
             this.spinEdit13.TabIndex = 13;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(269, 304);
+            this.checkBox1.Location = new System.Drawing.Point(605, 389);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(95, 22);
+            this.checkBox1.Size = new System.Drawing.Size(124, 27);
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Vertical flip";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -3517,32 +3588,36 @@ namespace DXApplication1
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(269, 347);
+            this.checkBox2.Location = new System.Drawing.Point(605, 444);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(112, 22);
+            this.checkBox2.Size = new System.Drawing.Size(146, 27);
             this.checkBox2.TabIndex = 15;
             this.checkBox2.Text = "Horizontal flip";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // xtraTabPage26
             // 
+            this.xtraTabPage26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage26.Name = "xtraTabPage26";
-            this.xtraTabPage26.Size = new System.Drawing.Size(532, 447);
+            this.xtraTabPage26.Size = new System.Drawing.Size(609, 577);
             this.xtraTabPage26.Text = "Color/Luminosity";
             // 
             // xtraTabPage27
             // 
+            this.xtraTabPage27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.xtraTabPage27.Name = "xtraTabPage27";
-            this.xtraTabPage27.Size = new System.Drawing.Size(532, 447);
+            this.xtraTabPage27.Size = new System.Drawing.Size(609, 577);
             this.xtraTabPage27.Text = "Noise";
             // 
             // groupControl5
             // 
             this.groupControl5.Controls.Add(this.simpleButton1);
             this.groupControl5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl5.Location = new System.Drawing.Point(2, 494);
+            this.groupControl5.Location = new System.Drawing.Point(2, 1060);
+            this.groupControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(534, 76);
+            this.groupControl5.Size = new System.Drawing.Size(966, 98);
             this.groupControl5.TabIndex = 1;
             this.groupControl5.Text = "Training control";
             // 
@@ -3552,21 +3627,22 @@ namespace DXApplication1
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(2, 23);
+            this.simpleButton1.Location = new System.Drawing.Point(2, 28);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(530, 51);
+            this.simpleButton1.Size = new System.Drawing.Size(962, 68);
             this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "Training";
+            this.simpleButton1.Text = "Tools";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // groupControl2
             // 
             this.groupControl2.Controls.Add(this.tableLayoutPanel6);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl2.Location = new System.Drawing.Point(559, 6);
-            this.groupControl2.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl2.Location = new System.Drawing.Point(994, 8);
+            this.groupControl2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(538, 572);
+            this.groupControl2.Size = new System.Drawing.Size(970, 1160);
             this.groupControl2.TabIndex = 2;
             this.groupControl2.Text = "Dataset split";
             // 
@@ -3591,8 +3667,8 @@ namespace DXApplication1
             this.tableLayoutPanel6.Controls.Add(this.label7, 1, 4);
             this.tableLayoutPanel6.Controls.Add(this.label8, 2, 4);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(2, 23);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(2, 28);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 5;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -3600,17 +3676,17 @@ namespace DXApplication1
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(534, 198);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(966, 255);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(183, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(328, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 39);
+            this.label1.Size = new System.Drawing.Size(310, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "#Image";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3619,10 +3695,10 @@ namespace DXApplication1
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(361, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Location = new System.Drawing.Point(650, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 39);
+            this.label2.Size = new System.Drawing.Size(310, 51);
             this.label2.TabIndex = 1;
             this.label2.Text = "Proportion";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3635,15 +3711,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(183, 44);
-            this.spinEdit1.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit1.Location = new System.Drawing.Point(328, 57);
+            this.spinEdit1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit1.MenuManager = this.ribbonControl1;
             this.spinEdit1.Name = "spinEdit1";
             this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit1.Properties.Appearance.Options.UseFont = true;
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit1.Size = new System.Drawing.Size(310, 34);
             this.spinEdit1.TabIndex = 2;
             // 
             // spinEdit2
@@ -3654,15 +3730,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit2.Location = new System.Drawing.Point(361, 44);
-            this.spinEdit2.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit2.Location = new System.Drawing.Point(650, 57);
+            this.spinEdit2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit2.MenuManager = this.ribbonControl1;
             this.spinEdit2.Name = "spinEdit2";
             this.spinEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit2.Properties.Appearance.Options.UseFont = true;
             this.spinEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit2.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit2.Size = new System.Drawing.Size(310, 34);
             this.spinEdit2.TabIndex = 3;
             // 
             // spinEdit3
@@ -3673,15 +3749,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit3.Location = new System.Drawing.Point(183, 83);
-            this.spinEdit3.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit3.Location = new System.Drawing.Point(328, 108);
+            this.spinEdit3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit3.MenuManager = this.ribbonControl1;
             this.spinEdit3.Name = "spinEdit3";
             this.spinEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit3.Properties.Appearance.Options.UseFont = true;
             this.spinEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit3.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit3.Size = new System.Drawing.Size(310, 34);
             this.spinEdit3.TabIndex = 4;
             // 
             // spinEdit4
@@ -3692,15 +3768,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit4.Location = new System.Drawing.Point(361, 83);
-            this.spinEdit4.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit4.Location = new System.Drawing.Point(650, 108);
+            this.spinEdit4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit4.MenuManager = this.ribbonControl1;
             this.spinEdit4.Name = "spinEdit4";
             this.spinEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit4.Properties.Appearance.Options.UseFont = true;
             this.spinEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit4.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit4.Size = new System.Drawing.Size(310, 34);
             this.spinEdit4.TabIndex = 5;
             // 
             // spinEdit5
@@ -3711,15 +3787,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit5.Location = new System.Drawing.Point(183, 122);
-            this.spinEdit5.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit5.Location = new System.Drawing.Point(328, 159);
+            this.spinEdit5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit5.MenuManager = this.ribbonControl1;
             this.spinEdit5.Name = "spinEdit5";
             this.spinEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit5.Properties.Appearance.Options.UseFont = true;
             this.spinEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit5.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit5.Size = new System.Drawing.Size(310, 34);
             this.spinEdit5.TabIndex = 6;
             // 
             // spinEdit6
@@ -3730,15 +3806,15 @@ namespace DXApplication1
             0,
             0,
             0});
-            this.spinEdit6.Location = new System.Drawing.Point(361, 122);
-            this.spinEdit6.Margin = new System.Windows.Forms.Padding(5);
+            this.spinEdit6.Location = new System.Drawing.Point(650, 159);
+            this.spinEdit6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.spinEdit6.MenuManager = this.ribbonControl1;
             this.spinEdit6.Name = "spinEdit6";
             this.spinEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spinEdit6.Properties.Appearance.Options.UseFont = true;
             this.spinEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit6.Size = new System.Drawing.Size(168, 28);
+            this.spinEdit6.Size = new System.Drawing.Size(310, 34);
             this.spinEdit6.TabIndex = 7;
             // 
             // label3
@@ -3746,9 +3822,9 @@ namespace DXApplication1
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 39);
+            this.label3.Location = new System.Drawing.Point(3, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 39);
+            this.label3.Size = new System.Drawing.Size(316, 51);
             this.label3.TabIndex = 8;
             this.label3.Text = "Trainig images";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3758,9 +3834,9 @@ namespace DXApplication1
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 78);
+            this.label4.Location = new System.Drawing.Point(3, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 39);
+            this.label4.Size = new System.Drawing.Size(316, 51);
             this.label4.TabIndex = 9;
             this.label4.Text = "Validation Images";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3770,9 +3846,9 @@ namespace DXApplication1
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 117);
+            this.label5.Location = new System.Drawing.Point(3, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 39);
+            this.label5.Size = new System.Drawing.Size(316, 51);
             this.label5.TabIndex = 10;
             this.label5.Text = "Test Images";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3782,9 +3858,9 @@ namespace DXApplication1
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 156);
+            this.label6.Location = new System.Drawing.Point(3, 204);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(172, 42);
+            this.label6.Size = new System.Drawing.Size(316, 51);
             this.label6.TabIndex = 11;
             this.label6.Text = "Total";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3793,9 +3869,9 @@ namespace DXApplication1
             // 
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(181, 156);
+            this.label7.Location = new System.Drawing.Point(325, 204);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(172, 42);
+            this.label7.Size = new System.Drawing.Size(316, 51);
             this.label7.TabIndex = 12;
             this.label7.Text = "0";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3804,9 +3880,9 @@ namespace DXApplication1
             // 
             this.label8.AutoSize = true;
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Location = new System.Drawing.Point(359, 156);
+            this.label8.Location = new System.Drawing.Point(647, 204);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(172, 42);
+            this.label8.Size = new System.Drawing.Size(316, 51);
             this.label8.TabIndex = 13;
             this.label8.Text = "0";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3815,10 +3891,10 @@ namespace DXApplication1
             // 
             this.groupControl1.Controls.Add(this.tableLayoutPanel5);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl1.Location = new System.Drawing.Point(7, 6);
-            this.groupControl1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.groupControl1.Location = new System.Drawing.Point(8, 8);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(538, 572);
+            this.groupControl1.Size = new System.Drawing.Size(970, 1160);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Current status";
             // 
@@ -3841,8 +3917,8 @@ namespace DXApplication1
             this.tableLayoutPanel5.Controls.Add(this.label20, 1, 5);
             this.tableLayoutPanel5.Controls.Add(this.label21, 1, 6);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 23);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(5);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(2, 28);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 7;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
@@ -3852,7 +3928,7 @@ namespace DXApplication1
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(534, 292);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(966, 375);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // label9
@@ -3862,7 +3938,7 @@ namespace DXApplication1
             this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(3, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(259, 41);
+            this.label9.Size = new System.Drawing.Size(475, 53);
             this.label9.TabIndex = 14;
             this.label9.Text = "Teminal :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3872,9 +3948,9 @@ namespace DXApplication1
             this.label10.AutoSize = true;
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 41);
+            this.label10.Location = new System.Drawing.Point(3, 53);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(259, 41);
+            this.label10.Size = new System.Drawing.Size(475, 53);
             this.label10.TabIndex = 15;
             this.label10.Text = "Recipe :";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3884,9 +3960,9 @@ namespace DXApplication1
             this.label11.AutoSize = true;
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(3, 82);
+            this.label11.Location = new System.Drawing.Point(3, 106);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(259, 41);
+            this.label11.Size = new System.Drawing.Size(475, 53);
             this.label11.TabIndex = 16;
             this.label11.Text = "Categorized images :";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3896,9 +3972,9 @@ namespace DXApplication1
             this.label12.AutoSize = true;
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 123);
+            this.label12.Location = new System.Drawing.Point(3, 159);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(259, 41);
+            this.label12.Size = new System.Drawing.Size(475, 53);
             this.label12.TabIndex = 17;
             this.label12.Text = "Categories";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3908,9 +3984,9 @@ namespace DXApplication1
             this.label13.AutoSize = true;
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label13.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(3, 164);
+            this.label13.Location = new System.Drawing.Point(3, 212);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(259, 41);
+            this.label13.Size = new System.Drawing.Size(475, 53);
             this.label13.TabIndex = 18;
             this.label13.Text = "OK :";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3920,9 +3996,9 @@ namespace DXApplication1
             this.label14.AutoSize = true;
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 205);
+            this.label14.Location = new System.Drawing.Point(3, 265);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(259, 41);
+            this.label14.Size = new System.Drawing.Size(475, 53);
             this.label14.TabIndex = 19;
             this.label14.Text = "Particle :";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3932,9 +4008,9 @@ namespace DXApplication1
             this.label15.AutoSize = true;
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(3, 246);
+            this.label15.Location = new System.Drawing.Point(3, 318);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(259, 46);
+            this.label15.Size = new System.Drawing.Size(475, 57);
             this.label15.TabIndex = 20;
             this.label15.Text = "Scratch :";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3944,9 +4020,9 @@ namespace DXApplication1
             this.label16.AutoSize = true;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(268, 0);
+            this.label16.Location = new System.Drawing.Point(484, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(263, 41);
+            this.label16.Size = new System.Drawing.Size(479, 53);
             this.label16.TabIndex = 21;
             this.label16.Text = "ADMS001";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3956,9 +4032,9 @@ namespace DXApplication1
             this.label17.AutoSize = true;
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(268, 41);
+            this.label17.Location = new System.Drawing.Point(484, 53);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(263, 41);
+            this.label17.Size = new System.Drawing.Size(479, 53);
             this.label17.TabIndex = 22;
             this.label17.Text = "001";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3968,9 +4044,9 @@ namespace DXApplication1
             this.label18.AutoSize = true;
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(268, 82);
+            this.label18.Location = new System.Drawing.Point(484, 106);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(263, 41);
+            this.label18.Size = new System.Drawing.Size(479, 53);
             this.label18.TabIndex = 23;
             this.label18.Text = "000";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3980,9 +4056,9 @@ namespace DXApplication1
             this.label19.AutoSize = true;
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label19.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(268, 164);
+            this.label19.Location = new System.Drawing.Point(484, 212);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(263, 41);
+            this.label19.Size = new System.Drawing.Size(479, 53);
             this.label19.TabIndex = 24;
             this.label19.Text = "2000";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3992,9 +4068,9 @@ namespace DXApplication1
             this.label20.AutoSize = true;
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(268, 205);
+            this.label20.Location = new System.Drawing.Point(484, 265);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(263, 41);
+            this.label20.Size = new System.Drawing.Size(479, 53);
             this.label20.TabIndex = 25;
             this.label20.Text = "300";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4004,9 +4080,9 @@ namespace DXApplication1
             this.label21.AutoSize = true;
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(268, 246);
+            this.label21.Location = new System.Drawing.Point(484, 318);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(263, 46);
+            this.label21.Size = new System.Drawing.Size(479, 57);
             this.label21.TabIndex = 26;
             this.label21.Text = "200";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -4014,9 +4090,9 @@ namespace DXApplication1
             // xtraTabPage23
             // 
             this.xtraTabPage23.Controls.Add(this.chart1);
-            this.xtraTabPage23.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage23.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.xtraTabPage23.Name = "xtraTabPage23";
-            this.xtraTabPage23.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage23.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage23.Text = "Training results";
             // 
             // chart1
@@ -4028,28 +4104,29 @@ namespace DXApplication1
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
+            this.chart1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(1656, 584);
+            this.chart1.Size = new System.Drawing.Size(1893, 753);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
             // xtraTabPage24
             // 
-            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(5);
+            this.xtraTabPage24.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.xtraTabPage24.Name = "xtraTabPage24";
-            this.xtraTabPage24.Size = new System.Drawing.Size(1656, 584);
+            this.xtraTabPage24.Size = new System.Drawing.Size(1893, 753);
             this.xtraTabPage24.Text = "Benchmark";
             // 
             // xtraTabPage20
             // 
             this.xtraTabPage20.Controls.Add(this.tableLayoutPanel12);
-            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage20.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage20.Name = "xtraTabPage20";
-            this.xtraTabPage20.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage20.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage20.Text = "Tools";
             // 
             // tableLayoutPanel12
@@ -4066,60 +4143,74 @@ namespace DXApplication1
             this.tableLayoutPanel12.Controls.Add(this.groupControl15, 1, 1);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 2;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(1658, 608);
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(1895, 783);
             this.tableLayoutPanel12.TabIndex = 0;
             // 
             // groupControl11
             // 
             this.groupControl11.Controls.Add(this.dataGridView4);
             this.groupControl11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl11.Location = new System.Drawing.Point(3, 3);
+            this.groupControl11.Location = new System.Drawing.Point(3, 4);
+            this.groupControl11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl11.Name = "groupControl11";
             this.tableLayoutPanel12.SetRowSpan(this.groupControl11, 2);
-            this.groupControl11.Size = new System.Drawing.Size(408, 602);
+            this.groupControl11.Size = new System.Drawing.Size(584, 969);
             this.groupControl11.TabIndex = 0;
             this.groupControl11.Text = "Tools";
             // 
             // dataGridView4
             // 
+            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView4.Location = new System.Drawing.Point(2, 23);
+            this.dataGridView4.Location = new System.Drawing.Point(2, 28);
+            this.dataGridView4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersWidth = 51;
             this.dataGridView4.RowTemplate.Height = 23;
-            this.dataGridView4.Size = new System.Drawing.Size(404, 577);
+            this.dataGridView4.Size = new System.Drawing.Size(580, 939);
             this.dataGridView4.TabIndex = 0;
             // 
             // groupControl12
             // 
+            this.groupControl12.Controls.Add(this.tableLayoutPanel13);
             this.groupControl12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl12.Location = new System.Drawing.Point(417, 3);
+            this.groupControl12.Location = new System.Drawing.Point(595, 5);
+            this.groupControl12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl12.Name = "groupControl12";
-            this.groupControl12.Size = new System.Drawing.Size(408, 298);
+            this.groupControl12.Size = new System.Drawing.Size(584, 479);
             this.groupControl12.TabIndex = 1;
             this.groupControl12.Text = "UnUnsupervised segmenter properties";
             // 
             // groupControl13
             // 
+            this.groupControl13.Controls.Add(this.tableLayoutPanel14);
             this.groupControl13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl13.Location = new System.Drawing.Point(831, 3);
+            this.groupControl13.Location = new System.Drawing.Point(1186, 5);
+            this.groupControl13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl13.Name = "groupControl13";
-            this.groupControl13.Size = new System.Drawing.Size(408, 298);
+            this.groupControl13.Size = new System.Drawing.Size(584, 479);
             this.groupControl13.TabIndex = 2;
             this.groupControl13.Text = "Dataset split";
             // 
             // groupControl14
             // 
+            this.groupControl14.Controls.Add(this.tableLayoutPanel15);
+            this.groupControl14.Controls.Add(this.label39);
+            this.groupControl14.Controls.Add(this.spinEdit14);
+            this.groupControl14.Controls.Add(this.simpleButton15);
             this.groupControl14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl14.Location = new System.Drawing.Point(1245, 3);
+            this.groupControl14.Location = new System.Drawing.Point(1778, 5);
+            this.groupControl14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl14.Name = "groupControl14";
-            this.groupControl14.Size = new System.Drawing.Size(410, 298);
+            this.groupControl14.Size = new System.Drawing.Size(588, 479);
             this.groupControl14.TabIndex = 3;
             this.groupControl14.Text = "Training settings";
             // 
@@ -4128,17 +4219,18 @@ namespace DXApplication1
             this.tableLayoutPanel12.SetColumnSpan(this.groupControl15, 3);
             this.groupControl15.Controls.Add(this.chartControl1);
             this.groupControl15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl15.Location = new System.Drawing.Point(417, 307);
+            this.groupControl15.Location = new System.Drawing.Point(595, 494);
+            this.groupControl15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupControl15.Name = "groupControl15";
-            this.groupControl15.Size = new System.Drawing.Size(1238, 298);
+            this.groupControl15.Size = new System.Drawing.Size(1770, 480);
             this.groupControl15.TabIndex = 4;
             this.groupControl15.Text = "Metrics evolution";
             // 
             // xtraTabPage21
             // 
-            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.xtraTabPage21.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.xtraTabPage21.Name = "xtraTabPage21";
-            this.xtraTabPage21.Size = new System.Drawing.Size(1658, 608);
+            this.xtraTabPage21.Size = new System.Drawing.Size(1895, 783);
             this.xtraTabPage21.Text = "Benchmark";
             // 
             // tileGroup3
@@ -4223,14 +4315,427 @@ namespace DXApplication1
             this.chartBarController1.BarItems.Add(this.addHorizontalConstantLineBarItem1);
             this.chartBarController1.Control = this.chartControl1;
             // 
+            // tableLayoutPanel13
+            // 
+            this.tableLayoutPanel13.ColumnCount = 2;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel13.Controls.Add(this.spinEdit17, 1, 3);
+            this.tableLayoutPanel13.Controls.Add(this.spinEdit18, 1, 5);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit1, 1, 1);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit2, 1, 0);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit3, 1, 2);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit4, 1, 4);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit5, 1, 6);
+            this.tableLayoutPanel13.Controls.Add(this.comboBoxEdit6, 1, 7);
+            this.tableLayoutPanel13.Controls.Add(this.label29, 0, 0);
+            this.tableLayoutPanel13.Controls.Add(this.label30, 0, 1);
+            this.tableLayoutPanel13.Controls.Add(this.label31, 0, 2);
+            this.tableLayoutPanel13.Controls.Add(this.label32, 0, 3);
+            this.tableLayoutPanel13.Controls.Add(this.label33, 0, 4);
+            this.tableLayoutPanel13.Controls.Add(this.label34, 0, 5);
+            this.tableLayoutPanel13.Controls.Add(this.label35, 0, 6);
+            this.tableLayoutPanel13.Controls.Add(this.label36, 0, 7);
+            this.tableLayoutPanel13.Controls.Add(this.label37, 1, 8);
+            this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(2, 28);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 9;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(580, 449);
+            this.tableLayoutPanel13.TabIndex = 0;
+            // 
+            // spinEdit17
+            // 
+            this.spinEdit17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit17.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit17.Location = new System.Drawing.Point(235, 132);
+            this.spinEdit17.MenuManager = this.ribbonControl1;
+            this.spinEdit17.Name = "spinEdit17";
+            this.spinEdit17.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit17.Size = new System.Drawing.Size(342, 24);
+            this.spinEdit17.TabIndex = 3;
+            // 
+            // spinEdit18
+            // 
+            this.spinEdit18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.spinEdit18.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit18.Location = new System.Drawing.Point(235, 218);
+            this.spinEdit18.MenuManager = this.ribbonControl1;
+            this.spinEdit18.Name = "spinEdit18";
+            this.spinEdit18.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit18.Size = new System.Drawing.Size(342, 24);
+            this.spinEdit18.TabIndex = 4;
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit1.Location = new System.Drawing.Point(235, 46);
+            this.comboBoxEdit1.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit1.TabIndex = 6;
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit2.Location = new System.Drawing.Point(235, 3);
+            this.comboBoxEdit2.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit2.TabIndex = 7;
+            // 
+            // comboBoxEdit3
+            // 
+            this.comboBoxEdit3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit3.Location = new System.Drawing.Point(235, 89);
+            this.comboBoxEdit3.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit3.Name = "comboBoxEdit3";
+            this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit3.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit3.TabIndex = 8;
+            // 
+            // comboBoxEdit4
+            // 
+            this.comboBoxEdit4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit4.Location = new System.Drawing.Point(235, 175);
+            this.comboBoxEdit4.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit4.Name = "comboBoxEdit4";
+            this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit4.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit4.TabIndex = 9;
+            // 
+            // comboBoxEdit5
+            // 
+            this.comboBoxEdit5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit5.Location = new System.Drawing.Point(235, 261);
+            this.comboBoxEdit5.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit5.Name = "comboBoxEdit5";
+            this.comboBoxEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit5.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit5.TabIndex = 10;
+            // 
+            // comboBoxEdit6
+            // 
+            this.comboBoxEdit6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit6.Location = new System.Drawing.Point(235, 304);
+            this.comboBoxEdit6.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit6.Name = "comboBoxEdit6";
+            this.comboBoxEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit6.Size = new System.Drawing.Size(342, 24);
+            this.comboBoxEdit6.TabIndex = 11;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label29.Location = new System.Drawing.Point(3, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(226, 43);
+            this.label29.TabIndex = 12;
+            this.label29.Text = "Good label:";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label30.Location = new System.Drawing.Point(3, 43);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(226, 43);
+            this.label30.TabIndex = 13;
+            this.label30.Text = "Capacity:";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label31.Location = new System.Drawing.Point(3, 86);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(226, 43);
+            this.label31.TabIndex = 14;
+            this.label31.Text = "Image type:";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label32.Location = new System.Drawing.Point(3, 129);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(226, 43);
+            this.label32.TabIndex = 15;
+            this.label32.Text = "Sampling density:";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label33.Location = new System.Drawing.Point(3, 172);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(226, 43);
+            this.label33.TabIndex = 16;
+            this.label33.Text = "Patch size:";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label34.Location = new System.Drawing.Point(3, 215);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(226, 43);
+            this.label34.TabIndex = 17;
+            this.label34.Text = "Scale:";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label35.Location = new System.Drawing.Point(3, 258);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(226, 43);
+            this.label35.TabIndex = 18;
+            this.label35.Text = "Input width:";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label36.Location = new System.Drawing.Point(3, 301);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(226, 43);
+            this.label36.TabIndex = 19;
+            this.label36.Text = "Input height:";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label37.Location = new System.Drawing.Point(235, 344);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(342, 105);
+            this.label37.TabIndex = 20;
+            this.label37.Text = "The dataset contains";
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 2;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.Controls.Add(this.comboBoxEdit7, 1, 0);
+            this.tableLayoutPanel14.Controls.Add(this.label38, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.simpleButton14, 1, 1);
+            this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(2, 28);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 2;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(580, 86);
+            this.tableLayoutPanel14.TabIndex = 0;
+            // 
+            // comboBoxEdit7
+            // 
+            this.comboBoxEdit7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxEdit7.Location = new System.Drawing.Point(83, 3);
+            this.comboBoxEdit7.MenuManager = this.ribbonControl1;
+            this.comboBoxEdit7.Name = "comboBoxEdit7";
+            this.comboBoxEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit7.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit7.Size = new System.Drawing.Size(494, 30);
+            this.comboBoxEdit7.TabIndex = 0;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label38.Location = new System.Drawing.Point(3, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(74, 43);
+            this.label38.TabIndex = 1;
+            this.label38.Text = "Split:";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // simpleButton14
+            // 
+            this.simpleButton14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.simpleButton14.Location = new System.Drawing.Point(83, 46);
+            this.simpleButton14.Name = "simpleButton14";
+            this.simpleButton14.Size = new System.Drawing.Size(494, 37);
+            this.simpleButton14.TabIndex = 2;
+            this.simpleButton14.Text = "New random split";
+            // 
+            // simpleButton15
+            // 
+            this.simpleButton15.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton15.Appearance.Options.UseFont = true;
+            this.simpleButton15.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.simpleButton15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton15.ImageOptions.Image")));
+            this.simpleButton15.Location = new System.Drawing.Point(2, 409);
+            this.simpleButton15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.simpleButton15.Name = "simpleButton15";
+            this.simpleButton15.Size = new System.Drawing.Size(584, 68);
+            this.simpleButton15.TabIndex = 3;
+            this.simpleButton15.Text = "Training";
+            // 
+            // spinEdit14
+            // 
+            this.spinEdit14.EditValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.spinEdit14.Location = new System.Drawing.Point(287, 56);
+            this.spinEdit14.MenuManager = this.ribbonControl1;
+            this.spinEdit14.Name = "spinEdit14";
+            this.spinEdit14.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEdit14.Properties.Appearance.Options.UseFont = true;
+            this.spinEdit14.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.spinEdit14.Size = new System.Drawing.Size(87, 34);
+            this.spinEdit14.TabIndex = 4;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(49, 57);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(232, 29);
+            this.label39.TabIndex = 5;
+            this.label39.Text = "Number of relations:";
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel15.ColumnCount = 2;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.Controls.Add(this.label40, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.label41, 0, 1);
+            this.tableLayoutPanel15.Controls.Add(this.label42, 0, 2);
+            this.tableLayoutPanel15.Controls.Add(this.label43, 1, 0);
+            this.tableLayoutPanel15.Controls.Add(this.label44, 1, 1);
+            this.tableLayoutPanel15.Controls.Add(this.label45, 1, 2);
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(5, 114);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 3;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(581, 100);
+            this.tableLayoutPanel15.TabIndex = 6;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label40.Location = new System.Drawing.Point(3, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(284, 33);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "Status:";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label41.Location = new System.Drawing.Point(3, 33);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(284, 33);
+            this.label41.TabIndex = 1;
+            this.label41.Text = "Elapsed time:";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label42.Location = new System.Drawing.Point(3, 66);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(284, 34);
+            this.label42.TabIndex = 2;
+            this.label42.Text = "Remaining time:";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label43.Location = new System.Drawing.Point(293, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(285, 33);
+            this.label43.TabIndex = 3;
+            this.label43.Text = "n.a.";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label44.Location = new System.Drawing.Point(293, 33);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(285, 33);
+            this.label44.TabIndex = 4;
+            this.label44.Text = "n.a.";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label45.Location = new System.Drawing.Point(293, 66);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(285, 34);
+            this.label45.TabIndex = 5;
+            this.label45.Text = "n.a.";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1660, 788);
+            this.ClientSize = new System.Drawing.Size(1897, 1013);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.backstageViewControl1);
             this.Controls.Add(this.ribbonControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
             this.Text = "AppleT Deep Learning Server";
@@ -4355,11 +4860,31 @@ namespace DXApplication1
             this.groupControl11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).EndInit();
+            this.groupControl12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).EndInit();
+            this.groupControl13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl14)).EndInit();
+            this.groupControl14.ResumeLayout(false);
+            this.groupControl14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl15)).EndInit();
             this.groupControl15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartBarController1)).EndInit();
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.tableLayoutPanel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit17.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit18.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).EndInit();
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spinEdit14.Properties)).EndInit();
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4695,6 +5220,38 @@ namespace DXApplication1
         private DevExpress.XtraCharts.UI.ChartPrintExportRibbonPageGroup chartPrintExportRibbonPageGroup1;
         private DevExpress.XtraCharts.UI.ChartBarController chartBarController1;
         private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
+        private DevExpress.XtraEditors.SpinEdit spinEdit17;
+        private DevExpress.XtraEditors.SpinEdit spinEdit18;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit5;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit6;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit7;
+        private System.Windows.Forms.Label label38;
+        private DevExpress.XtraEditors.SimpleButton simpleButton14;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label39;
+        private DevExpress.XtraEditors.SpinEdit spinEdit14;
+        private DevExpress.XtraEditors.SimpleButton simpleButton15;
     }
 }
 
